@@ -4,10 +4,10 @@
 <section class="page-title" style="background-image:url({{ asset('/public/assets/images/background/8.jpg') }})">
     <div class="auto-container">
         <div class="content">
-            <h1>About Us<span> - Who We Are</span></h1>
+            <h1>Enterprise/Industrial Incubation Centres<span></span></h1>
             <ul class="page-breadcrumb">
                 <li><a href="{{ route('about.who-we-are') }}">Home</a></li>
-                <li>Who We Are</li>
+                <li>Enterprise/Industrial Incubation Centres</li>
             </ul>
         </div>
     </div>
@@ -20,77 +20,46 @@
         <div class="row clearfix">
 
             <!--Sidebar Side-->
-            <div class="sidebar-side col-lg-4 col-md-12 col-sm-12">
-                <aside class="sidebar default-sidebar">
-
-                    <!--Blog Category Widget-->
-                    <div class="sidebar-widget sidebar-blog-category">
-                        <ul class="blog-cat">
-                            <li class="active"><a href="services-single.html">Who We Are</a></li>
-                            <li><a href="services-single.html">Who We Work With</a></li>
-                            <li><a href="services-single.html">What We Do</a></li>
-                        </ul>
-                    </div>
-
-                    <!-- Contact Widget-->
-                    <!-- <div class="sidebar-widget contact-widget">
-                        <div class="sidebar-title">
-                            <h4>Contact</h4>
-                        </div>
-                        <ul>
-                            <li><span class="icon flaticon-map-1"></span> 3111 West Allegheny Avenue <br> Pennsylvania 19132</li>
-                            <li><span class="icon flaticon-phone-receiver"></span> 1-982-782-5297 <br> 1-982-125-6378</li>
-                            <li><span class="icon flaticon-comment"></span> support@financ.com</li>
-                        </ul>
-                    </div> -->
-
-                    <!-- Brochures Widget-->
-                    <!-- <div class="sidebar-widget brochures-widget">
-                        <div class="sidebar-title">
-                            <h4>Brochures</h4>
-                        </div>
-                        <div class="text">View our 2019 financial prospectus brochure for an easy to read guide on all of the services offer.</div>
-                        <ul class="files">
-                            <li><a href="#"><span class="fa fa-file-pdf-o"></span> Download Brochure</a></li>
-                            <li><a href="#"><span class="fa fa-file-word-o"></span> Characteristics</a></li>
-                        </ul>
-                    </div> -->
-
-                    <!-- Banner Widget-->
-                    <!-- <div class="sidebar-widget banner-widget">
-                        <div class="widget-content" style="background-image:url(images/resource/service-15.jpg)">
-                            <div class="logo">
-                                <img src="images/icons/widget-logo.png" alt="" />
-                            </div>
-                            <div class="title">Securied Business with</div>
-                            <h2>Financ</h2>
-                            <a href="contact.html" class="theme-btn btn-style-seventen">Let’s start now <span class="icon flaticon-link"></span></a>
-                        </div>
-                    </div> -->
-
-                </aside>
-            </div>
+            @component('components.programs-sidebar', compact('programSidebar'))
+            @endcomponent
 
             <!--Content Side-->
             <div class="content-side col-lg-8 col-md-12 col-sm-12">
                 <div class="services-single">
-                    <h4>Who We Are</h4>
+                    <h4>Enterprise/Industrial Incubation Centres</h4>
                     <div class="text">
-                        <p>Startup Business Foundation is incorporated as a unique tool for startups entrepreneurs, for many who want to startup,
-                            build or establish their businesses or industries. We have developed excellence industrial and business startup
-                            programmes as well as investment opportunities expository profiles that suit the aspiration, interest, passion of
-                            existing and potential entrepreneurs. We provide snapshot information and platform for startups entrepreneurs to
-                            acquire the needed prowess to find dreams fulfilling businesses and investors. You could be the next! </p>
-                        <p>Basically, the objective of this Foundation is to ignite industrialization in different part of Nigeria which
-                            have replicate effects on the socio-economic development and job creation in the country. Researches and statistics
-                             have showed that there are arrays of both raw materials and mineral resources deposits in different communities and
-                             regions in Nigeria. Consequently, our focus is therefore to continuously explore and identify ways on how we can
-                              locally transform the raw material and mineral resources into finished products. Evidently, this initiative could
-                              be said to be timely especially now that some industrial giants in developed economies are seeking ways to move their
-                               industrial technology into developing countries like Africa.    </p>
-                        <p>In furtherance, the mission and mandate of the Foundation includes but not limited to the following;</p>
+                        <p>Enterprise Incubation Centre is one of the roadmap to the industrialization agenda of Startup Business Foundation.</p>
+                        <p>The Incubation facility is designed with the goals of fostering entrepreneurial culture, skills building,
+                            accelerating the growth of new and existing businesses, encouraging its commercialization and improving
+                            small business access to resources available in Nigeria. Consequentially, after conducting specific
+                            needs-assessments and adapting the industrial incubation model to the social, economic, cultural and
+                            environmental characteristics suitable for our region, we therefore, planned to initiate Enterprise / industrial
+                            Incubation Centre considering its relevance in the region.</p>
+                        <p>Our research further shown that less than half of formally established businesses stand a chance of
+                            succeeding in the long-term and that entrepreneurial deficiencies that are addressed superficially are the main
+                            cause for the collapse of emerging enterprises. This is the catalyst behind the Foundation Enterprise Incubation
+                            Centre, which followed a feasibility study carried out in Nigeria, to fully comprehend the economic landscape of
+                            different communities, local and states governments in the country.</p>
+                        <p>The study illustrated the need to address skills development training fatigue for potential entrepreneurs
+                            and the need to provide support for ongoing ventures, amongst others.</p>
+                        <p>“The aim of the Startup Business Foundation incubation centre is to increase the odds by providing unique,
+                            adaptable, functional and feasible programmes for entrepreneurs at various developmental stages (start-ups)
+                            and to create an enabling environment where enterprises can learn to operate efficiently by acquiring the
+                            requisite skills and abilities, understand the legislation that governs their industries and ultimately
+                            expand their services and reach beyond the borders of the Nigeria,” </p>
+                        <p>This project forms part of the Foundation Enterprise Incubation Programme, which offers a successful
+                            incubator model and acceleration programmes for start-ups entrepreneurs. The Centres is a business
+                            incubator with a mission to build, drive and support the spirit of innovation.</p>
+                        <p>This programme is planned to operate in line with National Board for Technology Incubator regulation and
+                            other relevant stakeholders. The project will make a significant contribution to employment and the trained
+                            workforce in the Nigeria on inception. The centres will also create a considerable amount of indirect
+                            employments in each region and hundreds of jobs. </p>
+                        <p>Finally, the incubation centres could be mechanized under public private partnership (PPP) model. Notably,
+                            the establishments of most incubation facilities in Nigeria have failed due to the exclusion of business
+                            sponsor and host communities. Therefore, the centres are open for partnership from public sector,
+                            International Donor Agencies and other relevant agencies to scale up our operations.</p>
                     </div>
-                    <ul class="list-style-four">
+                    <!-- <ul class="list-style-four">
                         <li>Facilitate Business Development Services to Micro Small and medium scale Enterprises (MSMEs).</li>
                         <li>Conducting sector studies and analysis for private sector strategic development.</li>
                         <li>Facilitation of MSMEs in securing financing.</li>
@@ -98,11 +67,52 @@
                         <li>Strengthening of MSMEs by conducting and facilitating seminars, workshops and training programs.</li>
                         <li>Donor assistances for the development of MSMEs through programs and projects.</li>
                         <li>Identification and promotion of business and investment opportunities on the basis of supply/demand gap.</li>
-                    </ul>
+                    </ul> -->
+                    <h4>Assessment Mechanism For The Facility Outputs</h4>
                     <div class="text">
-                        <p>Since inception, the Foundation has expended her publication list of its prefeasibility study to over 300 studies and
-                        we are launching a number of programme such as Rural Micro–Enterprise Initiatives, Enterprise /Industrial Development
-                        Centre, Metrocract Startups Master-class, among other programmes. </p>
+                        <p>The outputs of the incubators are the successful tenants, which graduated from the incubators. Performance of
+                            these firms after graduation in line with the set objectives needs to be evaluated to ascertain their status
+                            outside the incubators and to justify funding of the incubation system. This evaluation, which is a
+                            continuous exercise, would enables us among other stakeholders to identity the flans in the in¬cubation
+                             process as presently practiced and make amends in evaluating incubator graduate firms, we have adopted
+                             the following indices which include survival rates, number of jobs created, capital and turnover
+                             growths, impacts on local economy, tax payment, cluster initiation and formation and neighborhood
+                             lifting. </p>
+                    </div>
+                    <h5>Survival Rate</h5>
+                    <div class="text">
+                        <p>We use survival rate of incubated firms to evaluate the impacts of the incubation process on the firms,
+                            as will show the ability of the incubators to cushion the effects of the uncertainties inherent to new
+                            business start-ups therein increasing their chances for survival. Report indicates that about 47
+                            per cent of incubated firms survive after four years and only 38 per cent survive after six years
+                             in the Nigeria (National Institute of Marketing of Nigeria). Therefore, to cushion this effect,
+                             we have designed a feedback and support mechanism that provide needed assistance for our graduates.</p>
+                    </div>
+                    <h5>Employment Generation</h5>
+                    <div class="text">
+                        <p>The number of jobs created by the graduated firms can sometimes be used to evaluate the impacts of our
+                             facility in the communities in which we are located had been noted that direct employ¬ments may not
+                             give the true picture of the total employment generated. Therefore, other models are used. Also,
+                             economic impact will be defined as the sum of direct, indirect and induced effects direct economic
+                             effects are generated as new business create jobs and hire workers to fill new positions. The
+                             indirect economic impacts occur as new finished purchase goods and services from other firms in either case.</p>
+                    </div>
+                    <h5>Number of Graduates/ Retention in Local Area</h5>
+                    <div class="text">
+                        <p>The impacts of our incubation facility to the economic devel¬opment in our area can be monitored by the
+                            number of the incubated firms that remain in our locality. The tenants could not be expected to have
+                            relocated outside the states, where the incubators were located. These will enables us determine the
+                            number of graduates that remain in our region and their impacts on the local economies.</p>
+                        <p>To this end, we are currently in talks on strategic partnership with stakeholders in the development of
+                            industrialization in Nigeria. These include: Nigeria Capital Development Fund, Nigerian Investment
+                            Promotion Commission, The Central Bank, Bank of Industry and other development banks as well as
+                            Deposit Money Banks in Nigeria, State Governments and State SME Development Agencies, the National
+                            Youth Service Corp (NYSC), National Directorate of Employment (NDE), Raw Materials Research and
+                            Development Council (RMRDC), Universities and other Higher Institutions. In fact all segment of
+                            the society especially private sector associates such as The Chamber of Commerce, National Association
+                            of Small and Medium Enterprise (NASME), The Manufacturers Association of Nigeria (MAN) and other
+                            bilateral chambers and other business associations as well as the general public on how to achieve
+                            the agendas of the Foundation.</p>
                     </div>
                     <!-- Services Gallery -->
                     <!-- <div class="services-gallery">

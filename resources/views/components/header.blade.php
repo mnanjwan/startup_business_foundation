@@ -6,8 +6,8 @@
             <div class="inner-container clearfix">
                 <div class="top-left">
                     <ul class="contact-list clearfix">
-                        <li><i class="fa fa-envelope-o"></i> finan@mail.com</li>
-                        <li><i class="fa fa-phone"></i><a href="#">+1 401 572 4423</a></li>
+                        <li><i class="fa fa-envelope-o"></i> info@startupbizfoundation.org</li>
+                        <li><i class="fa fa-phone"></i><a href="#">+234 805 094 8938</a></li>
                         <li><i class="fa fa-map-marker"></i><a href="#">121 King Street, USA, Newyork</a></li>
                     </ul>
                 </div>
@@ -52,26 +52,26 @@
 
                         <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
                             <ul class="navigation clearfix">
-                                <li class="current"><a href="{{ route('home' )}}">Home</a>
+                                <li class="current"><a href="{{ route('home') }}">Home</a>
                                 </li>
                                 <li class="dropdown"><a href="#">About</a>
                                     <ul>
                                         <li><a href="{{ route('about.who-we-are') }}">Who We Are</a></li>
-                                        <li><a href="team.html">What We Do</a></li>
-                                        <li><a href="case-studies.html">Message From the Founder</a></li>
-                                        <!-- <li><a href="testimonial.html">Testimonial</a></li>
-                                        <li><a href="not-found.html">Error Page</a></li> -->
+                                        <li><a href="{{ route('about.who-we-work-with') }}">Who We Work With</a></li>
+                                        <li><a href="{{ route('about.what-we-do') }}">What We Do</a></li>
+                                        <li><a href="{{ route('about.founder-message') }}">Founder's Message</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown"><a href="#">Our Programs</a>
                                     <ul>
-                                        <li><a href="services.html">Services</a></li>
-                                        <li><a href="services-2.html">Services Two</a></li>
-                                        <li><a href="services-single.html">Services Single</a></li>
+                                        <li><a href="{{ route('program.investment-opportunities-exposition') }}">Investment Opportunities Exposition</a></li>
+                                        <li><a href="{{ route('program.rural-micro-enterprise-initiative') }}">Rural Micro-Enterprise Initiatives</a></li>
+                                        <li><a href="{{ route('program.enterprise-industrial-incubation-centres') }}">Enterprise/Industrial Incubation Centres</a></li>
+                                        <li><a href="services-single.html">Meritocrats Starups Programme</a></li>
                                     </ul>
                                 </li>
-                                <li class=""><a href="#">Get Involved</a></li>
-                                <li><a href="contact.html">Contact us</a></li>
+                                <li class=""><a href="{{ route('get-Involved') }}">Get Involved</a></li>
+                                <li><a href="{{ route('contact-us') }}">Contact us</a></li>
                             </ul>
                         </div>
 
@@ -125,40 +125,27 @@
 
                     <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent1">
                         <ul class="navigation clearfix">
-                            <li class="current"><a href="{{ route('home') }}">Home</a></li>
-                            <li class="dropdown"><a href="#">About Us</a>
+                            <li class="current"><a href="{{ route('home') }}">Home</a>
+                            </li>
+                            <li class="dropdown"><a href="#">About</a>
                                 <ul>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="team.html">Our Team</a></li>
-                                    <li><a href="case-studies.html">Case Studies</a></li>
-                                    <li><a href="testimonial.html">Testimonial</a></li>
-                                    <li><a href="not-found.html">Error Page</a></li>
+                                    <li><a href="{{ route('about.who-we-are') }}">Who We Are</a></li>
+                                    <li><a href="{{ route('about.what-we-do') }}">What We Do</a></li>
+                                    <li><a href="{{ route('about.founder-message') }}">Message From the Founder</a></li>
+                                    <!-- <li><a href="testimonial.html">Testimonial</a></li>
+                                    <li><a href="not-found.html">Error Page</a></li> -->
                                 </ul>
                             </li>
-                            <li class="dropdown"><a href="#">Services</a>
+                            <li class="dropdown"><a href="#">Our Programs</a>
                                 <ul>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="services-2.html">Services Two</a></li>
-                                    <li><a href="services-single.html">Services Single</a></li>
+                                    <li><a href="services.html">Investment Opportunities Exposition</a></li>
+                                    <li><a href="services-2.html">Rural Micro-Enterprise Initiatives</a></li>
+                                    <li><a href="services-single.html">Enterprise/Industrial Incubation Centres</a></li>
+                                    <li><a href="services-single.html">Meritocrats Starups Programme</a></li>
                                 </ul>
                             </li>
-                            <li class="dropdown"><a href="#">Portfolio</a>
-                                <ul>
-                                    <li><a href="portfolio-2-column.html">Portfolio Two Column</a></li>
-                                    <li><a href="portfolio-3-column.html">Portfolio Three Column</a></li>
-                                    <li><a href="portfolio-4-column.html">Portfolio Four Column</a></li>
-                                    <li><a href="portfolio-masonry.html">Portfolio Masonry</a></li>
-                                    <li><a href="portfolio-single.html">Portfolio Single</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown"><a href="#">Blog</a>
-                                <ul>
-                                    <li><a href="blog.html">Our Blog</a></li>
-                                    <li><a href="blog-list.html">Blog List</a></li>
-                                    <li><a href="blog-single.html">Blog Single</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="contact.html">Contact us</a></li>
+                            <li class=""><a href="{{ route('get-Involved') }}">Get Involved</a></li>
+                            <li><a href="{{ route('contact-us') }}">Contact us</a></li>
                         </ul>
                     </div>
                 </nav><!-- Main Menu End-->

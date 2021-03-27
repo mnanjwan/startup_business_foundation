@@ -20,90 +20,31 @@
         <div class="row clearfix">
 
             <!--Sidebar Side-->
-            <div class="sidebar-side col-lg-4 col-md-12 col-sm-12">
-                <aside class="sidebar default-sidebar">
-
-                    <!--Blog Category Widget-->
-                    <div class="sidebar-widget sidebar-blog-category">
-                        <ul class="blog-cat">
-                            <li class="active"><a href="services-single.html">Who We Are</a></li>
-                            <li><a href="services-single.html">Who We Work With</a></li>
-                            <li><a href="services-single.html">What We Do</a></li>
-                        </ul>
-                    </div>
-
-                    <!-- Contact Widget-->
-                    <!-- <div class="sidebar-widget contact-widget">
-                        <div class="sidebar-title">
-                            <h4>Contact</h4>
-                        </div>
-                        <ul>
-                            <li><span class="icon flaticon-map-1"></span> 3111 West Allegheny Avenue <br> Pennsylvania 19132</li>
-                            <li><span class="icon flaticon-phone-receiver"></span> 1-982-782-5297 <br> 1-982-125-6378</li>
-                            <li><span class="icon flaticon-comment"></span> support@financ.com</li>
-                        </ul>
-                    </div> -->
-
-                    <!-- Brochures Widget-->
-                    <!-- <div class="sidebar-widget brochures-widget">
-                        <div class="sidebar-title">
-                            <h4>Brochures</h4>
-                        </div>
-                        <div class="text">View our 2019 financial prospectus brochure for an easy to read guide on all of the services offer.</div>
-                        <ul class="files">
-                            <li><a href="#"><span class="fa fa-file-pdf-o"></span> Download Brochure</a></li>
-                            <li><a href="#"><span class="fa fa-file-word-o"></span> Characteristics</a></li>
-                        </ul>
-                    </div> -->
-
-                    <!-- Banner Widget-->
-                    <!-- <div class="sidebar-widget banner-widget">
-                        <div class="widget-content" style="background-image:url(images/resource/service-15.jpg)">
-                            <div class="logo">
-                                <img src="images/icons/widget-logo.png" alt="" />
-                            </div>
-                            <div class="title">Securied Business with</div>
-                            <h2>Financ</h2>
-                            <a href="contact.html" class="theme-btn btn-style-seventen">Let’s start now <span class="icon flaticon-link"></span></a>
-                        </div>
-                    </div> -->
-
-                </aside>
-            </div>
+            @component('components.about-sidebar', compact('aboutSidebar'))
+            @endcomponent
 
             <!--Content Side-->
             <div class="content-side col-lg-8 col-md-12 col-sm-12">
                 <div class="services-single">
                     <h4>Who We Are</h4>
                     <div class="text">
-                        <p>Startup Business Foundation is incorporated as a unique tool for startups entrepreneurs, for many who want to startup,
-                            build or establish their businesses or industries. We have developed excellence industrial and business startup
-                            programmes as well as investment opportunities expository profiles that suit the aspiration, interest, passion of
-                            existing and potential entrepreneurs. We provide snapshot information and platform for startups entrepreneurs to
-                            acquire the needed prowess to find dreams fulfilling businesses and investors. You could be the next! </p>
-                        <p>Basically, the objective of this Foundation is to ignite industrialization in different part of Nigeria which
-                            have replicate effects on the socio-economic development and job creation in the country. Researches and statistics
-                             have showed that there are arrays of both raw materials and mineral resources deposits in different communities and
-                             regions in Nigeria. Consequently, our focus is therefore to continuously explore and identify ways on how we can
-                              locally transform the raw material and mineral resources into finished products. Evidently, this initiative could
-                              be said to be timely especially now that some industrial giants in developed economies are seeking ways to move their
-                               industrial technology into developing countries like Africa.    </p>
-                        <p>In furtherance, the mission and mandate of the Foundation includes but not limited to the following;</p>
+                        <p>A key area of the Foundation work is to encourage potential entrepreneur to start-up, build or establish their
+                            businesses through our expository publications of viable business and investment opportunities and the likes,
+                            in the emerging Nigerian market. Similarly, we improve existing SMEs’ and Startups entrepreneur’s access to
+                             finance and find innovative solutions to unlock sources of capital.</p>
+                        <p>Our approach is holistic; combining training, skill development, mentorship, advisory, national and international
+                            business networking and grant packages to start-ups to increase the contribution that MSMEs can make to the economy.
+                            The Foundation’s advisory and support for startups MSME mainly includes diagnostics, implementation support,
+                            national advocacy and knowledge sharing of viable investment opportunities. For example we provide;</p>
                     </div>
                     <ul class="list-style-four">
-                        <li>Facilitate Business Development Services to Micro Small and medium scale Enterprises (MSMEs).</li>
-                        <li>Conducting sector studies and analysis for private sector strategic development.</li>
-                        <li>Facilitation of MSMEs in securing financing.</li>
-                        <li>Setup and manage a service provider’s database including machinery and supplier for MSMEs.</li>
-                        <li>Strengthening of MSMEs by conducting and facilitating seminars, workshops and training programs.</li>
-                        <li>Donor assistances for the development of MSMEs through programs and projects.</li>
-                        <li>Identification and promotion of business and investment opportunities on the basis of supply/demand gap.</li>
+                        <li>Knowledge based management tools and flagship publications on viable business & industrial projects with successful business models.</li>
+                        <li>Development and implementation of supportive initiatives and programmes that creates an enabling environment for MSME to strive.</li>
+                        <li>Introducing innovation and disruptive entrepreneurial education/ skills development such as establishment incubation and industrial
+                            development parks and clusters, tailored to prevalent market needs.</li>
+                        <li>Advocacy for MSME development, growth and finance at national and global levels through participatory and strategic
+                             partnership with agencies of government, donor organizations among other.  </li>
                     </ul>
-                    <div class="text">
-                        <p>Since inception, the Foundation has expended her publication list of its prefeasibility study to over 300 studies and
-                        we are launching a number of programme such as Rural Micro–Enterprise Initiatives, Enterprise /Industrial Development
-                        Centre, Metrocract Startups Master-class, among other programmes. </p>
-                    </div>
                     <!-- Services Gallery -->
                     <!-- <div class="services-gallery">
                         <div class="services-carousel owl-carousel owl-theme">

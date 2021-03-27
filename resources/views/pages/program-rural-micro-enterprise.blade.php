@@ -4,10 +4,10 @@
 <section class="page-title" style="background-image:url({{ asset('/public/assets/images/background/8.jpg') }})">
     <div class="auto-container">
         <div class="content">
-            <h1>About Us<span> - Who We Are</span></h1>
+            <h1>Rural Micro-Enterprise Initiatives<span></span></h1>
             <ul class="page-breadcrumb">
                 <li><a href="{{ route('about.who-we-are') }}">Home</a></li>
-                <li>Who We Are</li>
+                <li>Investment Opportunities Exposition</li>
             </ul>
         </div>
     </div>
@@ -20,89 +20,91 @@
         <div class="row clearfix">
 
             <!--Sidebar Side-->
-            <div class="sidebar-side col-lg-4 col-md-12 col-sm-12">
-                <aside class="sidebar default-sidebar">
-
-                    <!--Blog Category Widget-->
-                    <div class="sidebar-widget sidebar-blog-category">
-                        <ul class="blog-cat">
-                            <li class="active"><a href="services-single.html">Who We Are</a></li>
-                            <li><a href="services-single.html">Who We Work With</a></li>
-                            <li><a href="services-single.html">What We Do</a></li>
-                        </ul>
-                    </div>
-
-                    <!-- Contact Widget-->
-                    <!-- <div class="sidebar-widget contact-widget">
-                        <div class="sidebar-title">
-                            <h4>Contact</h4>
-                        </div>
-                        <ul>
-                            <li><span class="icon flaticon-map-1"></span> 3111 West Allegheny Avenue <br> Pennsylvania 19132</li>
-                            <li><span class="icon flaticon-phone-receiver"></span> 1-982-782-5297 <br> 1-982-125-6378</li>
-                            <li><span class="icon flaticon-comment"></span> support@financ.com</li>
-                        </ul>
-                    </div> -->
-
-                    <!-- Brochures Widget-->
-                    <!-- <div class="sidebar-widget brochures-widget">
-                        <div class="sidebar-title">
-                            <h4>Brochures</h4>
-                        </div>
-                        <div class="text">View our 2019 financial prospectus brochure for an easy to read guide on all of the services offer.</div>
-                        <ul class="files">
-                            <li><a href="#"><span class="fa fa-file-pdf-o"></span> Download Brochure</a></li>
-                            <li><a href="#"><span class="fa fa-file-word-o"></span> Characteristics</a></li>
-                        </ul>
-                    </div> -->
-
-                    <!-- Banner Widget-->
-                    <!-- <div class="sidebar-widget banner-widget">
-                        <div class="widget-content" style="background-image:url(images/resource/service-15.jpg)">
-                            <div class="logo">
-                                <img src="images/icons/widget-logo.png" alt="" />
-                            </div>
-                            <div class="title">Securied Business with</div>
-                            <h2>Financ</h2>
-                            <a href="contact.html" class="theme-btn btn-style-seventen">Let’s start now <span class="icon flaticon-link"></span></a>
-                        </div>
-                    </div> -->
-
-                </aside>
-            </div>
+            @component('components.programs-sidebar', compact('programSidebar'))
+            @endcomponent
 
             <!--Content Side-->
             <div class="content-side col-lg-8 col-md-12 col-sm-12">
                 <div class="services-single">
-                    <h4>Who We Are</h4>
+                    <h4>Partnership For Food, Jobs and Rural Infrastructures Initiatives (PFJRII)</h4>
                     <div class="text">
-                        <p>Startup Business Foundation is incorporated as a unique tool for startups entrepreneurs, for many who want to startup,
-                            build or establish their businesses or industries. We have developed excellence industrial and business startup
-                            programmes as well as investment opportunities expository profiles that suit the aspiration, interest, passion of
-                            existing and potential entrepreneurs. We provide snapshot information and platform for startups entrepreneurs to
-                            acquire the needed prowess to find dreams fulfilling businesses and investors. You could be the next! </p>
-                        <p>Basically, the objective of this Foundation is to ignite industrialization in different part of Nigeria which
-                            have replicate effects on the socio-economic development and job creation in the country. Researches and statistics
-                             have showed that there are arrays of both raw materials and mineral resources deposits in different communities and
-                             regions in Nigeria. Consequently, our focus is therefore to continuously explore and identify ways on how we can
-                              locally transform the raw material and mineral resources into finished products. Evidently, this initiative could
-                              be said to be timely especially now that some industrial giants in developed economies are seeking ways to move their
-                               industrial technology into developing countries like Africa.    </p>
-                        <p>In furtherance, the mission and mandate of the Foundation includes but not limited to the following;</p>
+                        <p>While agriculture is still often referred to as an ‘old person’s job’, the growth of mechanization, bio-technology,
+                            nanotech and digitalization are changing agricultural production, with greater interactions than ever before with
+                            manufacturing and services. Agriculture is no longer a ‘traditional’ sector. The rural resources have the potential
+                            to make significant contributions to the equitable economic development in Nigeria.</p>
+                        <p>Urbanization has led majorly to the inability to discover and utilize the rural resources maximally. We have failed
+                            to acknowledge and harness the underlying resources in the rural areas and communities. This has led to the use of
+                            the resources of the minority to carter for the majority. In other words, the resources available in the urban cities
+                             are few compare to the rural areas or regions. Similarly, the development of any country does not only depend on
+                             the continuous development of the urban areas but also relies on the rural areas as well. It is the responsibility
+                              of the government as much as the private companies and individuals, all working together to produce the desire impact.</p>
+                        <p>The PFJRI is developed with key objective of igniting rural industrialization by identifying feasible, viable and sustainable
+                            development projects that are geared towards food, jobs and rural communities infrastructural development by carrying out
+                            participatory feasibility surveys. In addition, we offer funding, technical and managerial assistance to entrepreneurs in
+                            the rural communities. </p>
+                        <p>PFJRI will promote rural industrialization by granting credit facilities in form grant and other enterprise support services
+                             to existing and potential entrepreneurs. We shall be collaborating with local communities to develop business and
+                              investment opportunities in their area by identifying the available resources where communities have comparative
+                              advantage. In other words, these projects must be those with not less than ninety-five percent local raw material
+                              content and human capital requirements. Eighty percent (80%) of the grant fund will be offered for agricultural
+                               production, processing, storage, distribution and marketing to individual farmers and organizations.</p>
+                        <p>We are open for partnership with individuals, corporations, agencies, civil society groups, government to bring
+                            sustainable development in agric business value chain and improved access to market to smallholder farmers and
+                            agro-processors in Nigeria. We believe that when people are given the right skills, information and support,
+                            they can solve their own people.  </p>
+                        <p>These projects are developed to run through three approaches:</p>
+                    </div>
+                    <h4>i. PFJRI Agropark Initiated Projects</h4>
+                    <div class="text">
+                        <p>This is a project designed to provide lasting solutions to the problems of food shortage, poverty, low productivity,
+                            inadequate processing infrastructure, diversification and poorly integrated markets in different parts of Nigeria,
+                            aggravated by an under-developed agro-industrial sector. This project comes with a high potential for value added
+                             and employment opportunities in the agricultural sector in rural communities. </p>
+                        <p>Consequently, this project aims at improving the efficiency of agricultural businesses with value addition in order
+                            to aid the multiplier economic effects of increased food, national income and access to improved technology. The
+                            services offered under this initiative, aided by MOBILE TECHNOLOGY APP, ranging from access up-to-date mobile
+                            information on agricultural practices, weather forecasts, market prices, as well as solutions that help agricultural
+                            businesses boost production. In a nutshell, the main objectives of this initiative are to: </p>
                     </div>
                     <ul class="list-style-four">
-                        <li>Facilitate Business Development Services to Micro Small and medium scale Enterprises (MSMEs).</li>
-                        <li>Conducting sector studies and analysis for private sector strategic development.</li>
-                        <li>Facilitation of MSMEs in securing financing.</li>
-                        <li>Setup and manage a service provider’s database including machinery and supplier for MSMEs.</li>
-                        <li>Strengthening of MSMEs by conducting and facilitating seminars, workshops and training programs.</li>
-                        <li>Donor assistances for the development of MSMEs through programs and projects.</li>
-                        <li>Identification and promotion of business and investment opportunities on the basis of supply/demand gap.</li>
+                        <li>Help rural farmers develop new skills and grow revenue using technology.</li>
+                        <li>Provide specialized market information to farmers.</li>
+                        <li>Grant farmers access without limit to improved agricultural production methods.</li>
+                        <li>Assist many rural households in enhancing their food security and raising their incomes.</li>
+                        <li>Promote home-grown methods in agricultural innovation.</li>
                     </ul>
+
                     <div class="text">
-                        <p>Since inception, the Foundation has expended her publication list of its prefeasibility study to over 300 studies and
-                        we are launching a number of programme such as Rural Micro–Enterprise Initiatives, Enterprise /Industrial Development
-                        Centre, Metrocract Startups Master-class, among other programmes. </p>
+                        <p>Under this project, industrial projects have to be spread in the Local Government Areas in different states in
+                            Nigeria on the basis of raw material availability. On full realization, such projects are passed to indigenes
+                            of the area of location for ownership and management. </p>
+                        <p>Nevertheless, because adding value at the farm level also entails additional costs and some business risk, it
+                            requires careful business planning and evaluation of market potential, including a feasibility assessment.
+                            Market feasibility and financial feasibility will be examined prior to establishing any processing plant in
+                             this project. It is therefore pertinent to examine the individual products from the farms through feasibility
+                              studies, consumer demand and preferences, consumer preferences for type of outlet, and demographic effects
+                               on consumption. While there is some information on the costs and market opportunities associated with
+                               value added to different farm produce which will be critically considered.</p>
+                    </div>
+                    <h4>ii. PFJRI Rural Youth Employment Promotion Project</h4>
+                    <div class="text">
+                        <p>According GIZ GmbH, Sub-Saharan Africa (SSA) is the world’s youngest continent, with 70 per cent of its rapidly
+                            increasing population below the age of 30. Every year, 25 million young people in Africa enter the labour market,
+                             more than half of them (14 million) in rural areas. </p>
+                        <p>By the year 2030, 320 million new jobs will need to be created, which makes Rural Youth Employment (RYE) one of
+                            the most pressing and challenging topics for our partner governments, but also presents an enormous opportunity
+                            for economic development in capitalising on this “youth dividend”.
+                            Consequently, in this type, groups of three or more graduates organize themselves into partnership for the purpose
+                             of benefiting from the PFJRII's enterprise support services. Such groups prepare project profiles and feasibility
+                             studies on the basis of which equity investment or grant considerations and approvals are made. The PFJRI grants
+                              covers machinery, buildings, and working capital within definite limits, and manages the venture through a
+                              combined effort of the potential entrepreneur and investor’s representative until the capital outlay is recovered.
+                        </p>
+                    </div>
+                    <h4>iii. PFJRI Partnership</h4>
+                    <div class="text">
+                        <p>This arrangement is for established entrepreneurs or businessmen who must belong to organized private sector.
+                            Under the scheme, qualified entrepreneurs are given assistance by the PFJRI in form of partnership equity participation.</p>
                     </div>
                     <!-- Services Gallery -->
                     <!-- <div class="services-gallery">

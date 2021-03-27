@@ -9,10 +9,10 @@
                 <div class="content">
                     <div class="title">We hope success</div>
                     <h1>We build your <br> best business</h1>
-                    <div class="text">The argument in favor of using filler text goes something like this you use real content.</div>
+                    <div class="text">…breaking business startup barriers.</div>
                     <div class="link-box">
-                        <a href="contact.html" class="theme-btn btn-style-twelve">Let’s start now <span class="fa fa-angle-right"></span></a>
-                        <a href="services.html" class="theme-btn btn-style-thirteen">Our services <span class="fa fa-angle-right"></span></a>
+                        <a href="#" class="theme-btn btn-style-twelve">Let’s start now <span class="fa fa-angle-right"></span></a>
+                        <a href="#" class="theme-btn btn-style-thirteen">Our Programmes <span class="fa fa-angle-right"></span></a>
                     </div>
                 </div>
             </div>
@@ -23,10 +23,10 @@
                 <div class="content">
                     <div class="title">We hope success</div>
                     <h1>We build your <br> best business</h1>
-                    <div class="text">The argument in favor of using filler text goes something like this you use real content.</div>
+                    <div class="text">…breaking business startup barriers</div>
                     <div class="link-box">
-                        <a href="contact.html" class="theme-btn btn-style-twelve">Let’s start now <span class="fa fa-angle-right"></span></a>
-                        <a href="services.html" class="theme-btn btn-style-thirteen">Our services <span class="fa fa-angle-right"></span></a>
+                        <a href="#" class="theme-btn btn-style-twelve">Let’s start now <span class="fa fa-angle-right"></span></a>
+                        <a href="#" class="theme-btn btn-style-thirteen">Our Programmes <span class="fa fa-angle-right"></span></a>
                     </div>
                 </div>
             </div>
