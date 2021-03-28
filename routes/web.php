@@ -29,6 +29,7 @@ Route::get('/about/message-from-the-founder', [PagesController::class, 'founderM
 Route::get('/program/investment-opportunities-exposition', [PagesController::class, 'investmentOpportunitiesExposition'])->name('program.investment-opportunities-exposition');
 Route::get('/program/rural-micro-enterprise-initiative', [PagesController::class, 'ruralMicroEnterpriseInitiative'])->name('program.rural-micro-enterprise-initiative');
 Route::get('/program/enterprise-industrial-incubation-centres', [PagesController::class, 'enterpriseIncubationCentres'])->name('program.enterprise-industrial-incubation-centres');
+Route::get('/program/meritocrats-startup', [PagesController::class, 'meritocratsStartup'])->name('program.meritocrats-startup');
 
 // get Involved
 Route::get('/get-Involved', [PagesController::class, 'getInvolved'])->name('get-Involved');

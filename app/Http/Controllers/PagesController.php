@@ -55,6 +55,12 @@ class PagesController extends Controller
         return view('pages.program-enterprise-incubation-centres', compact('programSidebar'));
     }
 
+    public function meritocratsStartup()
+    {
+        $programSidebar = 'msp';
+        return view('pages.program-meritocrats-startup', compact('programSidebar'));
+    }
+
     // get involved
     public function getInvolved()
     {

@@ -67,7 +67,7 @@
                                         <li><a href="{{ route('program.investment-opportunities-exposition') }}">Investment Opportunities Exposition</a></li>
                                         <li><a href="{{ route('program.rural-micro-enterprise-initiative') }}">Rural Micro-Enterprise Initiatives</a></li>
                                         <li><a href="{{ route('program.enterprise-industrial-incubation-centres') }}">Enterprise/Industrial Incubation Centres</a></li>
-                                        <li><a href="services-single.html">Meritocrats Starups Programme</a></li>
+                                        <li><a href="{{ route('program.meritocrats-startup') }}">Meritocrats Starups Programme</a></li>
                                     </ul>
                                 </li>
                                 <li class=""><a href="{{ route('get-Involved') }}">Get Involved</a></li>
