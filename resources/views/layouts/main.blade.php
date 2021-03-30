@@ -33,7 +33,7 @@
     <div class="preloader"></div>
 
     <!-- Main Header-->
-    @component('components.header')
+    @component('components.header', compact('page'))
     @endcomponent
     <!--End Main Header -->
 

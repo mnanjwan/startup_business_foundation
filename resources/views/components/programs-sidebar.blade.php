@@ -4,10 +4,10 @@
         <!--Blog Category Widget-->
         <div class="sidebar-widget sidebar-blog-category">
             <ul class="blog-cat">
-                <li @if($programSidebar == 'who-we-are') class="active" @endif><a href="{{ route('about.who-we-are') }}">Who We Are</a></li>
-                <li @if($programSidebar == 'who-we-work-with') class="active" @endif><a href="{{ route('about.who-we-work-with') }}">Who We Work With</a></li>
-                <li @if($programSidebar == 'what-we-do') class="active" @endif><a href="{{ route('about.what-we-do') }}">What We Do</a></li>
-                <li @if($programSidebar == 'founder-message') class="active" @endif><a href="{{ route('about.founder-message') }}">Message From the Founder</a></li>
+                <li @if($programSidebar == 'ioe') class="active" @endif><a href="{{ route('program.investment-opportunities-exposition') }}">Investment Opportunities Exposition</a></li>
+                <li @if($programSidebar == 'rme') class="active" @endif><a href="{{ route('program.rural-micro-enterprise-initiative') }}">Rural Micro-Enterprise Initiatives</a></li>
+                <li @if($programSidebar == 'eiic') class="active" @endif><a href="{{ route('program.enterprise-industrial-incubation-centres') }}">Enterprise/Industrial Incubation Centres</a></li>
+                <li @if($programSidebar == 'msp') class="active" @endif><a href="{{ route('program.meritocrats-startup') }}">Microcrats Startups Programme</a></li>
             </ul>
         </div>
 

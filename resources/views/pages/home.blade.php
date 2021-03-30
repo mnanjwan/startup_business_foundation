@@ -47,11 +47,12 @@
             <div class="clearfix">
                 <div class="pull-left">
                     <div class="title">Intro</div>
-                    <h2>About us</h2>
+                    <h3>Startup Business Foundation</h3>
                 </div>
-                <div class="pull-right">
-                    <div class="text">The argument in favor of using filler text goes something like this: If you use real content in the design process, anytime you reach a review point you’ll end up reviewing and negotiating the content itself and not the design.</div>
-                </div>
+                <!-- <div class="pull-right">
+                    <div class="text">The argument in favor of using filler text goes something like this: If you use real content in the design process,
+                        anytime you reach a review point you’ll end up reviewing and negotiating the content itself and not the design.</div>
+                </div> -->
             </div>
         </div>
 
@@ -86,7 +87,7 @@
                                 <div class="icon-box alternate">
                                     <span class="icon flaticon-loading"></span>
                                 </div>
-                                <h5>12 years of <br> experience</h5>
+                                <h5>5 years of <br> experience</h5>
                             </div>
                         </div>
 
@@ -105,7 +106,7 @@
                     <!--Skills-->
                     <div class="skills">
 
-                        <!--Skill Item-->
+
                         <div class="skill-item">
                             <div class="skill-header clearfix">
                                 <div class="skill-title">Finance</div>
@@ -116,7 +117,7 @@
                             </div>
                         </div>
 
-                        <!--Skill Item-->
+
                         <div class="skill-item">
                             <div class="skill-header clearfix">
                                 <div class="skill-title">Business</div>
@@ -127,7 +128,7 @@
                             </div>
                         </div>
 
-                        <!--Skill Item-->
+
                         <div class="skill-item">
                             <div class="skill-header clearfix">
                                 <div class="skill-title">Investment</div>
@@ -149,16 +150,15 @@
 <!-- End About Section Four -->
 
 <!-- Services Section Ten -->
-<section class="services-section-ten">
+<!-- <section class="services-section-ten">
     <div class="auto-container">
-        <!-- Sec Title -->
         <div class="sec-title-three centered">
             <div class="title">Our dedicated services</div>
             <h2>Learn some new info from <br> our latest news</h2>
         </div>
         <div class="row clearfix">
 
-            <!-- Services Block Fourteen -->
+
             <div class="services-block-fourteen col-lg-3 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="box-one"></div>
@@ -171,7 +171,7 @@
                 </div>
             </div>
 
-            <!-- Services Block Fourteen -->
+
             <div class="services-block-fourteen col-lg-3 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="box-one"></div>
@@ -184,7 +184,7 @@
                 </div>
             </div>
 
-            <!-- Services Block Fourteen -->
+
             <div class="services-block-fourteen col-lg-3 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                     <div class="box-one"></div>
@@ -197,7 +197,7 @@
                 </div>
             </div>
 
-            <!-- Services Block Fourteen -->
+
             <div class="services-block-fourteen col-lg-3 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeInUp" data-wow-delay="900ms" data-wow-duration="1500ms">
                     <div class="box-one"></div>
@@ -210,7 +210,7 @@
                 </div>
             </div>
 
-            <!-- Services Block Fourteen -->
+
             <div class="services-block-fourteen col-lg-3 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="box-one"></div>
@@ -223,7 +223,7 @@
                 </div>
             </div>
 
-            <!-- Services Block Fourteen -->
+
             <div class="services-block-fourteen col-lg-3 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="box-one"></div>
@@ -236,7 +236,7 @@
                 </div>
             </div>
 
-            <!-- Services Block Fourteen -->
+
             <div class="services-block-fourteen col-lg-3 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                     <div class="box-one"></div>
@@ -249,7 +249,7 @@
                 </div>
             </div>
 
-            <!-- Services Block Fourteen -->
+
             <div class="services-block-fourteen col-lg-3 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeInUp" data-wow-delay="900ms" data-wow-duration="1500ms">
                     <div class="box-one"></div>
@@ -264,14 +264,13 @@
 
         </div>
     </div>
-</section>
+</section> -->
 <!-- End Services Section Ten -->
 
 <!-- Feature Section -->
-<section class="feature-section">
+<!-- <section class="feature-section">
     <div class="auto-container">
 
-        <!-- Sec Title Three -->
         <div class="sec-title-three">
             <div class="clearfix">
                 <div class="pull-left">
@@ -284,24 +283,18 @@
             </div>
         </div>
 
-        <!--Feature Tabs-->
+
         <div class="feature-tabs tabs-box">
             <div class="row clearfix">
-                <!--Column-->
                 <div class="col-lg-5 col-md-12 col-sm-12">
-                    <!--Tab Btns-->
                     <ul class="tab-btns tab-buttons clearfix">
                         <li data-tab="#feature-expert" class="tab-btn">Expert team <span>The argument in favorite of using filler to text goes some thing like this top</span></li>
                         <li data-tab="#feature-brand" class="tab-btn active-btn">Best Finance Brand <span>The argument in favorite of using filler to text goes some thing like this top</span></li>
                         <li data-tab="#feature-ideas" class="tab-btn">Best Leadership Ideas<span>The argument in favorite of using filler to text goes some thing like this top</span></li>
                     </ul>
                 </div>
-                <!--Column-->
                 <div class="col-lg-7 col-md-12 col-sm-12">
-                    <!--Tabs Container-->
                     <div class="tabs-content">
-
-                        <!-- Tab -->
                         <div class="tab" id="feature-expert">
                             <div class="content">
                                 <div class="image">
@@ -309,8 +302,6 @@
                                 </div>
                             </div>
                         </div>
-
-                        <!-- Tab -->
                         <div class="tab active-tab" id="feature-brand">
                             <div class="content">
                                 <div class="image">
@@ -318,8 +309,6 @@
                                 </div>
                             </div>
                         </div>
-
-                        <!-- Tab -->
                         <div class="tab" id="feature-ideas">
                             <div class="content">
                                 <div class="image">
@@ -334,63 +323,63 @@
         </div>
 
     </div>
-</section>
+</section> -->
 <!-- End Feature Section -->
 
 <!-- Counter Section -->
-<section class="counter-section" style="background-image:url({{ asset('/public/assets/images/background/6.jpg') }})">
+<!-- <section class="counter-section" style="background-image:url({{ asset('/public/assets/images/background/6.jpg') }})">
     <div class="auto-container">
-        <!-- Fact Counter -->
+
         <div class="fact-counter style-three">
             <div class="row clearfix">
 
-                <!--Column-->
+
                 <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
                     <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div class="icon-box">
                             <span class="icon flaticon-start"></span>
                         </div>
                         <div class="count-outer count-box">
-                            <span class="count-text" data-speed="3000ms" data-stop="1200">0</span>+
+                            <span class="count-text" data-speed="3000ms" data-stop="200">0</span>+
                             <div class="counter-title">Finishing Projects</div>
                         </div>
                     </div>
                 </div>
 
-                <!--Column-->
+
                 <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
                     <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div class="icon-box">
                             <span class="icon flaticon-collaboration"></span>
                         </div>
                         <div class="count-outer count-box">
-                            <span class="count-text" data-speed="2000" data-stop="195">0</span>
+                            <span class="count-text" data-speed="2000" data-stop="95">0</span>
                             <div class="counter-title">Team Member</div>
                         </div>
                     </div>
                 </div>
 
-                <!--Column-->
+
                 <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
                     <div class="inner wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="icon-box">
                             <span class="icon flaticon-hand-shake-1"></span>
                         </div>
                         <div class="count-outer count-box">
-                            <span class="count-text" data-speed="2000" data-stop="850">0</span>+
-                            <div class="counter-title">Happy Clienta</div>
+                            <span class="count-text" data-speed="2000" data-stop="50">0</span>+
+                            <div class="counter-title">Happy Clients</div>
                         </div>
                     </div>
                 </div>
 
-                <!--Column-->
+
                 <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
                     <div class="inner wow fadeInLeft" data-wow-delay="900ms" data-wow-duration="1500ms">
                         <div class="icon-box">
                             <span class="icon flaticon-stopwatch"></span>
                         </div>
                         <div class="count-outer count-box">
-                            <span class="count-text" data-speed="1500" data-stop="26">0</span>+
+                            <span class="count-text" data-speed="1500" data-stop="6">0</span>+
                             <div class="counter-title">Years Experience</div>
                         </div>
                     </div>
@@ -400,13 +389,13 @@
         </div>
 
     </div>
-</section>
+</section> -->
 <!-- Counter Section -->
 
 <!-- Team Section Two -->
-<section class="team-section-two">
+<!-- <section class="team-section-two">
     <div class="auto-container">
-        <!-- Sec Title -->
+
         <div class="sec-title-three centered">
             <div class="title">Our dedicated Team</div>
             <h2>We have a large number of <br> expert team member</h2>
@@ -414,7 +403,6 @@
 
         <div class="row clearfix">
 
-            <!--Team Block-->
             <div class="team-block-two col-lg-4 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
@@ -433,7 +421,6 @@
                 </div>
             </div>
 
-            <!--Team Block-->
             <div class="team-block-two col-lg-4 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
@@ -452,7 +439,6 @@
                 </div>
             </div>
 
-            <!--Team Block-->
             <div class="team-block-two col-lg-4 col-md-12 col-sm-12">
                 <div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
@@ -471,7 +457,6 @@
                 </div>
             </div>
 
-            <!--Team Block-->
             <div class="team-block-two col-lg-3 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
@@ -490,7 +475,6 @@
                 </div>
             </div>
 
-            <!--Team Block-->
             <div class="team-block-two col-lg-3 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
@@ -509,7 +493,6 @@
                 </div>
             </div>
 
-            <!--Team Block-->
             <div class="team-block-two col-lg-3 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
@@ -528,7 +511,6 @@
                 </div>
             </div>
 
-            <!--Team Block-->
             <div class="team-block-two col-lg-3 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
@@ -550,13 +532,12 @@
         </div>
 
     </div>
-</section>
+</section> -->
 <!-- End Team Section Two -->
 
 <!-- News Section Two -->
-<section class="news-section-two style-two">
+<!-- <section class="news-section-two style-two">
     <div class="auto-container">
-        <!-- Sec Title -->
         <div class="sec-title-three">
             <div class="clearfix">
                 <div class="pull-left">
@@ -571,7 +552,7 @@
 
         <div class="row clearfix">
 
-            <!-- News Block Two -->
+
             <div class="news-block-two red col-lg-4 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
@@ -591,7 +572,6 @@
                 </div>
             </div>
 
-            <!-- News Block Two -->
             <div class="news-block-two red col-lg-4 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="image">
@@ -611,7 +591,7 @@
                 </div>
             </div>
 
-            <!-- News Block Two -->
+
             <div class="news-block-two red col-lg-4 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                     <div class="image">
@@ -634,14 +614,13 @@
         </div>
 
     </div>
-</section>
+</section> -->
 
 <!--Sponsors Section-->
-<section class="sponsors-section">
+<!-- <section class="sponsors-section">
     <div class="auto-container">
 
         <div class="carousel-outer">
-            <!--Sponsors Slider-->
             <ul class="sponsors-carousel owl-carousel owl-theme">
                 <li><div class="image-box"><a href="#"><img src="{{ asset('/public/assets/images/clients/1.png') }}" alt=""></a></div></li>
                 <li><div class="image-box"><a href="#"><img src="{{ asset('/public/assets/images/clients/2.png') }}" alt=""></a></div></li>
@@ -659,20 +638,18 @@
         </div>
 
     </div>
-</section>
+</section> -->
 <!--End Sponsors Section-->
 
 <!-- Call To Action Section -->
-<section class="call-back-section" style="background-image:url({{ asset('/public/assets/images/background/6.jpg') }})">
+<!-- <section class="call-back-section" style="background-image:url({{ asset('/public/assets/images/background/6.jpg') }})">
     <div class="auto-container">
         <div class="row clearfix">
-            <!-- Form Column -->
             <div class="form-column col-lg-8 col-md-12 col-sm-12">
                 <div class="inner-column">
 
-                    <!-- Request Form -->
+
                     <div class="request-form">
-                        <!--Request Form-->
                         <form method="post" action="https://html.themexriver.com/finano/contact.html">
                             <div class="row clearfix">
                                 <div class="form-group col-lg-6 col-md-6 col-sm-12">
@@ -701,7 +678,6 @@
 
                 </div>
             </div>
-            <!-- Title Column -->
             <div class="title-column col-lg-4 col-md-12 col-sm-12">
                 <div class="inner-column">
                     <h2>Request a call back</h2>
@@ -710,14 +686,12 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- End Call To Action Section -->
 
 <!-- Map Section -->
-<section class="map-section">
-    <!--Map Outer-->
+<!-- <section class="map-section">
     <div class="map-outer">
-        <!--Map Canvas-->
         <div class="map-canvas"
             data-zoom="12"
             data-lat="-37.817085"
@@ -729,6 +703,6 @@
             data-content="Melbourne VIC 3000, Australia<br><a href='mailto:info@youremail.com'>info@youremail.com</a>">
         </div>
     </div>
-</section>
+</section> -->
 <!-- End Map Section -->
 @endsection

@@ -6,9 +6,9 @@
             <div class="inner-container clearfix">
                 <div class="top-left">
                     <ul class="contact-list clearfix">
-                        <li><i class="fa fa-envelope-o"></i> info@startupbizfoundation.org</li>
-                        <li><i class="fa fa-phone"></i><a href="#">+234 805 094 8938</a></li>
-                        <li><i class="fa fa-map-marker"></i><a href="#">121 King Street, USA, Newyork</a></li>
+                        <li style="font-size: 13px;"><i class="fa fa-envelope-o"></i>info@startupbizfoundation.org</li>
+                        <li style="font-size: 13px;"><i class="fa fa-phone"></i>+234 803 268 6671</li>
+                        <li style="font-size: 13px;"><i class="fa fa-map-marker"></i>#10 Nwaturuocha Ikenegbu Owerri, Imo State</li>
                     </ul>
                 </div>
                 <!-- <div class="top-right">
@@ -52,9 +52,9 @@
 
                         <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
                             <ul class="navigation clearfix">
-                                <li class="current"><a href="{{ route('home') }}">Home</a>
+                                <li @if($page=="home") class="current" @endif><a href="{{ route('home') }}">Home</a>
                                 </li>
-                                <li class="dropdown"><a href="#">About</a>
+                                <li @if($page=="about") class="current" @endif class="dropdown"><a href="#">About</a>
                                     <ul>
                                         <li><a href="{{ route('about.who-we-are') }}">Who We Are</a></li>
                                         <li><a href="{{ route('about.who-we-work-with') }}">Who We Work With</a></li>
@@ -62,7 +62,7 @@
                                         <li><a href="{{ route('about.founder-message') }}">Founder's Message</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown"><a href="#">Our Programs</a>
+                                <li @if($page=="programs") class="current" @endif class="dropdown"><a href="#">Our Programs</a>
                                     <ul>
                                         <li><a href="{{ route('program.investment-opportunities-exposition') }}">Investment Opportunities Exposition</a></li>
                                         <li><a href="{{ route('program.rural-micro-enterprise-initiative') }}">Rural Micro-Enterprise Initiatives</a></li>
@@ -70,8 +70,8 @@
                                         <li><a href="{{ route('program.meritocrats-startup') }}">Meritocrats Starups Programme</a></li>
                                     </ul>
                                 </li>
-                                <li class=""><a href="{{ route('get-Involved') }}">Get Involved</a></li>
-                                <li><a href="{{ route('contact-us') }}">Contact us</a></li>
+                                <li @if($page=="get-involved") class="current" @endif class=""><a href="{{ route('get-Involved') }}">Get Involved</a></li>
+                                <li @if($page=="contact") class="current" @endif><a href="{{ route('contact-us') }}">Contact us</a></li>
                             </ul>
                         </div>
 
@@ -123,29 +123,28 @@
                         <span class="icon-bar"></span>
                     </button>
 
-                    <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent1">
+                    <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
                         <ul class="navigation clearfix">
-                            <li class="current"><a href="{{ route('home') }}">Home</a>
+                            <li @if($page=="home") class="current" @endif><a href="{{ route('home') }}">Home</a>
                             </li>
-                            <li class="dropdown"><a href="#">About</a>
+                            <li @if($page=="about") class="current" @endif class="dropdown"><a href="#">About</a>
                                 <ul>
                                     <li><a href="{{ route('about.who-we-are') }}">Who We Are</a></li>
+                                    <li><a href="{{ route('about.who-we-work-with') }}">Who We Work With</a></li>
                                     <li><a href="{{ route('about.what-we-do') }}">What We Do</a></li>
-                                    <li><a href="{{ route('about.founder-message') }}">Message From the Founder</a></li>
-                                    <!-- <li><a href="testimonial.html">Testimonial</a></li>
-                                    <li><a href="not-found.html">Error Page</a></li> -->
+                                    <li><a href="{{ route('about.founder-message') }}">Founder's Message</a></li>
                                 </ul>
                             </li>
-                            <li class="dropdown"><a href="#">Our Programs</a>
+                            <li @if($page=="programs") class="current" @endif class="dropdown"><a href="#">Our Programs</a>
                                 <ul>
-                                    <li><a href="services.html">Investment Opportunities Exposition</a></li>
-                                    <li><a href="services-2.html">Rural Micro-Enterprise Initiatives</a></li>
-                                    <li><a href="services-single.html">Enterprise/Industrial Incubation Centres</a></li>
-                                    <li><a href="services-single.html">Meritocrats Starups Programme</a></li>
+                                    <li><a href="{{ route('program.investment-opportunities-exposition') }}">Investment Opportunities Exposition</a></li>
+                                    <li><a href="{{ route('program.rural-micro-enterprise-initiative') }}">Rural Micro-Enterprise Initiatives</a></li>
+                                    <li><a href="{{ route('program.enterprise-industrial-incubation-centres') }}">Enterprise/Industrial Incubation Centres</a></li>
+                                    <li><a href="{{ route('program.meritocrats-startup') }}">Meritocrats Starups Programme</a></li>
                                 </ul>
                             </li>
-                            <li class=""><a href="{{ route('get-Involved') }}">Get Involved</a></li>
-                            <li><a href="{{ route('contact-us') }}">Contact us</a></li>
+                            <li @if($page=="get-involved") class="current" @endif class=""><a href="{{ route('get-Involved') }}">Get Involved</a></li>
+                            <li @if($page=="contact") class="current" @endif><a href="{{ route('contact-us') }}">Contact us</a></li>
                         </ul>
                     </div>
                 </nav><!-- Main Menu End-->

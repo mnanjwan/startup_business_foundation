@@ -60,14 +60,14 @@ font-family: 'Muli', sans-serif;*/
 @import url('jquery.fancybox.min.css');
 @import url('jquery.mCustomScrollbar.min.css');
 
-/*** 
+/***
 
 ====================================================================
 	Reset
 ====================================================================
 
  ***/
- 
+
 * {
 	margin:0px;
 	padding:0px;
@@ -75,7 +75,7 @@ font-family: 'Muli', sans-serif;*/
 	outline:none;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Global Settings
@@ -146,7 +146,7 @@ h6{
 }
 
 input,button,select,textarea{
-	
+
 }
 
 textarea{
@@ -155,7 +155,7 @@ textarea{
 
 p{
 	position:relative;
-	line-height:1.8em;	
+	line-height:1.8em;
 }
 
 .auto-container{
@@ -179,7 +179,7 @@ p{
 ul,li{
 	list-style:none;
 	padding:0px;
-	margin:0px;	
+	margin:0px;
 }
 
 img{
@@ -197,7 +197,7 @@ img{
 }
 
 .centered{
-	text-align:center;	
+	text-align:center;
 }
 
 /*Btn Style One*/
@@ -770,10 +770,10 @@ img{
 img{
 	display:inline-block;
 	max-width:100%;
-	height:auto;	
+	height:auto;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Scroll To Top style
@@ -801,7 +801,7 @@ img{
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;		
+	transition:all 300ms ease;
 }
 
 .scroll-to-top span{
@@ -819,7 +819,7 @@ img{
 	background:#3241ff;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Section Title
@@ -891,7 +891,7 @@ img{
 	color:#ffffff;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Section Title Two
@@ -942,7 +942,7 @@ img{
 	color:#ffffff;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Section Title Three
@@ -1123,7 +1123,7 @@ img{
 	font-size:25px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Main Header style
@@ -1171,7 +1171,7 @@ img{
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;	
+	transition:all 300ms ease;
 }
 
 /* Header Top */
@@ -1184,7 +1184,7 @@ img{
 	position: relative;
 	margin-left:285px;
 	padding-left:80px;
-	background-color: #000000;
+	background-color: #EC0203;
 }
 
 .header-top .inner-container:before{
@@ -1194,7 +1194,7 @@ img{
 	top:0px;
 	height:100%;
 	width:20000px;
-	background-color: #000000;
+	background-color: #EC0203;
 }
 
 .main-header .top-left:before{
@@ -1202,7 +1202,7 @@ img{
 	content:'';
 	left:-50px;
 	top:0px;
-	border-top: 60px solid #000000;
+	border-top: 60px solid #EC0203;
     border-left: 50px solid transparent;
 }
 
@@ -1316,7 +1316,7 @@ img{
 	top:100%;
     right: 0px !important;
     left: auto !important;
-	width:170px;	
+	width:170px;
 	border:none;
 	padding:0px;
 	margin-top:40px;
@@ -1355,7 +1355,7 @@ img{
 }
 
 .main-header .top-right .language .dropdown-menu > li:last-child{
-	border-bottom:none;	
+	border-bottom:none;
 }
 
 .main-header .top-right .language .dropdown-menu > li > a{
@@ -1514,12 +1514,12 @@ img{
 }
 
 .main-header .header-lower .search-panel .form-container{
-	padding:25px 20px;	
+	padding:25px 20px;
 }
 
 .main-header .header-lower .search-panel .form-group{
 	position:relative;
-	margin:0px;	
+	margin:0px;
 }
 
 .main-header .header-lower .search-panel input[type="text"],
@@ -1532,7 +1532,7 @@ img{
 	color:#000000;
 	font-size:14px;
 	line-height:24px;
-	background:#ffffff;	
+	background:#ffffff;
 	border:1px solid #e0e0e0;
 	padding:7px 40px 7px 15px;
 	-webkit-transition:all 300ms ease;
@@ -1544,7 +1544,7 @@ img{
 
 .main-header .header-lower .search-panel input:focus,
 .main-header .header-lower .search-panel select:focus{
-	border-color:#509cf9;	
+	border-color:#509cf9;
 }
 
 .main-header .header-lower .search-panel .search-btn{
@@ -1620,12 +1620,12 @@ img{
 }
 
 .header-style-five .header-upper .search-panel .form-container{
-	padding:25px 20px;	
+	padding:25px 20px;
 }
 
 .header-style-five .header-upper .search-panel .form-group{
 	position:relative;
-	margin:0px;	
+	margin:0px;
 }
 
 .header-style-five .header-upper .search-panel input[type="text"],
@@ -1638,7 +1638,7 @@ img{
 	color:#000000;
 	font-size:14px;
 	line-height:24px;
-	background:#ffffff;	
+	background:#ffffff;
 	border:1px solid #e0e0e0;
 	padding:7px 40px 7px 15px;
 	-webkit-transition:all 300ms ease;
@@ -1650,7 +1650,7 @@ img{
 
 .header-style-five .header-upper .search-panel input:focus,
 .header-style-five .header-upper .search-panel select:focus{
-	border-color:#509cf9;	
+	border-color:#509cf9;
 }
 
 .header-style-five .header-upper .search-panel .search-btn{
@@ -1684,7 +1684,7 @@ img{
 	top:100%;
 	right:0px;
 	left:auto;
-	width:170px;	
+	width:170px;
 	border:none;
 	padding:0px;
 	margin-top:16px;
@@ -1723,7 +1723,7 @@ img{
 }
 
 .main-header .header-lower .language .dropdown-menu > li:last-child{
-	border-bottom:none;	
+	border-bottom:none;
 }
 
 .main-header .header-lower .language .dropdown-menu > li > a{
@@ -1790,7 +1790,7 @@ img{
 	-moz-animation-iteration-count: 1;
 	-op-animation-iteration-count: 1;
 	-webkit-animation-iteration-count: 1;
-	animation-iteration-count: 1;	
+	animation-iteration-count: 1;
 }
 
 .sticky-header .main-menu .navigation > li > a{
@@ -2185,7 +2185,7 @@ img{
 
 .main-menu .navigation > li > ul.from-right{
 	left:auto;
-	right:0px;	
+	right:0px;
 }
 
 .main-menu .navigation > li > ul > li{
@@ -2234,7 +2234,7 @@ img{
 	font-size:16px;
 	font-weight:normal;
 	text-align:center;
-	z-index:5;	
+	z-index:5;
 }
 
 .main-menu .navigation > li > ul > li.dropdown:hover > a:after{
@@ -2265,7 +2265,7 @@ img{
 
 .main-menu .navigation > li > ul > li > ul.from-right{
 	left:auto;
-	right:0px;	
+	right:0px;
 }
 
 .main-menu .navigation > li > ul > li > ul > li{
@@ -2275,7 +2275,7 @@ img{
 }
 
 .main-menu .navigation > li > ul > li > ul > li:last-child{
-	border-bottom:none;	
+	border-bottom:none;
 }
 
 .main-menu .navigation > li > ul > li > ul > li > a{
@@ -2314,11 +2314,11 @@ img{
 	font-size:16px;
 	font-weight:normal;
 	text-align:center;
-	z-index:5;	
+	z-index:5;
 }
 
 .main-menu .navigation > li > ul > li > ul > li.dropdown:hover > a:after{
-	color:#ffffff;	
+	color:#ffffff;
 }
 
 .main-menu .navigation > li.dropdown:hover > ul{
@@ -2345,7 +2345,7 @@ img{
 	-moz-transition:all 300ms ease;
 	-webkit-transition:all 500ms ease;
 	-ms-transition:all 300ms ease;
-	-o-transition:all 300ms ease;	
+	-o-transition:all 300ms ease;
 }
 
 .main-menu .navbar-collapse > ul li.dropdown .dropdown-btn{
@@ -2388,7 +2388,7 @@ img{
 	border:1px solid #ecebeb;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Main Slider Banner
@@ -2818,7 +2818,7 @@ img{
 	background-color:rgba(0,0,0,0.60);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Services Slider
@@ -2972,7 +2972,7 @@ img{
 	padding:0px 0px 0px 25px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	About Slider
@@ -3336,7 +3336,7 @@ img{
 	font-family: 'Muli', sans-serif;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Gallery Section
@@ -3349,7 +3349,7 @@ img{
 }
 
 .gallery-section .gallery-block .inner-box{
-	
+
 }
 
 .gallery-section .owl-item.active .gallery-block{
@@ -3530,7 +3530,7 @@ img{
 	visibility: visible; */
 }
 
-/*** 
+/***
 
 ====================================================================
 	Testimonial Section
@@ -3662,7 +3662,7 @@ img{
 	background-color: #3241ff;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Services Section Two
@@ -3851,7 +3851,7 @@ img{
 	line-height:1.7em;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Case Section
@@ -4025,7 +4025,7 @@ img{
 	right:22px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Team Section
@@ -4054,7 +4054,7 @@ img{
 
 .team-block .inner-box{
 	position:relative;
-	
+
 }
 
 .team-block .inner-box .image{
@@ -4063,7 +4063,7 @@ img{
 }
 
 .team-block .inner-box:hover{
-	
+
 }
 
 .team-block .inner-box .image img{
@@ -4194,7 +4194,7 @@ img{
 	background-color:#395189;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Call To Action
@@ -4252,7 +4252,7 @@ img{
 	margin-top:55px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Companines Section
@@ -4282,7 +4282,7 @@ img{
 	transition:all 300ms ease;
 	-webkit-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
-	-o-transition:all 300ms ease;	
+	-o-transition:all 300ms ease;
 }
 
 .sponsors-section .image-box img:hover{
@@ -4291,7 +4291,7 @@ img{
 
 .sponsors-section .owl-dots,
 .sponsors-section .owl-nav{
-	display:none;	
+	display:none;
 }
 
 .news-section{
@@ -4451,7 +4451,7 @@ img{
 	line-height:1.6em;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Map Info Section
@@ -4562,7 +4562,7 @@ img{
 	margin-bottom:10px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Consult Form
@@ -4658,7 +4658,7 @@ img{
 	border-radius:0px 5px 5px 0px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Main Footer
@@ -4798,7 +4798,7 @@ img{
 }
 
 .main-footer .gallery-widget .image-box img:hover{
-	opacity:0.70;	
+	opacity:0.70;
 }
 
 .main-footer .footer-bottom{
@@ -5033,15 +5033,15 @@ img{
 }
 
 .services-block-three.style-two .inner-box .icon-box{
-	background-image: -ms-linear-gradient(bottom, #313ffb 0%, #0f1aa4 100%);
-	background-image: -moz-linear-gradient(bottom, #313ffb 0%, #0f1aa4 100%);
-	background-image: -o-linear-gradient(bottom, #313ffb 0%, #0f1aa4 100%);
-	background-image: -webkit-gradient(linear, bottom, left top, color-stop(0, #313ffb), color-stop(100, #0f1aa4));
-	background-image: -webkit-linear-gradient(bottom, #313ffb 0%, #0f1aa4 100%);
-	background-image: linear-gradient(to bottom, #313ffb 0%, #0f1aa4 100%);
+	background-image: -ms-linear-gradient(bottom, #EC0203 0%, #0f1aa4 100%);
+	background-image: -moz-linear-gradient(bottom, #EC0203 0%, #0f1aa4 100%);
+	background-image: -o-linear-gradient(bottom, #EC0203 0%, #0f1aa4 100%);
+	background-image: -webkit-gradient(linear, bottom, left top, color-stop(0, #EC0203), color-stop(100, #0f1aa4));
+	background-image: -webkit-linear-gradient(bottom, #EC0203 0%, #0f1aa4 100%);
+	background-image: linear-gradient(to bottom, #EC0203 0%, #0f1aa4 100%);
 }
 
-/*** 
+/***
 
 ====================================================================
 	About Section Two
@@ -5116,7 +5116,7 @@ img{
 	margin-bottom:20px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Services Section Four
@@ -5304,7 +5304,7 @@ img{
 	margin-top:45px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Business Section
@@ -5696,7 +5696,7 @@ img{
 	background-image: linear-gradient(to right, #012068 0%, #2f3ff5 100%);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Accordions style
@@ -5801,7 +5801,7 @@ img{
 	-webkit-transition:all 500ms ease;
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
-	transition:all 500ms ease;	
+	transition:all 500ms ease;
 }
 
 .accordion-box .block .acc-btn.active .icon-outer{
@@ -5827,11 +5827,11 @@ img{
 
 .accordion-box .block .acc-content{
 	position:relative;
-	display:none;	
+	display:none;
 }
 
 .accordion-box .block .acc-content.current{
-	display:block;	
+	display:block;
 }
 
 .accordion-box .block .content{
@@ -5848,7 +5848,7 @@ img{
 }
 
 .accordion-box .block .content p:last-child{
-	margin-bottom:0px;	
+	margin-bottom:0px;
 }
 
 .faq-section .counter-column{
@@ -5872,7 +5872,7 @@ img{
 	display:block;
 }
 
-/*** 
+/***
 
 ====================================================================
 	News Section Two
@@ -6108,7 +6108,7 @@ img{
 	color:#000000;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Call To Action Section Two
@@ -6136,7 +6136,7 @@ img{
 	margin-top:3px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Services Section Five
@@ -6218,7 +6218,7 @@ img{
 	max-width:280px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	About Section Three
@@ -6267,7 +6267,7 @@ img{
 	text-align:center;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Companies Section
@@ -6301,7 +6301,7 @@ img{
 	margin-top:-54px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Company Tabs Style
@@ -6573,7 +6573,7 @@ img{
 	line-height:1.6em;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Testimonial Section Two
@@ -6682,7 +6682,7 @@ img{
 .testimonial-block-three .inner-box .image-column .inner-column{
 	position:relative;
 	margin-top:-28px;
-	
+
 }
 
 .testimonial-block-three .inner-box .image-column .inner-column .image{
@@ -6743,7 +6743,7 @@ img{
 	padding-left:50px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Testimonial Section Six
@@ -6895,7 +6895,7 @@ img{
 	margin-left:4px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Pricing Section
@@ -6912,7 +6912,7 @@ img{
 	padding-bottom:70px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Pricing Tabs Style
@@ -7148,7 +7148,7 @@ img{
 }
 
 .price-block .inner-box:hover .recomend{
-	
+
 }
 
 .price-block.style-two .inner-box .recomend{
@@ -7169,7 +7169,7 @@ img{
     background: linear-gradient(to bottom, #3140FC 0%, #0b1599 100%);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Services Block Seven
@@ -7267,7 +7267,7 @@ img{
 	margin-bottom:20px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Services Section Eight
@@ -7648,7 +7648,7 @@ img{
 	color:#ffffff;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Testimonial Services Three
@@ -7838,7 +7838,7 @@ img{
 	line-height:1.4em;
 }
 
-/*** 
+/***
 
 ====================================================================
 	About Services Four
@@ -8058,7 +8058,7 @@ img{
 	color:#1a1e66;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Services Section Ten
@@ -8238,7 +8238,7 @@ img{
 }
 
 .services-block-fourteen.style-two .icon-box{
-	color:#313ffb;
+	color:#EC0203;
 }
 
 .services-block-fourteen.style-two .inner-box:hover::before{
@@ -8249,7 +8249,7 @@ img{
 	transform: rotateY(0deg);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Feature Section
@@ -8272,7 +8272,7 @@ img{
 }
 
 .feature-section .feature-tabs{
-	position:relative;	
+	position:relative;
 }
 
 .feature-section .feature-tabs .tab-btns{
@@ -8377,7 +8377,7 @@ img{
 }
 
 .feature-section .feature-tabs .tabs-content .tab.active-tab{
-	display:block;	
+	display:block;
 }
 
 .feature-section .feature-tabs .tabs-content .tab .image img{
@@ -8403,7 +8403,7 @@ img{
 	background-color:rgba(0,0,0,0.90);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Team Section Two
@@ -8607,7 +8607,7 @@ img{
 	color:#ffffff;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Call To Action Section
@@ -8783,7 +8783,7 @@ img{
 }
 
 .ui-menu .ui-menu-item:last-child{
-	border:none;	
+	border:none;
 }
 
 .ui-state-active, .ui-widget-content .ui-state-active{
@@ -8812,7 +8812,7 @@ img{
 	height:370px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Page Title
@@ -8841,7 +8841,7 @@ img{
 .page-title .content{
 	position:relative;
 	padding-left:20px;
-	border-left:4px solid #303ffa;
+	border-left:4px solid #EC0203;
 }
 
 .page-title .content h1{
@@ -8905,10 +8905,10 @@ img{
 }
 
 .page-title .page-breadcrumb li a:hover{
-	color:#303ffa;
+	color:#EC0203;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Video Section
@@ -9003,8 +9003,8 @@ img{
     -ms-box-shadow: 0 5px 10px 0 rgba(46, 60, 244, .3);
     -o-box-shadow: 0 5px 10px 0 rgba(46, 60, 244, .3);
     box-shadow: 0 5px 10px 0 rgba(46, 60, 244, .3);
-    -webkit-transform-origin:center; 
-    transform-origin:center; 
+    -webkit-transform-origin:center;
+    transform-origin:center;
 }
 
 .play-now .ripple,
@@ -9067,7 +9067,7 @@ img{
     100% {box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);}
 }
 
-/*** 
+/***
 
 ====================================================================
 	Case Section Three
@@ -9267,12 +9267,12 @@ img{
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
-	background-image: -ms-linear-gradient(bottom, #313ffb 0%, #0f1aa4 100%);
-	background-image: -moz-linear-gradient(bottom, #313ffb 0%, #0f1aa4 100%);
-	background-image: -o-linear-gradient(bottom, #313ffb 0%, #0f1aa4 100%);
-	background-image: -webkit-gradient(linear, bottom, left top, color-stop(0, #313ffb), color-stop(100, #0f1aa4));
-	background-image: -webkit-linear-gradient(bottom, #313ffb 0%, #0f1aa4 100%);
-	background-image: linear-gradient(to bottom, #313ffb 0%, #0f1aa4 100%);
+	background-image: -ms-linear-gradient(bottom, #EC0203 0%, #0f1aa4 100%);
+	background-image: -moz-linear-gradient(bottom, #EC0203 0%, #0f1aa4 100%);
+	background-image: -o-linear-gradient(bottom, #EC0203 0%, #0f1aa4 100%);
+	background-image: -webkit-gradient(linear, bottom, left top, color-stop(0, #EC0203), color-stop(100, #0f1aa4));
+	background-image: -webkit-linear-gradient(bottom, #EC0203 0%, #0f1aa4 100%);
+	background-image: linear-gradient(to bottom, #EC0203 0%, #0f1aa4 100%);
 }
 
 .styled-pagination li:hover a::before,
@@ -9286,7 +9286,7 @@ img{
 	color:#ffffff;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Portfolio Page Section
@@ -9349,7 +9349,7 @@ img{
 	bottom:-8px;
 	height:4px;
 	width:0px;
-	background-color:#303ffa;
+	background-color:#EC0203;
 	transition:all 300ms ease;
 	-webkit-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
@@ -9609,7 +9609,7 @@ img{
 	margin-top:20px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Portfolio Single Section
@@ -9698,7 +9698,7 @@ img{
 	position:absolute;
 	left:0px;
 	top:0px;
-	color:#303ffa;
+	color:#EC0203;
 	font-size:14px;
 }
 
@@ -9707,7 +9707,7 @@ img{
 	margin-top:40px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Error Section
@@ -9920,7 +9920,7 @@ img{
 	line-height:1.7em;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Sidebar Page Container
@@ -10000,8 +10000,8 @@ img{
 .blog-cat li.active a,
 .blog-cat li a:hover{
 	color:#ffffff;
-	border-color:#222fd4;
-	background-color:#222fd4;
+	border-color:#EC0203;
+	background-color:#EC0203;
 }
 
 /* Contact Widget */
@@ -10054,11 +10054,11 @@ img{
 
 .brochures-widget .files li{
 	position:relative;
-	margin-bottom:10px;	
+	margin-bottom:10px;
 }
 
 .brochures-widget .files li:last-child{
-	margin-bottom:0;	
+	margin-bottom:0;
 }
 
 .brochures-widget .files li a{
@@ -10230,7 +10230,7 @@ img{
 	border:2px solid #2d3bf2;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Service Tabs Style
@@ -10312,7 +10312,7 @@ img{
 }
 
 .services-single .service-tabs .tabs-content .tab.active-tab{
-	display:block;	
+	display:block;
 }
 
 .services-single .service-tabs .tabs-content .tab .content{
@@ -10355,7 +10355,7 @@ img{
 	color:#1a1e66;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Blog Grid Section
@@ -10740,7 +10740,7 @@ img{
 
 .sidebar .search-box .form-group{
 	position:relative;
-	margin:0px;	
+	margin:0px;
 }
 
 .sidebar .search-box .form-group input[type="text"],
@@ -10867,7 +10867,7 @@ img{
 	-o-transition:all 500ms ease;
 	border-radius:50px;
 	display:inline-block;
-	background-color:#303ffa;
+	background-color:#EC0203;
 }
 
 .blog-cat-two li a:hover::before{
@@ -10876,7 +10876,7 @@ img{
 
 .blog-cat-two li.active a,
 .blog-cat-two li a:hover{
-	color:#303ffa;
+	color:#EC0203;
 }
 
 
@@ -10934,7 +10934,7 @@ img{
 }
 
 .popular-posts .post a:hover{
-	color:#303ffa;
+	color:#EC0203;
 }
 
 .popular-posts .post-info{
@@ -10950,7 +10950,7 @@ img{
 	content: "\f073";
 	left:0px;
 	top:4px;
-	color:#303ffa;
+	color:#EC0203;
 	font-size:14px;
 	line-height:1em;
 	font-family: 'FontAwesome';
@@ -10996,7 +10996,7 @@ img{
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
 	transition:all 300ms ease;
-	background-color:#303ffa;
+	background-color:#EC0203;
 }
 
 .sidebar .instagram-widget .image-box .overlay-box:before{
@@ -11043,7 +11043,7 @@ img{
 
 .sidebar .popular-tags a:hover{
 	background-color:#0670fd;
-	color:#ffffff;	
+	color:#ffffff;
 }
 
 /* Blog Single */
@@ -11323,7 +11323,7 @@ img{
 	color:#2d3bf1;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Comments Area
@@ -11357,7 +11357,7 @@ img{
 	bottom: 0px;
 	width: 40px;
 	height: 3px;
-	background-color: #303ffa;
+	background-color: #EC0203;
 }
 
 .sidebar-page-container .group-title .group-text{
@@ -11385,7 +11385,7 @@ img{
 }
 
 .sidebar-page-container .comments-area .comment-box:hover{
-	border-color:#222222;	
+	border-color:#222222;
 }
 
 .sidebar-page-container .comments-area .comment{
@@ -11440,7 +11440,7 @@ img{
 .sidebar-page-container .comments-area .comment-info{
 	color:#3e5773;
 	line-height:24px;
-	font-size:13px;	
+	font-size:13px;
 }
 
 .sidebar-page-container .comments-area .comment-box strong{
@@ -11478,7 +11478,7 @@ img{
 	font-family: 'Poppins', sans-serif;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Comment Form
@@ -11610,7 +11610,7 @@ img{
 	bottom:0px;
 	width:0px;
 	height:5px;
-	background-color:#303ffa;
+	background-color:#EC0203;
 	-webkit-transition: all 1000ms ease;
 	-moz-transition: all 100ms ease;
 	-ms-transition: all 1000ms ease;
@@ -11625,7 +11625,7 @@ img{
 	bottom:0px;
 	width:0px;
 	height:5px;
-	background-color:#303ffa;
+	background-color:#EC0203;
 	-webkit-transition: all 1000ms ease;
 	-moz-transition: all 100ms ease;
 	-ms-transition: all 1000ms ease;
@@ -11661,7 +11661,7 @@ img{
 }
 
 .testimonial-block-five .inner-box:hover .quote-icon{
-	color:#303ffa;
+	color:#EC0203;
 }
 
 .testimonial-block-five .inner-box .image-outer{
@@ -11686,7 +11686,7 @@ img{
 	right:-4px;
 	bottom:-4px;
 	border-radius:50px;
-	border:2px solid #303ffa;
+	border:2px solid #EC0203;
 }
 
 .testimonial-block-five .inner-box .text{
@@ -11700,7 +11700,7 @@ img{
 
 .testimonial-block-five .inner-box h5{
 	position:relative;
-	color:#303ffa;
+	color:#EC0203;
 	font-size:20px;
 	font-weight:700;
 	line-height:1.7em;
@@ -11714,7 +11714,7 @@ img{
 	line-height:1.4em;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Contact Page Section
@@ -11789,7 +11789,7 @@ img{
 .contact-form input.error,
 .contact-form select.error,
 .contact-form textarea.error{
-	border-color:#ff0000 !important;	
+	border-color:#ff0000 !important;
 }
 
 .contact-form label.error{
@@ -11800,7 +11800,7 @@ img{
 	text-transform:uppercase;
 	font-size:11px;
 	color:#ff0000;
-	font-weight:500;	
+	font-weight:500;
 }
 
 /*Contact Form*/
