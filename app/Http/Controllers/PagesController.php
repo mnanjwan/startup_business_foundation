@@ -70,6 +70,37 @@ class PagesController extends Controller
         return view('pages.program-meritocrats-startup', compact('programSidebar', 'page'));
     }
 
+    // projects
+    public function projects()
+    {
+        $page = 'projects';
+        return view('pages.projects', compact('page'));
+    }
+
+    // media
+    public function publications()
+    {
+        $page = 'media';
+        return view('pages.media-publications', compact('page'));
+    }
+    public function news()
+    {
+        $page = 'media';
+        return view('pages.media-news', compact('page'));
+    }
+
+    public function photosAndVideos()
+    {
+        $page = 'media';
+        return view('pages.media-photos-and-videos', compact('page'));
+    }
+
+    public function annualReports()
+    {
+        $page = 'media';
+        return view('pages.media-annual-reports', compact('page'));
+    }
+
     // get involved
     public function getInvolved()
     {
@@ -78,9 +109,9 @@ class PagesController extends Controller
     }
 
     // contact
-    public function contactUs()
+    public function support()
     {
-        $page = 'contact';
-        return view('pages.contact-us', compact('page'));
+        $page = 'support';
+        return view('pages.support', compact('page'));
     }
 }

@@ -35,7 +35,7 @@
             <div class="clearfix">
 
                 <div class="pull-left logo-box">
-                    <div class="logo"><a href="{{ route('home') }}"><img src="{{ asset('/public/assets/images/sbf_logo_original.png') }}" alt="" title=""></a></div>
+                    <div class="logo"><a href="{{ route('home') }}"><img src="{{ asset('/public/assets/images/sbf-logo.png') }}" alt="" title=""></a></div>
                 </div>
 
                 <div class="nav-outer clearfix">
@@ -62,7 +62,7 @@
                                         <li><a href="{{ route('about.founder-message') }}">Founder's Message</a></li>
                                     </ul>
                                 </li>
-                                <li @if($page=="programs") class="current" @endif class="dropdown"><a href="#">Our Programs</a>
+                                <li class="dropdown" @if($page=="programs") class="current" @endif><a href="#">Our Programs</a>
                                     <ul>
                                         <li><a href="{{ route('program.investment-opportunities-exposition') }}">Investment Opportunities Exposition</a></li>
                                         <li><a href="{{ route('program.rural-micro-enterprise-initiative') }}">Rural Micro-Enterprise Initiatives</a></li>
@@ -70,8 +70,18 @@
                                         <li><a href="{{ route('program.meritocrats-startup') }}">Meritocrats Starups Programme</a></li>
                                     </ul>
                                 </li>
-                                <li @if($page=="get-involved") class="current" @endif class=""><a href="{{ route('get-Involved') }}">Get Involved</a></li>
-                                <li @if($page=="contact") class="current" @endif><a href="{{ route('contact-us') }}">Contact us</a></li>
+                                <li @if($page=="get-involved") class="current" @endif class=""><a href="{{ route('projects') }}">Projects</a></li>
+                                <li class="dropdown" @if($page=="media") class="current" @endif><a href="#">Media</a>
+                                    <ul>
+                                        <li><a href="{{ route('media.publications') }}">Publications</a></li>
+                                        <li><a href="{{ route('media.news') }}">News</a></li>
+                                        <li><a href="{{ route('media.photos-and-videos') }}">Photos and Videos</a></li>
+                                        <li><a href="{{ route('media.annual-reports') }}">Annual Reports</a></li>
+                                    </ul>
+                                </li>
+
+                                {{--<li @if($page=="get-involved") class="current" @endif class=""><a href="{{ route('get-Involved') }}">Get Involved</a></li>--}}
+                                <li @if($page=="support") class="current" @endif><a href="{{ route('support') }}">Support</a></li>
                             </ul>
                         </div>
 
@@ -110,7 +120,7 @@
         <div class="auto-container clearfix">
             <!--Logo-->
             <div class="logo pull-left">
-                <a href="index-2.html" class="img-responsive"><img src="{{ asset('/public/assets/images/logo_small.png') }}" alt="" title=""></a>
+                <a href="index-2.html" class="img-responsive"><img src="{{ asset('/public/assets/images/sbf-logo-small.png') }}" alt="" title=""></a>
             </div>
 
             <!--Right Col-->
@@ -144,7 +154,8 @@
                                 </ul>
                             </li>
                             <li @if($page=="get-involved") class="current" @endif class=""><a href="{{ route('get-Involved') }}">Get Involved</a></li>
-                            <li @if($page=="contact") class="current" @endif><a href="{{ route('contact-us') }}">Contact us</a></li>
+
+                            <li @if($page=="support") class="current" @endif><a href="{{ route('support') }}">Support</a></li>
                         </ul>
                     </div>
                 </nav><!-- Main Menu End-->

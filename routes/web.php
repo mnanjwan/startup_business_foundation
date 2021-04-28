@@ -31,8 +31,17 @@ Route::get('/program/rural-micro-enterprise-initiative', [PagesController::class
 Route::get('/program/enterprise-industrial-incubation-centres', [PagesController::class, 'enterpriseIncubationCentres'])->name('program.enterprise-industrial-incubation-centres');
 Route::get('/program/meritocrats-startup', [PagesController::class, 'meritocratsStartup'])->name('program.meritocrats-startup');
 
+// Projects
+Route::get('/projects', [PagesController::class, 'projects'])->name('projects');
+
+// media
+Route::get('/media/publications', [PagesController::class, 'publications'])->name('media.publications');
+Route::get('/media/news', [PagesController::class, 'news'])->name('media.news');
+Route::get('/media/photos-and-videos', [PagesController::class, 'photosAndVideos'])->name('media.photos-and-videos');
+Route::get('/media/annual-reports', [PagesController::class, 'annualReports'])->name('media.annual-reports');
+
 // get Involved
 Route::get('/get-Involved', [PagesController::class, 'getInvolved'])->name('get-Involved');
 
 // contact us
-Route::get('/contact-us', [PagesController::class, 'contactUs'])->name('contact-us');
+Route::get('/support', [PagesController::class, 'support'])->name('support');

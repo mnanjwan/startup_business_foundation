@@ -147,7 +147,7 @@
                         <div class="services-block-two col-lg-6 col-md-6 col-sm-12">
                             <div class="inner-box">
                                 <div class="image">
-                                    <img src="images/resource/service-1.jpg" alt="" />
+                                    <img src="{{ asset('/public/assets/images/resource/service-1.jpg') }}" alt="" />
                                     <div class="overlay-box">
                                         <div class="overlay-inner">
                                             <div class="icon-box">
@@ -174,7 +174,7 @@
                         <div class="services-block-two col-lg-6 col-md-6 col-sm-12">
                             <div class="inner-box">
                                 <div class="image">
-                                    <img src="images/resource/service-2.jpg" alt="" />
+                                    <!-- <img src="{{ asset('/public/assets/images/resource/service-2.jpg') }}" alt="" /> -->
                                     <div class="overlay-box">
                                         <div class="overlay-inner">
                                             <div class="icon-box">
@@ -218,5 +218,135 @@
     </div>
 </div>
 <!--End Sidebar Page Container-->
+
+<!--Sponsors Section-->
+	<!-- <section class="sponsors-section">
+		<div class="auto-container">
+
+			<div class="carousel-outer">
+
+                <ul class="sponsors-carousel owl-carousel owl-theme">
+                    <li><div class="image-box"><a href="#"><img src="{{ asset('/public/assets/images/clients/1.png') }}" alt=""></a></div></li>
+                    <li><div class="image-box"><a href="#"><img src="{{ asset('/public/assets/images/clients/2.png') }}" alt=""></a></div></li>
+                    <li><div class="image-box"><a href="#"><img src="{{ asset('/public/assets/images/clients/3.png') }}" alt=""></a></div></li>
+                    <li><div class="image-box"><a href="#"><img src="{{ asset('/public/assets/images/clients/4.png') }}" alt=""></a></div></li>
+                    <li><div class="image-box"><a href="#"><img src="{{ asset('/public/assets/images/clients/5.png') }}" alt=""></a></div></li>
+                    <li><div class="image-box"><a href="#"><img src="{{ asset('/public/assets/images/clients/6.png') }}" alt=""></a></div></li>
+					<li><div class="image-box"><a href="#"><img src="{{ asset('/public/assets/images/clients/1.png') }}" alt=""></a></div></li>
+                    <li><div class="image-box"><a href="#"><img src="{{ asset('/public/assets/images/clients/2.png') }}" alt=""></a></div></li>
+                    <li><div class="image-box"><a href="#"><img src="{{ asset('/public/assets/images/clients/3.png') }}" alt=""></a></div></li>
+                    <li><div class="image-box"><a href="#"><img src="{{ asset('/public/assets/images/clients/4.png') }}" alt=""></a></div></li>
+                    <li><div class="image-box"><a href="#"><img src="{{ asset('/public/assets/images/clients/5.png') }}" alt=""></a></div></li>
+                    <li><div class="image-box"><a href="#"><img src="{{ asset('/public/assets/images/clients/6.png') }}" alt=""></a></div></li>
+                </ul>
+            </div>
+
+		</div>
+	</section> -->
+	<!--End Sponsors Section-->
+
+
+    <!-- Testimonial Section Three -->
+	<!-- <section class="testimonial-section-three">
+		<div class="auto-container">
+
+
+			<div class="three-item-carousel owl-carousel owl-theme">
+
+
+				<div class="testimonial-block-four">
+					<div class="inner-box">
+						<div class="image-outer">
+							<div class="image">
+								<img src="{{ asset('/public/assets/images/resource/author-6.jpg') }}" alt="" />
+							</div>
+						</div>
+						<div class="text"></div>
+						<h5>Amber Lee</h5>
+						<div class="designation">Co-founder</div>
+					</div>
+				</div>
+
+
+				<div class="testimonial-block-four">
+					<div class="inner-box">
+						<div class="quote-icon flaticon-double-quotes"></div>
+						<div class="image-outer">
+							<div class="image">
+								<img src="{{ asset('/public/assets/images/resource/author-7.jpg') }}" alt="" />
+							</div>
+						</div>
+						<div class="text">The argument in favor of using filler text goes something like this: If you use real content in the design process, anytime  reach a review point you’ll end up reviewing and negotiating.</div>
+						<h5>Watson Fitter</h5>
+						<div class="designation">Co-founder</div>
+					</div>
+				</div>
+
+
+				<div class="testimonial-block-four">
+					<div class="inner-box">
+						<div class="quote-icon flaticon-double-quotes"></div>
+						<div class="image-outer">
+							<div class="image">
+								<img src="{{ asset('/public/assets/images/resource/author-6.jpg') }}" alt="" />
+							</div>
+						</div>
+						<div class="text">The argument in favor of using filler text goes something like this: If you use real content in the design process, anytime  reach a review point you’ll end up reviewing and negotiating.</div>
+						<h5>Micheal Bush</h5>
+						<div class="designation">Co-founder</div>
+					</div>
+				</div>
+
+
+				<div class="testimonial-block-four">
+					<div class="inner-box">
+						<div class="quote-icon flaticon-double-quotes"></div>
+						<div class="image-outer">
+							<div class="image">
+								<img src="{{ asset('/public/assets/images/resource/author-7.jpg') }}" alt="" />
+							</div>
+						</div>
+						<div class="text">The argument in favor of using filler text goes something like this: If you use real content in the design process, anytime  reach a review point you’ll end up reviewing and negotiating.</div>
+						<h5>Erbil Hook</h5>
+						<div class="designation">Co-founder</div>
+					</div>
+				</div>
+
+
+				<div class="testimonial-block-four">
+					<div class="inner-box">
+						<div class="quote-icon flaticon-double-quotes"></div>
+						<div class="image-outer">
+							<div class="image">
+								<img src="{{ asset('/public/assets/images/resource/author-6.jpg') }}" alt="" />
+							</div>
+						</div>
+						<div class="text">The argument in favor of using filler text goes something like this: If you use real content in the design process, anytime  reach a review point you’ll end up reviewing and negotiating.</div>
+						<h5>Alex Anderson</h5>
+						<div class="designation">Co-founder</div>
+					</div>
+				</div>
+
+
+				<div class="testimonial-block-four">
+					<div class="inner-box">
+						<div class="quote-icon flaticon-double-quotes"></div>
+						<div class="image-outer">
+							<div class="image">
+								<img src="{{ asset('/public/assets/images/resource/author-7.jpg') }}" alt="" />
+							</div>
+						</div>
+						<div class="text">The argument in favor of using filler text goes something like this: If you use real content in the design process, anytime  reach a review point you’ll end up reviewing and negotiating.</div>
+						<h5>Micheal George</h5>
+						<div class="designation">Co-founder</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</section> -->
+	<!-- End Testimonial Section Three -->
+
 
 @endsection

@@ -58,6 +58,15 @@
                             </div>
                         </div>
 
+                        <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                            <div class="footer-widget links-widget">
+                                <h4>Support</h4>
+                                <ul class="list-link">
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
                         <!--Footer Column-->
                         <!-- <div class="footer-column col-lg-6 col-md-6 col-sm-12">
                             <div class="footer-widget gallery-widget">

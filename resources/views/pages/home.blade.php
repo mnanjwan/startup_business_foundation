@@ -4,7 +4,7 @@
 <section class="main-slider style-four">
     <div class="main-slider-carousel owl-carousel owl-theme">
 
-        <div class="slide" style="background-image:url({{ asset('/public/assets/images/main-slider/6.jpg') }})">
+        <div class="slide" style="background-image:url({{ asset('/public/assets/images/main-slider/6.png') }})">
             <div class="auto-container">
                 <div class="content">
                     <div class="title">We hope success</div>
@@ -18,7 +18,7 @@
             </div>
         </div>
 
-        <div class="slide" style="background-image:url({{ asset('/public/assets/images/main-slider/7.jpg') }})">
+        <div class="slide" style="background-image:url({{ asset('/public/assets/images/main-slider/6_1.png') }})">
             <div class="auto-container">
                 <div class="content">
                     <div class="title">We hope success</div>
@@ -38,31 +38,153 @@
 </section>
 <!--End Main Slider-->
 
+
+<!-- About Section Three -->
+<section class="about-section-three">
+	<div class="auto-container">
+		<div class="row clearfix">
+
+			<!-- Content Column -->
+			<div class="content-column col-lg-6 col-md-12 col-sm-12">
+				<div class="inner-column">
+					<!-- Sec Title -->
+					<div class="sec-title">
+						<div class="title">About us</div>
+						<h2>Who We Are<br> <span></span></h2>
+					</div>
+					<div class="bold-text">Startup Business Foundation is initiated as a unique tool for startups entrepreneurs and many,
+                         who want to startup, build or establish their businesses or industries. </div>
+					<div class="text">We have developed excellence industrial and business startup programmes as well as investment
+                        opportunities expository profiles that suit the aspiration, interest, passion of existing and potential entrepreneurs.</div>
+                    <div class="link-box">
+                        <a href="{{ route('about.who-we-are') }}" class="theme-btn btn-style-twelve">Learn More <span class="fa fa-angle-right"></span></a>
+                    </div>
+				</div>
+			</div>
+
+			<!-- Image Column -->
+			<div class="image-column col-lg-6 col-md-12 col-sm-12">
+				<div class="image">
+					<img src="{{ asset('/public/assets/images/resource/about-1.png') }}" alt="" />
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+<!-- End About Section Three -->
+
+<div class="auto-container">
+    <div class="sec-title-three">
+        <div class="clearfix">
+            <div class="pull-left">
+                <h2>Our <span>Impact</span></h2>
+            </div>
+            <!-- <div class="pull-right">
+                <div class="text">Startup Business Foundation is initiated as a unique tool for startups entrepreneurs and many, who want to
+                    startup, build or establish their businesses or industries. We have developed excellence industrial and business startup
+                    programmes as well as investment opportunities expository profiles that suit the aspiration, interest, passion of existing
+                     and potential entrepreneurs.</div>
+            </div> -->
+        </div>
+    </div>
+</div>
+
+<section class="counter-section" style="background-image:url({{ asset('/public/assets/images/background/6.jpg') }})">
+
+    <div class="auto-container">
+
+
+        <div class="fact-counter style-three">
+            <div class="row clearfix">
+
+
+                <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
+                    <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div class="icon-box">
+                            <span class="icon flaticon-start"></span>
+                        </div>
+                        <div class="count-outer count-box">
+                            <span class="count-text" data-speed="3000ms" data-stop="200">0</span>+
+                            <div class="counter-title">Finishing Projects</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
+                    <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div class="icon-box">
+                            <span class="icon flaticon-collaboration"></span>
+                        </div>
+                        <div class="count-outer count-box">
+                            <span class="count-text" data-speed="2000" data-stop="95">0</span>
+                            <div class="counter-title">Team Member</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
+                    <div class="inner wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <div class="icon-box">
+                            <span class="icon flaticon-hand-shake-1"></span>
+                        </div>
+                        <div class="count-outer count-box">
+                            <span class="count-text" data-speed="2000" data-stop="50">0</span>+
+                            <div class="counter-title">Happy Clients</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
+                    <div class="inner wow fadeInLeft" data-wow-delay="900ms" data-wow-duration="1500ms">
+                        <div class="icon-box">
+                            <span class="icon flaticon-stopwatch"></span>
+                        </div>
+                        <div class="count-outer count-box">
+                            <span class="count-text" data-speed="1500" data-stop="6">0</span>+
+                            <div class="counter-title">Years Experience</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- Counter Section -->
+
+
 <!-- About Section Four -->
 <section class="about-section-four">
     <div class="auto-container">
 
         <!-- Sec Title Three -->
-        <div class="sec-title-three">
+        <!-- <div class="sec-title-three">
             <div class="clearfix">
                 <div class="pull-left">
-                    <div class="title">Intro</div>
-                    <h3>Startup Business Foundation</h3>
+                    <div class="title">About</div>
+                    <h2>Startup<br> Business<br> Foundation</h2>
                 </div>
-                <!-- <div class="pull-right">
-                    <div class="text">The argument in favor of using filler text goes something like this: If you use real content in the design process,
-                        anytime you reach a review point you’ll end up reviewing and negotiating the content itself and not the design.</div>
-                </div> -->
+                <div class="pull-right">
+                    <div class="text">Startup Business Foundation is initiated as a unique tool for startups entrepreneurs and many, who want to
+                        startup, build or establish their businesses or industries. We have developed excellence industrial and business startup
+                        programmes as well as investment opportunities expository profiles that suit the aspiration, interest, passion of existing
+                         and potential entrepreneurs.</div>
+                </div>
             </div>
-        </div>
+        </div> -->
 
         <div class="row clearfix">
 
             <!-- Content Column -->
             <div class="image-column col-lg-5 col-md-12 col-sm-12">
                 <div class="inner-column">
-                    <div class="image-1"><img src="{{ asset('/public/assets/images/resource/about-2.jpg') }}" alt=""></div>
-                    <div class="image-2"><img src="{{ asset('/public/assets/images/resource/about-3.jpg') }}" alt=""></div>
+                    <div class="image-1"><img src="{{ asset('/public/assets/images/resource/startup_biz_foundation_intro1.jpg') }}" alt=""></div>
+                    <div class="image-2"><img src="{{ asset('/public/assets/images/resource/startup_biz_foundation_intro2.jpg') }}" alt=""></div>
                 </div>
             </div>
 
@@ -327,70 +449,9 @@
 <!-- End Feature Section -->
 
 <!-- Counter Section -->
-<!-- <section class="counter-section" style="background-image:url({{ asset('/public/assets/images/background/6.jpg') }})">
-    <div class="auto-container">
-
-        <div class="fact-counter style-three">
-            <div class="row clearfix">
 
 
-                <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
-                    <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <div class="icon-box">
-                            <span class="icon flaticon-start"></span>
-                        </div>
-                        <div class="count-outer count-box">
-                            <span class="count-text" data-speed="3000ms" data-stop="200">0</span>+
-                            <div class="counter-title">Finishing Projects</div>
-                        </div>
-                    </div>
-                </div>
 
-
-                <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
-                    <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <div class="icon-box">
-                            <span class="icon flaticon-collaboration"></span>
-                        </div>
-                        <div class="count-outer count-box">
-                            <span class="count-text" data-speed="2000" data-stop="95">0</span>
-                            <div class="counter-title">Team Member</div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
-                    <div class="inner wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
-                        <div class="icon-box">
-                            <span class="icon flaticon-hand-shake-1"></span>
-                        </div>
-                        <div class="count-outer count-box">
-                            <span class="count-text" data-speed="2000" data-stop="50">0</span>+
-                            <div class="counter-title">Happy Clients</div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
-                    <div class="inner wow fadeInLeft" data-wow-delay="900ms" data-wow-duration="1500ms">
-                        <div class="icon-box">
-                            <span class="icon flaticon-stopwatch"></span>
-                        </div>
-                        <div class="count-outer count-box">
-                            <span class="count-text" data-speed="1500" data-stop="6">0</span>+
-                            <div class="counter-title">Years Experience</div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-    </div>
-</section> -->
-<!-- Counter Section -->
 
 <!-- Team Section Two -->
 <!-- <section class="team-section-two">
