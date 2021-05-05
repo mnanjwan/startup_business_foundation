@@ -17,6 +17,28 @@
 <!-- Blog List Section -->
 	<section class="blog-list-section">
 		<div class="auto-container">
+            <div class="text">
+                <p>In line with the Foundation effort to the attainment of its objectives, we currently
+                    in talks on strategic partnership with some stakeholders on how revolutionalize
+                    industrialization in Nigeria. These include: The Bank of Industry and other development
+                    banks as well as Deposit Money Banks in Nigeria, State Governments and State SME
+                    Development Agencies, the National Youth Service Corp (NYSC), National Directorate
+                    of Employment (NDE), Universities and other Higher Institutions. In fact all segment
+                    of the society especially private sector associates such as The Chamber of Commerce,
+                    National Association of Small and Medium Enterprise (NASME), The Manufacturers
+                    Association of Nigeria (MAN) and other bilateral chambers and other business
+                    associations as well as the general public. </p>
+                <p>The following are some of the projects that we have developed and currently developing:</p>
+                <ul class="list-style-four">
+                    <li  style="color: #777777 !important;">Completed two hundred (200) prefeasibility studies in different sectors of socioeconomic
+                        activities in the country, exposing investor(s) on investment opportunities in the emerging Nigeria market.</li>
+	                <li style="color: #777777 !important;">Developed but to be completed feasibility study on the setting up of $1.2 Billion Dollar Industrial Parks Facility in Nigeria.</li>
+                    <li style="color: #777777 !important;">Currently developing a strategy and business development plan for attracting highly specialized energy-intensive yet
+                        environmentally friendly industrial operations for West African countries.</li>
+                    <li style="color: #777777 !important;">Currently assessing the potential for attracting investment from Europe by exploring potentials of African Continental Free Trade Agreement (AfCFTA).</li>
+
+                </ul>
+            </div>
 			<!-- Sec Title -->
 			<!-- <div class="row clearfix">
 

@@ -3,9 +3,9 @@
 
 <head>
 <meta charset="utf-8">
-<meta name="description" content="Consulting Finance Corporate Business - Consulting HTML Template">
-<meta name="keywords" content="consulting, accountant, advisor, audit, beaver builder, broker, business, clean, company, consulting, corporate, finance, financial, insurance, trader">
-<meta name="author" content="Themexriver">
+<meta name="description" content="Startup Business Foundation">
+<meta name="keywords" content="consulting, advisor, broker, business, company, consulting, corporate, finance, financial, starup, foundation, nigeria, owerri">
+<meta name="author" content="Startup Business Foundation">
 <title>Start Business Foundation</title>
 <!-- Stylesheets -->
 <link href="{{ asset('/public/assets/css/bootstrap.css') }}" rel="stylesheet">

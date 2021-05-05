@@ -28,29 +28,23 @@
                 <div class="services-single">
                     <h4>Investment Opportunities Exposition</h4>
                     <div class="text">
-                        <p>We have developed prefeasibility study on projects in different sector of economic activity with comprehensive details.
-                            Most of these projects have over 80% local content, in terms of availability of raw material, equipment and machinery,
-                            manpower and other requirements. These researched projects exposes to all stakeholders, interested investors and start-ups,
-                            areas they can choose to invest given the emerging market environment of the country.</p>
-                        <p>The objective of the prefeasibility study is primarily to assist startup entrepreneurs and potential investors in project
-                            identification for investment. The project prefeasibility may form the basis of an important investment decision and in order
-                             to serve this objective, the document / study covers various aspects of project concept development, production, and
-                             marketing, finance and business management. Similarly, the need to come up with this study for undocumented or minimally
-                             documented sectors attains greater imminence as the research that precedes such reports reveal certain thumb rules; best
-                              practices developed by existing enterprises by trial and error and certain industrial norms that become a guiding source
-                              regarding various aspects of business set-up and it’s successful management.</p>
-                        <p>More so, these studies were developed after observing and studying with in-depth analysis of the overall growth
-                            prospects in the market such as economic, environmental, social, technological, and political status of each project
-                             in a particular region in Nigeria. This study provides valuable data on market conditions, demand and supply, market
-                              growth rate, product price, production capacity and revenue projections. Key players in the market have been identified
-                              through secondary research, and their market shares have been determined through primary and secondary research.
-                              All percentage shares, splits, and breakdowns have been determined using secondary sources and verified primary sources.
-                              This study analyses revenue and volume for the forecast using forecast income statement, projected cash flow, balance
-                              sheet and some economic indicators. These analyses will help the entrepreneur to understand the potential worth of
-                              investment. </p>
-                        <p>Consequently, entrepreneur(s) would be able to evaluate the business that suits their environment, build up their business
-                            and attract the right attention to their business or project along with all the critical elements needed to make the first
-                             impression to an investors, lenders or partners.</p>
+                        <p>We have developed over 200 prefeasibility studies on projects in different sector of
+                            economic activity with comprehensive details. Most of these projects have over 80%
+                            local content, in terms of availability of raw material, equipment and machinery,
+                            manpower and other requirements. These projects exposes to all stakeholders,
+                            interested investors and start-ups, areas they can choose to invest given the
+                            emerging market environment of the country.</p>
+                        <p>The objective of the prefeasibility study is primarily to assist startup entrepreneurs
+                            and potential investors in project identification for investment. The project
+                            prefeasibility may form the basis of an important investment decision and in order
+                            to serve this objective, the document / study covers various aspects of project concept
+                            development, production, and marketing, finance and business management. </p>
+                        <p>Similarly, the need to come up with this study for undocumented or minimally documented
+                            sectors attains greater imminence as the research that precedes such reports reveal
+                            certain thumb rules; best practices developed by existing enterprises by trial and
+                            error and certain industrial norms that become a guiding source regarding various
+                            aspects of business set-up and it’s successful management. </p>
+                        <p><b>These projects and more could be found on the publication banner on the MEDIA CENTRE.</b></p>
                     </div>
                     <!-- <ul class="list-style-four">
                         <li>Facilitate Business Development Services to Micro Small and medium scale Enterprises (MSMEs).</li>

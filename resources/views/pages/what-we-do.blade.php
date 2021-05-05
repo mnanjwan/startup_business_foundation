@@ -4,10 +4,10 @@
 <section class="page-title" style="background-image:url({{ asset('/public/assets/images/background/8.jpg') }})">
     <div class="auto-container">
         <div class="content">
-            <h1>About Us<span> - Who We Are</span></h1>
+            <h1>About Us<span> - What We Do</span></h1>
             <ul class="page-breadcrumb">
                 <li><a href="{{ route('about.who-we-are') }}">Home</a></li>
-                <li>Who We Are</li>
+                <li>What We Do</li>
             </ul>
         </div>
     </div>
@@ -26,25 +26,28 @@
             <!--Content Side-->
             <div class="content-side col-lg-8 col-md-12 col-sm-12">
                 <div class="services-single">
-                    <h4>Who We Are</h4>
+                    <h4>What We Do</h4>
                     <div class="text">
-                        <p>A key area of the Foundation work is to encourage potential entrepreneur to start-up, build or establish their
-                            businesses through our expository publications of viable business and investment opportunities and the likes,
-                            in the emerging Nigerian market. Similarly, we improve existing SMEs’ and Startups entrepreneur’s access to
-                             finance and find innovative solutions to unlock sources of capital.</p>
-                        <p>Our approach is holistic; combining training, skill development, mentorship, advisory, national and international
-                            business networking and grant packages to start-ups to increase the contribution that MSMEs can make to the economy.
-                            The Foundation’s advisory and support for startups MSME mainly includes diagnostics, implementation support,
-                            national advocacy and knowledge sharing of viable investment opportunities. For example we provide;</p>
+                        <p>The Foundation was initiated with an overall objective to revolutionalize industrialization in
+                            Nigeria by encouraging and assisting in development of business startups and small industries
+                            in the country; the prevalent economic strains, unimaginative policies, inadequate infrastructure
+                            and above all lack of business ingenuity were some of the factors mainly responsible for the
+                            retarded growth of the industry. </p>
+                        <p>The Foundation set unto this task with all seriousness, sincerity and devotion.
+                            It was not; however, a question of planning the activities suitable to the developmental
+                            needs of startups business and small industries sector, a comprehensive range of activities
+                            alone would not suffice to accomplish this gigantic task rather a consolidated effort of
+                            individual, companies, donor agencies, civil society, government and non-governmental
+                             organizations.</p>
                     </div>
-                    <ul class="list-style-four">
+                    <!-- <ul class="list-style-four">
                         <li>Knowledge based management tools and flagship publications on viable business & industrial projects with successful business models.</li>
                         <li>Development and implementation of supportive initiatives and programmes that creates an enabling environment for MSME to strive.</li>
                         <li>Introducing innovation and disruptive entrepreneurial education/ skills development such as establishment incubation and industrial
                             development parks and clusters, tailored to prevalent market needs.</li>
                         <li>Advocacy for MSME development, growth and finance at national and global levels through participatory and strategic
                              partnership with agencies of government, donor organizations among other.  </li>
-                    </ul>
+                    </ul> -->
                     <!-- Services Gallery -->
                     <!-- <div class="services-gallery">
                         <div class="services-carousel owl-carousel owl-theme">

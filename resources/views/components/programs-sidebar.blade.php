@@ -6,8 +6,9 @@
             <ul class="blog-cat">
                 <li @if($programSidebar == 'ioe') class="active" @endif><a href="{{ route('program.investment-opportunities-exposition') }}">Investment Opportunities Exposition</a></li>
                 <li @if($programSidebar == 'rme') class="active" @endif><a href="{{ route('program.rural-micro-enterprise-initiative') }}">Rural Micro-Enterprise Initiatives</a></li>
-                <li @if($programSidebar == 'eiic') class="active" @endif><a href="{{ route('program.enterprise-industrial-incubation-centres') }}">Enterprise/Industrial Incubation Centres</a></li>
-                <li @if($programSidebar == 'msp') class="active" @endif><a href="{{ route('program.meritocrats-startup') }}">Microcrats Startups Programme</a></li>
+                <li @if($programSidebar == 'eiic') class="active" @endif><a href="{{ route('program.enterprise-industrial-incubation-centres') }}">Industrial Incubation Centres</a></li>
+                <!-- <li @if($programSidebar == 'msp') class="active" @endif><a href="{{ route('program.meritocrats-startup') }}">Microcrats Startups Programme</a></li> -->
+                <li @if($programSidebar == 'iss') class="active" @endif><a href="{{ route('program.industrial-support-services') }}">Industrial Support Services</a></li>
             </ul>
         </div>
 

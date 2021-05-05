@@ -54,7 +54,7 @@
                             <ul class="navigation clearfix">
                                 <li @if($page=="home") class="current" @endif><a href="{{ route('home') }}">Home</a>
                                 </li>
-                                <li @if($page=="about") class="current" @endif class="dropdown"><a href="#">About</a>
+                                <li class="@if($page=="about") {{ 'current' }} @endif dropdown"><a href="#">About</a>
                                     <ul>
                                         <li><a href="{{ route('about.who-we-are') }}">Who We Are</a></li>
                                         <li><a href="{{ route('about.who-we-work-with') }}">Who We Work With</a></li>
@@ -62,16 +62,17 @@
                                         <li><a href="{{ route('about.founder-message') }}">Founder's Message</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown" @if($page=="programs") class="current" @endif><a href="#">Our Programs</a>
+                                <li class="@if($page=="programs") {{ 'current' }} @endif dropdown"><a href="#">Our Programs</a>
                                     <ul>
                                         <li><a href="{{ route('program.investment-opportunities-exposition') }}">Investment Opportunities Exposition</a></li>
                                         <li><a href="{{ route('program.rural-micro-enterprise-initiative') }}">Rural Micro-Enterprise Initiatives</a></li>
-                                        <li><a href="{{ route('program.enterprise-industrial-incubation-centres') }}">Enterprise/Industrial Incubation Centres</a></li>
-                                        <li><a href="{{ route('program.meritocrats-startup') }}">Meritocrats Starups Programme</a></li>
+                                        <li><a href="{{ route('program.enterprise-industrial-incubation-centres') }}">Industrial Incubation Centres</a></li>
+                                        <!-- <li><a href="{{ route('program.meritocrats-startup') }}">Meritocrats Starups Programme</a></li> -->
+                                        <li><a href="{{ route('program.industrial-support-services') }}">Industrial Support Services</a></li>
                                     </ul>
                                 </li>
-                                <li @if($page=="get-involved") class="current" @endif class=""><a href="{{ route('projects') }}">Projects</a></li>
-                                <li class="dropdown" @if($page=="media") class="current" @endif><a href="#">Media</a>
+                                <li @if($page=="projects") class="current" @endif class=""><a href="{{ route('projects') }}">Projects</a></li>
+                                <li class="@if($page=="media") {{ 'current' }} @endif dropdown"><a href="#">Media</a>
                                     <ul>
                                         <li><a href="{{ route('media.publications') }}">Publications</a></li>
                                         <li><a href="{{ route('media.news') }}">News</a></li>
@@ -137,7 +138,7 @@
                         <ul class="navigation clearfix">
                             <li @if($page=="home") class="current" @endif><a href="{{ route('home') }}">Home</a>
                             </li>
-                            <li @if($page=="about") class="current" @endif class="dropdown"><a href="#">About</a>
+                            <li class="@if($page=="about") {{ 'current' }} @endif dropdown"><a href="#">About</a>
                                 <ul>
                                     <li><a href="{{ route('about.who-we-are') }}">Who We Are</a></li>
                                     <li><a href="{{ route('about.who-we-work-with') }}">Who We Work With</a></li>
@@ -145,16 +146,26 @@
                                     <li><a href="{{ route('about.founder-message') }}">Founder's Message</a></li>
                                 </ul>
                             </li>
-                            <li @if($page=="programs") class="current" @endif class="dropdown"><a href="#">Our Programs</a>
+                            <li class="@if($page=="programs") {{ 'current' }} @endif dropdown"><a href="#">Our Programs</a>
                                 <ul>
                                     <li><a href="{{ route('program.investment-opportunities-exposition') }}">Investment Opportunities Exposition</a></li>
                                     <li><a href="{{ route('program.rural-micro-enterprise-initiative') }}">Rural Micro-Enterprise Initiatives</a></li>
-                                    <li><a href="{{ route('program.enterprise-industrial-incubation-centres') }}">Enterprise/Industrial Incubation Centres</a></li>
-                                    <li><a href="{{ route('program.meritocrats-startup') }}">Meritocrats Starups Programme</a></li>
+                                    <li><a href="{{ route('program.enterprise-industrial-incubation-centres') }}">Industrial Incubation Centres</a></li>
+                                    <!-- <li><a href="{{ route('program.meritocrats-startup') }}">Meritocrats Starups Programme</a></li> -->
+                                    <li><a href="{{ route('program.industrial-support-services') }}">Industrial Support Services</a></li>
                                 </ul>
                             </li>
-                            <li @if($page=="get-involved") class="current" @endif class=""><a href="{{ route('get-Involved') }}">Get Involved</a></li>
+                            <li @if($page=="projects") class="current" @endif class=""><a href="{{ route('projects') }}">Projects</a></li>
+                            <li class="@if($page=="media") {{ 'current' }} @endif dropdown"><a href="#">Media</a>
+                                <ul>
+                                    <li><a href="{{ route('media.publications') }}">Publications</a></li>
+                                    <li><a href="{{ route('media.news') }}">News</a></li>
+                                    <li><a href="{{ route('media.photos-and-videos') }}">Photos and Videos</a></li>
+                                    <li><a href="{{ route('media.annual-reports') }}">Annual Reports</a></li>
+                                </ul>
+                            </li>
 
+                            {{--<li @if($page=="get-involved") class="current" @endif class=""><a href="{{ route('get-Involved') }}">Get Involved</a></li>--}}
                             <li @if($page=="support") class="current" @endif><a href="{{ route('support') }}">Support</a></li>
                         </ul>
                     </div>

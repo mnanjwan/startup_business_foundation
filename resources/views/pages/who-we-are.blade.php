@@ -28,34 +28,37 @@
                 <div class="services-single">
                     <h4>Who We Are</h4>
                     <div class="text">
-                        <p>Startup Business Foundation is incorporated as a unique tool for startups entrepreneurs, for many who want to startup,
-                            build or establish their businesses or industries. We have developed excellence industrial and business startup
-                            programmes as well as investment opportunities expository profiles that suit the aspiration, interest, passion of
-                            existing and potential entrepreneurs. We provide snapshot information and platform for startups entrepreneurs to
-                            acquire the needed prowess to find dreams fulfilling businesses and investors. You could be the next! </p>
-                        <p>Basically, the objective of this Foundation is to ignite industrialization in different part of Nigeria which
-                            have replicate effects on the socio-economic development and job creation in the country. Researches and statistics
-                             have showed that there are arrays of both raw materials and mineral resources deposits in different communities and
-                             regions in Nigeria. Consequently, our focus is therefore to continuously explore and identify ways on how we can
-                              locally transform the raw material and mineral resources into finished products. Evidently, this initiative could
-                              be said to be timely especially now that some industrial giants in developed economies are seeking ways to move their
-                               industrial technology into developing countries like Africa.    </p>
+                        <p>Startup Business Foundation is initiated as a unique tool for startups entrepreneurs and many,
+                            who want to startup, build or establish their businesses or industries. We have developed
+                            excellence industrial and business startup programmes as well as investment opportunities
+                            expository profiles that suit the aspiration, interest, passion of existing and potential
+                            entrepreneurs. We provide snapshot information and platform for startups entrepreneurs to
+                            acquire the needed prowess to find dreams fulfilling businesses and investors. You could be the next!  </p>
+                        <p>Basically, the objective of this Foundation is to revolutionalize industrialization in different part of
+                            Nigeria which will have replicate effects on the socio-economic development, job creation and poverty
+                            reduction in the country. Researches and statistics have showed that there are arrays of both raw materials
+                            and mineral resources deposits in different communities and regions in Nigeria. Consequently, our focus is
+                            therefore to continuously explore and identify ways on how we can locally transform the raw material and
+                            mineral resources into finished products. Evidently, this initiative could be said to be timely especially
+                            now that there is need for paradigm shift from exporter of commodity products to value addition through processing.
+                            Similarly, the shift by industrial giants in the world from heavy industrial manufacturing to service oriented
+                            industries has consolidated the need as well as opportunity to be tapped. </p>
                         <p>In furtherance, the mission and mandate of the Foundation includes but not limited to the following;</p>
+                        <p>In furtherance, the objectives and mandate of the Foundation includes the following:</p>
                     </div>
                     <ul class="list-style-four">
                         <li>Facilitate Business Development Services to Micro Small and medium scale Enterprises (MSMEs).</li>
                         <li>Conducting sector studies and analysis for private sector strategic development.</li>
-                        <li>Facilitation of MSMEs in securing financing.</li>
-                        <li>Setup and manage a service provider’s database including machinery and supplier for MSMEs.</li>
                         <li>Strengthening of MSMEs by conducting and facilitating seminars, workshops and training programs.</li>
-                        <li>Donor assistances for the development of MSMEs through programs and projects.</li>
-                        <li>Identification and promotion of business and investment opportunities on the basis of supply/demand gap.</li>
+                        <li>Facilitation of MSMEs in securing financing.</li>
+                        <li>To become a reliable registered export house primarily motivated with a sense of service to develop
+                            orientation for exports in small scale industries sector especially for non – traditional items.</li>
                     </ul>
-                    <div class="text">
+                    <!-- <div class="text">
                         <p>Since inception, the Foundation has expended her publication list of its prefeasibility study to over 300 studies and
                         we are launching a number of programme such as Rural Micro–Enterprise Initiatives, Enterprise /Industrial Development
                         Centre, Metrocract Startups Master-class, among other programmes. </p>
-                    </div>
+                    </div> -->
                     <!-- Services Gallery -->
                     <!-- <div class="services-gallery">
                         <div class="services-carousel owl-carousel owl-theme">
@@ -144,7 +147,7 @@
                     <div class="row clearfix">
 
                         <!-- Services Block Two -->
-                        <div class="services-block-two col-lg-6 col-md-6 col-sm-12">
+                        <!-- <div class="services-block-two col-lg-6 col-md-6 col-sm-12">
                             <div class="inner-box">
                                 <div class="image">
                                     <img src="{{ asset('/public/assets/images/resource/service-1.jpg') }}" alt="" />
@@ -168,13 +171,13 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
                         <!-- Services Block Two -->
-                        <div class="services-block-two col-lg-6 col-md-6 col-sm-12">
+                        <!-- <div class="services-block-two col-lg-6 col-md-6 col-sm-12">
                             <div class="inner-box">
                                 <div class="image">
-                                    <!-- <img src="{{ asset('/public/assets/images/resource/service-2.jpg') }}" alt="" /> -->
+                                    <img src="{{ asset('/public/assets/images/resource/service-2.jpg') }}" alt="" />
                                     <div class="overlay-box">
                                         <div class="overlay-inner">
                                             <div class="icon-box">
@@ -195,7 +198,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
                     </div>
 

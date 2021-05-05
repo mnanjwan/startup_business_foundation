@@ -9,7 +9,7 @@
                 <div class="content">
                     <div class="title">We hope success</div>
                     <h1>We build your <br> best business</h1>
-                    <div class="text">…breaking business startup barriers.</div>
+                    <div class="text">…breaking business startup and industrial development barriers</div>
                     <div class="link-box">
                         <a href="#" class="theme-btn btn-style-twelve">Let’s start now <span class="fa fa-angle-right"></span></a>
                         <a href="#" class="theme-btn btn-style-thirteen">Our Programmes <span class="fa fa-angle-right"></span></a>
@@ -18,7 +18,7 @@
             </div>
         </div>
 
-        <div class="slide" style="background-image:url({{ asset('/public/assets/images/main-slider/6_1.png') }})">
+        <!-- <div class="slide" style="background-image:url({{ asset('/public/assets/images/main-slider/6_1.png') }})">
             <div class="auto-container">
                 <div class="content">
                     <div class="title">We hope success</div>
@@ -30,7 +30,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
     </div>
     <!--End Slide Info Boxed-->
@@ -105,8 +105,8 @@
                             <span class="icon flaticon-start"></span>
                         </div>
                         <div class="count-outer count-box">
-                            <span class="count-text" data-speed="3000ms" data-stop="200">0</span>+
-                            <div class="counter-title">Finishing Projects</div>
+                            <span class="count-text" data-speed="3000ms" data-stop="100">0</span>+
+                            <div class="counter-title">Projects completed</div>
                         </div>
                     </div>
                 </div>
@@ -118,8 +118,8 @@
                             <span class="icon flaticon-collaboration"></span>
                         </div>
                         <div class="count-outer count-box">
-                            <span class="count-text" data-speed="2000" data-stop="95">0</span>
-                            <div class="counter-title">Team Member</div>
+                            <span class="count-text" data-speed="2000" data-stop="25">0</span>
+                            <div class="counter-title">Team Members</div>
                         </div>
                     </div>
                 </div>
@@ -131,7 +131,7 @@
                             <span class="icon flaticon-hand-shake-1"></span>
                         </div>
                         <div class="count-outer count-box">
-                            <span class="count-text" data-speed="2000" data-stop="50">0</span>+
+                            <span class="count-text" data-speed="2000" data-stop="200">0</span>+
                             <div class="counter-title">Happy Clients</div>
                         </div>
                     </div>
@@ -144,7 +144,7 @@
                             <span class="icon flaticon-stopwatch"></span>
                         </div>
                         <div class="count-outer count-box">
-                            <span class="count-text" data-speed="1500" data-stop="6">0</span>+
+                            <span class="count-text" data-speed="1500" data-stop="5">0</span>+
                             <div class="counter-title">Years Experience</div>
                         </div>
                     </div>
@@ -263,7 +263,14 @@
 
                     </div>
 
+                    <div class="link-box mt-4">
+                        <a href="{{ route('get-Involved') }}" class="theme-btn btn-style-twelve">Get Involved <span class="fa fa-angle-right"></span></a>
+                    </div>
+
                 </div>
+
+
+
             </div>
 
         </div>

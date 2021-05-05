@@ -31,7 +31,7 @@ class PagesController extends Controller
     {
         $page = 'about';
         $aboutSidebar = 'what-we-do';
-        return view('pages.what-we-do', compact('aboutSidebar'. 'page'));
+        return view('pages.what-we-do', compact('aboutSidebar', 'page'));
     }
 
     public function founderMessage()
@@ -68,6 +68,13 @@ class PagesController extends Controller
         $page = 'programs';
         $programSidebar = 'msp';
         return view('pages.program-meritocrats-startup', compact('programSidebar', 'page'));
+    }
+
+    public function industrialSupportServices()
+    {
+        $page = 'programs';
+        $programSidebar = 'iss';
+        return view('pages.program-industrial-support-services', compact('programSidebar', 'page'));
     }
 
     // projects

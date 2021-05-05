@@ -18,7 +18,20 @@
 <section class="blog-list-section">
     <div class="auto-container">
         <div class="row clearfix">
-        <h3>No Publications  found</h3>
+        <!-- <h3>No Publications  found</h3> -->
+        <p>The Foundation is aware of the need to keep the small entrepreneurs informed of the
+            latest developments in economic and industrial field, especially those affecting
+            the growth of the sector. In the pursuance of this objective, the Foundation will
+            continue to develop and publish articles that expose investment opportunities on
+            MSMEs sector. The publication shall contain other interesting features to assist
+            potential and existing small entrepreneurs in planning and processing their operations in a better manner. </p>
+        <p>Currently the Foundation is planning on publishing quarterly Magazine called
+            “The Survivor Digest.” The publication shall contain articles from high
+            dignitaries in the economic and industrial field and shall deal with subjects
+            concerning industry, finance, planning and research. An attempt shall be made
+            to have this publication on national level. The contents shall be selective
+            and are likely to serve as a useful reference book for all those concerned
+            with industry, commerce, finance and trade.</p>
 
         <!-- <div class="news-block-four col-lg-4 col-md-6 col-sm-12">
             <div class="inner-box">

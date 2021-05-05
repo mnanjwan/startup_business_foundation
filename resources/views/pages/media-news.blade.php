@@ -19,9 +19,21 @@
 	<section class="blog-list-section">
 		<div class="auto-container">
 			<!-- Sec Title -->
-			<div class="row clearfix">
+			<div class="row clearfix text">
 
-            <h3>No News Found</h3>
+            <!-- <h3>No News Found</h3> -->
+            <p>The Foundation has set up public relations department. The Foundation realizes that mere planning of
+                developmental assistance programme for small industries will be of little avail. This department
+                has been inaugurated with a specific purpose of developing and colleting all types of information,
+                statistics as well as others, relating to the field of small scale industries sector. </p>
+            <p>The Foundation will have to exert more so in rural areas by creating awareness among the
+                population and motivate entrepreneurial minded persons for owning small industry. It will
+                 also constantly study, analyze and critically appraise the various economic phenomena
+                 in its effort to attain the set objectives.</p>
+            <p>Similarly, the officers will participate and share information on various industrial fairs and
+                exhibitions and endeavours to imbibe upon the people the need for industrialization. The
+                 department will also renders useful guidance and supplies relevant information to the
+                 general public regarding the assistance given to small scale industries sector sponsored by the Foundation.</p>
 
 				<!-- News Block Four -->
 				<!-- <div class="news-block-four col-lg-4 col-md-6 col-sm-12">

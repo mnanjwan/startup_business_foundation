@@ -27,13 +27,12 @@
                         <!--Footer Column-->
                         <div class="footer-column col-lg-6 col-md-6 col-sm-12">
                             <div class="footer-widget links-widget">
-                                <h4>Links</h4>
+                                <h4>About</h4>
                                 <ul class="list-link">
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Who We Are</a></li>
-                                    <li><a href="#">Who We Work With</a></li>
-                                    <li><a href="#">What We Do</a></li>
-                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="{{ route('about.who-we-are') }}">Who We Are</a></li>
+                                    <li><a href="{{ route('about.who-we-work-with') }}">Who We Work With</a></li>
+                                    <li><a href="{{ route('about.what-we-do') }}">What We Do</a></li>
+                                    <li><a href="{{ route('about.founder-message') }}">Founder's Message</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -50,19 +49,20 @@
                             <div class="footer-widget links-widget">
                                 <h4>Programs</h4>
                                 <ul class="list-link">
-                                    <li><a href="#">Investment Opportunities Exposition</a></li>
-                                    <li><a href="#">Rural Micro-Enterprise Initiatives</a></li>
-                                    <li><a href="#">Enterprise/Industrial Incubation Centres</a></li>
-                                    <li><a href="#">Microcrats Startups Programme</a></li>
+                                    <li><a href="{{ route('program.investment-opportunities-exposition') }}">Investment Opportunities Exposition</a></li>
+                                    <li><a href="{{ route('program.rural-micro-enterprise-initiative') }}">Rural Micro-Enterprise Initiatives</a></li>
+                                    <li><a href="{{ route('program.enterprise-industrial-incubation-centres') }}">Industrial Incubation Centres</a></li>
+                                    <li><a href="{{ route('program.industrial-support-services') }}">Industrial Support Services</a></li>
                                 </ul>
                             </div>
                         </div>
 
                         <div class="footer-column col-lg-6 col-md-6 col-sm-12">
                             <div class="footer-widget links-widget">
-                                <h4>Support</h4>
+                                <h4>Useful Links</h4>
                                 <ul class="list-link">
-                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="{{ route('support') }}">Support</a></li>
+                                    <li><a href="{{ route('get-Involved') }}">Get Involved</a></li>
                                 </ul>
                             </div>
                         </div>

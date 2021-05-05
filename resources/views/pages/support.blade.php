@@ -1,4 +1,15 @@
 @extends('layouts.main')
+
+@section('more_styles')
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .social-link{
+            color: #fff !important;
+            direction: none;
+        }
+    </style>
+@endsection
+
 @section('content')
 	<!--Page Title-->
     <section class="page-title" style="background-image:url({{ asset('/public/assets/images/background/8.jpg') }})">
@@ -39,24 +50,27 @@
 					<div class="form-column col-lg-5 col-md-12 col-sm-12">
 						<div class="inner-column">
 
+                            @component('components.flash')@endcomponent
+
 							<!--Contact Form-->
 							<div class="contact-form">
-								<form method="post" action="#" id="contact-form">
+								<form method="post" action="{{ route('support.post') }}">
+                                    @csrf
 
 									<div class="form-group">
-										<input type="text" name="firstname" value="" placeholder="First Name" required>
+										<input type="text" name="first_name" value="{{ old('first_name') }}" placeholder="First Name" required>
 									</div>
 
                                     <div class="form-group">
-										<input type="text" name="firstname" value="" placeholder="Last Name" required>
+										<input type="text" name="last_name" value="{{ old('last_name') }}" placeholder="Last Name" required>
 									</div>
 
 									<div class="form-group">
-										<input type="text" name="email" value="" placeholder="Email" required>
+										<input type="email" name="email" value="{{ old('email') }}" placeholder="Email" required>
 									</div>
 
                                     <div class="form-group">
-										<input type="text" name="email" value="" placeholder="Phone Number" required>
+										<input type="text" name="phone" value="{{ old('phone')}}" placeholder="Phone Number" required>
 									</div>
 
 									<!-- <div class="form-group">
@@ -68,12 +82,12 @@
 									</div> -->
 
 									<div class="form-group">
-										<textarea name="message" placeholder="Project Description"></textarea>
+										<textarea name="description" placeholder="Project Description" required>{{ old('description') }}</textarea>
 									</div>
 
-									<div class="form-group">
-										<button type="submit" class="theme-btn">Request for Project Assistance</button>
-									</div>
+                                    <div class="link-box">
+                                        <button type="submit" class="theme-btn btn-style-twelve" style="background:#EC0203;">Request for Project Assistance </button>
+                                    </div>
 
 								</form>
 							</div>
@@ -105,9 +119,9 @@
 				<div class="column col-lg-6 col-md-6 col-sm-12">
 					<!-- <h4>United Kingdom</h4> -->
 					<ul class="list-style-six">
-						<li><span class="icon flaticon-facebook"></span> Facebook <br> https://web.facebook.com/StartupBizfoundation</li>
-						<li><span class="icon flaticon-twitter"></span>Twitter <br> https://twitter.com/SBizfoundation</li>
-						<!-- <li><span class="icon flaticon-linkedin"></span>Linkedin <br> https://www.linkedin.com/</li> -->
+						<li><span class="icon fa fa-facebook"></span> Facebook <br> <a href="https://web.facebook.com/StartupBizfoundation" class="social-link" target="_blank">https://web.facebook.com/StartupBizfoundation</a></li>
+						<li><span class="icon fa fa-twitter"></span>Twitter <br> <a href="https://twitter.com/SBizfoundation" class="social-link" target="_blank">https://twitter.com/SBizfoundation</a></li>
+						<li><span class="icon fa fa-linkedin"></span>Linkedin <br> <a href="#" class="social-link" target="_blank">https://www.linkedin.com</a></li>
 					</ul>
 				</div>
 				<div class="column col-lg-6 col-md-6 col-sm-12">

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
+use App\Http\Controllers\SupportController;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,6 +31,7 @@ Route::get('/program/investment-opportunities-exposition', [PagesController::cla
 Route::get('/program/rural-micro-enterprise-initiative', [PagesController::class, 'ruralMicroEnterpriseInitiative'])->name('program.rural-micro-enterprise-initiative');
 Route::get('/program/enterprise-industrial-incubation-centres', [PagesController::class, 'enterpriseIncubationCentres'])->name('program.enterprise-industrial-incubation-centres');
 Route::get('/program/meritocrats-startup', [PagesController::class, 'meritocratsStartup'])->name('program.meritocrats-startup');
+Route::get('/program/industrial-support-services', [PagesController::class, 'industrialSupportServices'])->name('program.industrial-support-services');
 
 // Projects
 Route::get('/projects', [PagesController::class, 'projects'])->name('projects');
@@ -45,3 +47,5 @@ Route::get('/get-Involved', [PagesController::class, 'getInvolved'])->name('get-
 
 // contact us
 Route::get('/support', [PagesController::class, 'support'])->name('support');
+
+Route::post('/support', [SupportController::class, 'supportPost'])->name('support.post');

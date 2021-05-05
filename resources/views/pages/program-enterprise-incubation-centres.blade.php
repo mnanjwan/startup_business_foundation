@@ -4,10 +4,10 @@
 <section class="page-title" style="background-image:url({{ asset('/public/assets/images/background/8.jpg') }})">
     <div class="auto-container">
         <div class="content">
-            <h1>Enterprise/Industrial Incubation Centres<span></span></h1>
+            <h1>Industrial Incubation Programme<span></span></h1>
             <ul class="page-breadcrumb">
                 <li><a href="{{ route('about.who-we-are') }}">Home</a></li>
-                <li>Enterprise/Industrial Incubation Centres</li>
+                <li>Industrial Incubation Programme</li>
             </ul>
         </div>
     </div>
@@ -26,21 +26,23 @@
             <!--Content Side-->
             <div class="content-side col-lg-8 col-md-12 col-sm-12">
                 <div class="services-single">
-                    <h4>Enterprise/Industrial Incubation Centres</h4>
+                    <h4>Industrial Incubation Programme</h4>
                     <div class="text">
-                        <p>Enterprise Incubation Centre is one of the roadmap to the industrialization agenda of Startup Business Foundation.</p>
-                        <p>The Incubation facility is designed with the goals of fostering entrepreneurial culture, skills building,
-                            accelerating the growth of new and existing businesses, encouraging its commercialization and improving
-                            small business access to resources available in Nigeria. Consequentially, after conducting specific
-                            needs-assessments and adapting the industrial incubation model to the social, economic, cultural and
-                            environmental characteristics suitable for our region, we therefore, planned to initiate Enterprise / industrial
-                            Incubation Centre considering its relevance in the region.</p>
-                        <p>Our research further shown that less than half of formally established businesses stand a chance of
-                            succeeding in the long-term and that entrepreneurial deficiencies that are addressed superficially are the main
-                            cause for the collapse of emerging enterprises. This is the catalyst behind the Foundation Enterprise Incubation
-                            Centre, which followed a feasibility study carried out in Nigeria, to fully comprehend the economic landscape of
-                            different communities, local and states governments in the country.</p>
-                        <p>The study illustrated the need to address skills development training fatigue for potential entrepreneurs
+                        <p>This Incubation Programme is one of the pathways to the industrialization agenda of the Foundation.</p>
+                        <p>The programme is designed with the goals of fostering entrepreneurial culture, skills
+                            building, accelerating the growth of new and existing businesses, encouraging its commercialization
+                             and improving small business access to resources available in Nigeria. Consequentially, after
+                             conducting specific needs-assessments and adapting the industrial incubation model to the
+                             social, economic, cultural and environmental characteristics suitable for our region, we
+                             therefore, planned to initiate Enterprise / industrial Incubation programme considering
+                             its relevance in the region. </p>
+                        <p>The programme shall cover leather works, wood work, textile, automobile and metal works
+                            and it is planned to operate in line with National Board for Technology Incubator
+                            regulation and in collaboration with other relevant stakeholders. The project will
+                            make a significant contribution to employment and the trained workforce in the Nigeria. </p>
+
+
+                        <!-- <p>The study illustrated the need to address skills development training fatigue for potential entrepreneurs
                             and the need to provide support for ongoing ventures, amongst others.</p>
                         <p>“The aim of the Startup Business Foundation incubation centre is to increase the odds by providing unique,
                             adaptable, functional and feasible programmes for entrepreneurs at various developmental stages (start-ups)
@@ -57,7 +59,7 @@
                         <p>Finally, the incubation centres could be mechanized under public private partnership (PPP) model. Notably,
                             the establishments of most incubation facilities in Nigeria have failed due to the exclusion of business
                             sponsor and host communities. Therefore, the centres are open for partnership from public sector,
-                            International Donor Agencies and other relevant agencies to scale up our operations.</p>
+                            International Donor Agencies and other relevant agencies to scale up our operations.</p> -->
                     </div>
                     <!-- <ul class="list-style-four">
                         <li>Facilitate Business Development Services to Micro Small and medium scale Enterprises (MSMEs).</li>
@@ -68,7 +70,7 @@
                         <li>Donor assistances for the development of MSMEs through programs and projects.</li>
                         <li>Identification and promotion of business and investment opportunities on the basis of supply/demand gap.</li>
                     </ul> -->
-                    <h4>Assessment Mechanism For The Facility Outputs</h4>
+                    <!-- <h4>Assessment Mechanism For The Facility Outputs</h4>
                     <div class="text">
                         <p>The outputs of the incubators are the successful tenants, which graduated from the incubators. Performance of
                             these firms after graduation in line with the set objectives needs to be evaluated to ascertain their status
@@ -113,7 +115,7 @@
                             of Small and Medium Enterprise (NASME), The Manufacturers Association of Nigeria (MAN) and other
                             bilateral chambers and other business associations as well as the general public on how to achieve
                             the agendas of the Foundation.</p>
-                    </div>
+                    </div> -->
                     <!-- Services Gallery -->
                     <!-- <div class="services-gallery">
                         <div class="services-carousel owl-carousel owl-theme">
@@ -199,63 +201,7 @@
                         </div>
                     </div> -->
 
-                    <div class="row clearfix">
 
-                        <!-- Services Block Two -->
-                        <div class="services-block-two col-lg-6 col-md-6 col-sm-12">
-                            <div class="inner-box">
-                                <div class="image">
-                                    <img src="images/resource/service-1.jpg" alt="" />
-                                    <div class="overlay-box">
-                                        <div class="overlay-inner">
-                                            <div class="icon-box">
-                                                <span class="icon flaticon-analytics"></span>
-                                            </div>
-                                            <h5><a href="#">Financial Management <br> and Consulting</a></h5>
-                                        </div>
-                                    </div>
-                                    <div class="overlay-box-two">
-                                        <div class="overlay-inner-two">
-                                            <div class="content">
-                                                <div class="icon-box">
-                                                    <span class="icon flaticon-target"></span>
-                                                </div>
-                                                <div class="text">The argument in favor of using filler text goes something like this</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Services Block Two -->
-                        <div class="services-block-two col-lg-6 col-md-6 col-sm-12">
-                            <div class="inner-box">
-                                <div class="image">
-                                    <img src="images/resource/service-2.jpg" alt="" />
-                                    <div class="overlay-box">
-                                        <div class="overlay-inner">
-                                            <div class="icon-box">
-                                                <span class="icon flaticon-statistics"></span>
-                                            </div>
-                                            <h5><a href="#">Market Research <br> and Analysis</a></h5>
-                                        </div>
-                                    </div>
-                                    <div class="overlay-box-two">
-                                        <div class="overlay-inner-two">
-                                            <div class="content">
-                                                <div class="icon-box">
-                                                    <span class="icon flaticon-statistics"></span>
-                                                </div>
-                                                <div class="text">The argument in favor of using filler text goes something like this</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
 
                     <!-- More Services -->
                     <!-- <div class="more-services">

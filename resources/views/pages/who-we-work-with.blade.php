@@ -28,9 +28,10 @@
                 <div class="services-single">
                     <h4>Who We Work With</h4>
                     <div class="text">
-                        <p>By leveraging our expert knowledge in the industry, we work nationally and internationally in partnership with
-                             public stakeholders and private sector intermediaries, other multilateral and bilateral development
-                             organizations to support business startup and development in emerging markets in Nigeria.</p>
+                        <p>By leveraging our expert knowledge in the industry, we work nationally and internationally
+                            in partnership with public stakeholders and private sector intermediaries, other multilateral
+                            and bilateral development organizations to support business / industrial startup and development
+                            in emerging markets in Nigeria.</p>
 
 
                     </div>
