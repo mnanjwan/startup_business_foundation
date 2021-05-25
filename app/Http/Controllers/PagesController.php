@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Response;
 
 class PagesController extends Controller
 {
@@ -120,5 +121,20 @@ class PagesController extends Controller
     {
         $page = 'support';
         return view('pages.support', compact('page'));
+    }
+
+    public function donate()
+    {
+        $page = '';
+        return view('pages.donate', compact('page'));
+    }
+
+    public function downloadProfile()
+    {
+        $file= public_path(). "/assets/startup_business_foundation_profile.pdf";
+        $headers = array(
+            'Content-Type: application/pdf',
+        );
+        return Response::download($file, 'startup_business_foundation_profile.pdf', $headers);
     }
 }

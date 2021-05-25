@@ -49,3 +49,7 @@ Route::get('/get-Involved', [PagesController::class, 'getInvolved'])->name('get-
 Route::get('/support', [PagesController::class, 'support'])->name('support');
 
 Route::post('/support', [SupportController::class, 'supportPost'])->name('support.post');
+
+Route::get('/donate', [PagesController::class, 'donate'])->name('donate');
+
+Route::get('/download-profile', [PagesController::class, 'downloadProfile'])->name('download-profile');

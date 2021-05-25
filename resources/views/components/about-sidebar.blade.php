@@ -8,6 +8,7 @@
                 <li @if($aboutSidebar == 'who-we-work-with') class="active" @endif><a href="{{ route('about.who-we-work-with') }}">Who We Work With</a></li>
                 <li @if($aboutSidebar == 'what-we-do') class="active" @endif><a href="{{ route('about.what-we-do') }}">What We Do</a></li>
                 <li @if($aboutSidebar == 'founder-message') class="active" @endif><a href="{{ route('about.founder-message') }}">Message From the Founder</a></li>
+                <li><a href="{{ route('download-profile') }}">Download Corporate Profile</a></li>
             </ul>
         </div>
 

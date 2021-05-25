@@ -30,7 +30,7 @@ class SupportController extends Controller
 
         if($support) {
             // send email to company email
-            Mail::to('info@StartupBizfoundation.org')->send(new SendSupportMail($support));
+            Mail::to('info@Startupbizfoundation.org')->send(new SendSupportMail($support));
             return redirect()->back()->with('message', 'We have received your message. We will get back to you shortly');
         }
 

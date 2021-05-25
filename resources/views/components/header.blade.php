@@ -35,7 +35,9 @@
             <div class="clearfix">
 
                 <div class="pull-left logo-box">
-                    <div class="logo"><a href="{{ route('home') }}"><img src="{{ asset('/public/assets/images/sbf-logo.png') }}" alt="" title=""></a></div>
+                    <!-- <div class="logo"><a href="{{ route('home') }}"><img src="{{ asset('/public/assets/images/sbf-logo.png') }}" alt="" title=""></a></div> -->
+                    <div class="logo"><a href="{{ route('home') }}"><img src="{{ asset('/public/assets/images/newlogo.png') }}" alt="" title=""></a></div>
+                    <!-- <div class="logo"><a href="{{ route('home') }}"><img src="{{ asset('/public/assets/images/logo-7.png') }}" alt="" title=""></a></div> -->
                 </div>
 
                 <div class="nav-outer clearfix">
@@ -72,7 +74,7 @@
                                     </ul>
                                 </li>
                                 <li @if($page=="projects") class="current" @endif class=""><a href="{{ route('projects') }}">Projects</a></li>
-                                <li class="@if($page=="media") {{ 'current' }} @endif dropdown"><a href="#">Media</a>
+                                <li class="@if($page=="media") {{ 'current' }} @endif dropdown"><a href="#">Media Centre</a>
                                     <ul>
                                         <li><a href="{{ route('media.publications') }}">Publications</a></li>
                                         <li><a href="{{ route('media.news') }}">News</a></li>
@@ -83,6 +85,9 @@
 
                                 {{--<li @if($page=="get-involved") class="current" @endif class=""><a href="{{ route('get-Involved') }}">Get Involved</a></li>--}}
                                 <li @if($page=="support") class="current" @endif><a href="{{ route('support') }}">Support</a></li>
+
+                                <a href="{{ route('donate') }}" class="theme-btn btn-style-twelve mt-2">Donate</a>
+
                             </ul>
                         </div>
 
@@ -167,6 +172,7 @@
 
                             {{--<li @if($page=="get-involved") class="current" @endif class=""><a href="{{ route('get-Involved') }}">Get Involved</a></li>--}}
                             <li @if($page=="support") class="current" @endif><a href="{{ route('support') }}">Support</a></li>
+                            <a href="{{ route('donate') }}" class="theme-btn btn-style-twelve mt-2">Donate</a>
                         </ul>
                     </div>
                 </nav><!-- Main Menu End-->

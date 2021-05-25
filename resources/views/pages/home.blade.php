@@ -7,9 +7,9 @@
         <div class="slide" style="background-image:url({{ asset('/public/assets/images/main-slider/6.png') }})">
             <div class="auto-container">
                 <div class="content">
-                    <div class="title">We hope success</div>
-                    <h1>We build your <br> best business</h1>
-                    <div class="text">…breaking business startup and industrial development barriers</div>
+                    <div class="title"></div>
+                    <h1 style="font-size:26px;">Rural Micro Enterprise Development; <br> The Pathway to Industrialization.</h1>
+                    <div class="text">...we break business and industrial development barriers.</div>
                     <div class="link-box">
                         <a href="#" class="theme-btn btn-style-twelve">Let’s start now <span class="fa fa-angle-right"></span></a>
                         <a href="#" class="theme-btn btn-style-thirteen">Our Programmes <span class="fa fa-angle-right"></span></a>
@@ -74,6 +74,8 @@
 </section>
 <!-- End About Section Three -->
 
+
+
 <div class="auto-container">
     <div class="sec-title-three">
         <div class="clearfix">
@@ -90,7 +92,7 @@
     </div>
 </div>
 
-<section class="counter-section" style="background-image:url({{ asset('/public/assets/images/background/6.jpg') }})">
+<section class="counter-section" style="background-image:url({{ asset('/public/assets/images/background/happyclients.jpg') }})">
 
     <div class="auto-container">
 
@@ -179,104 +181,29 @@
         </div> -->
 
         <div class="row clearfix">
-
-            <!-- Content Column -->
-            <div class="image-column col-lg-5 col-md-12 col-sm-12">
-                <div class="inner-column">
-                    <div class="image-1"><img src="{{ asset('/public/assets/images/resource/startup_biz_foundation_intro1.jpg') }}" alt=""></div>
-                    <div class="image-2"><img src="{{ asset('/public/assets/images/resource/startup_biz_foundation_intro2.jpg') }}" alt=""></div>
-                </div>
-            </div>
-
-            <!-- Skills Column -->
-            <div class="skills-column col-lg-7 col-md-12 col-sm-12">
-                <div class="inner-column">
-                    <div class="row clearfix">
-
-                        <!-- Services Block Thirteen -->
-                        <div class="services-block-thirteen col-lg-4 col-md-6 col-sm-12">
-                            <div class="inner-box">
-                                <div class="icon-box">
-                                    <span class="icon flaticon-headphones"></span>
-                                </div>
-                                <h5>24/7 full <br> online support</h5>
-                            </div>
-                        </div>
-
-                        <!-- Services Block Thirteen -->
-                        <div class="services-block-thirteen col-lg-4 col-md-6 col-sm-12">
-                            <div class="inner-box">
-                                <div class="icon-box alternate">
-                                    <span class="icon flaticon-loading"></span>
-                                </div>
-                                <h5>5 years of <br> experience</h5>
-                            </div>
-                        </div>
-
-                        <!-- Services Block Thirteen -->
-                        <div class="services-block-thirteen col-lg-4 col-md-12 col-sm-12">
-                            <div class="inner-box">
-                                <div class="icon-box">
-                                    <span class="icon flaticon-creativity"></span>
-                                </div>
-                                <h5>Creative <br> finance idea</h5>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <!--Skills-->
-                    <div class="skills">
-
-
-                        <div class="skill-item">
-                            <div class="skill-header clearfix">
-                                <div class="skill-title">Finance</div>
-                                <div class="skill-percentage"><div class="count-box"><span class="count-text" data-speed="2000" data-stop="95">0</span>%</div></div>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="bar-inner"><div class="bar progress-line" data-width="95"></div></div>
-                            </div>
-                        </div>
-
-
-                        <div class="skill-item">
-                            <div class="skill-header clearfix">
-                                <div class="skill-title">Business</div>
-                                <div class="skill-percentage"><div class="count-box"><span class="count-text" data-speed="2000" data-stop="90">0</span>%</div></div>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="bar-inner"><div class="bar progress-line" data-width="90"></div></div>
-                            </div>
-                        </div>
-
-
-                        <div class="skill-item">
-                            <div class="skill-header clearfix">
-                                <div class="skill-title">Investment</div>
-                                <div class="skill-percentage"><div class="count-box"><span class="count-text" data-speed="2000" data-stop="93">0</span>%</div></div>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="bar-inner"><div class="bar progress-line" data-width="93"></div></div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="link-box mt-4">
-                        <a href="{{ route('get-Involved') }}" class="theme-btn btn-style-twelve">Get Involved <span class="fa fa-angle-right"></span></a>
-                    </div>
-
-                </div>
-
-
-
-            </div>
-
+            <img src="{{ asset('/public/assets/images/home.jpg') }}" />
         </div>
     </div>
 </section>
 <!-- End About Section Four -->
+
+
+<section class="call-to-action-two mb-4" style="background:#EC0203;">
+	<div class="auto-container">
+		<div class="clearfix">
+
+			<div class="pull-left">
+				<h2>Like what we do?<span> </span></h2>
+			</div>
+			<div class="pull-right">
+				<a href="{{ route('get-Involved') }}" class="theme-btn btn-style-five">Get Involved <span class="icon fa fa-arrow-right"></span></a>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<section class="mb-4">&nbsp;</section>
 
 <!-- Services Section Ten -->
 <!-- <section class="services-section-ten">

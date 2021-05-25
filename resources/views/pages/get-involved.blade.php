@@ -58,6 +58,9 @@
                         and opportunities rural communities and startup businesses development because of the generosity of
                         our numerous ‘Friends & Well wishers’ who continue to support us. Please click here if you would
                         like to make a donation to our cause.</div>
+                        <div class="link-box mt-4">
+                            <a href="{{ route('donate') }}" class="theme-btn btn-style-twelve">Donate Now <span class="fa fa-angle-right"></span></a>
+                        </div>
                 </div>
             </div>
 
