@@ -34,6 +34,13 @@
                             manpower and other requirements. These projects exposes to all stakeholders,
                             interested investors and start-ups, areas they can choose to invest given the
                             emerging market environment of the country.</p>
+
+                            <div class="image-column col-lg-12 col-md-12 col-sm-12 mb-4">
+                				<div class="image">
+                					<img src="{{ asset('/public/assets/images/investment-opportunities.png') }}" alt="" />
+                				</div>
+                			</div>
+
                         <p>The objective of the prefeasibility study is primarily to assist startup entrepreneurs
                             and potential investors in project identification for investment. The project
                             prefeasibility may form the basis of an important investment decision and in order

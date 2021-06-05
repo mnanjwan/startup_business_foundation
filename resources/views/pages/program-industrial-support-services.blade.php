@@ -34,6 +34,13 @@
                              of assistance of small industries is almost in a package touching every phase of business
                               operations catering to the developmental needs of small industries sector are the
                               products of the innovating methods employed by the Foundation.</p>
+
+                          <div class="image-column col-lg-12 col-md-12 col-sm-12 mb-4">
+                              <div class="image">
+                                  <img src="{{ asset('/public/assets/images/industrial-support-services.png') }}" alt="" />
+                              </div>
+                          </div>
+
                         <p>The entire structure was to be motivated towards the goal of securing development of
                             small industries sector. And yet every segment has to be planned to provide the
                             particular need of small industries. This unity amidst diversity was much needed

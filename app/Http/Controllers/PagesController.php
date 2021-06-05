@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Response;
+use App\Models\Publication;
 
 class PagesController extends Controller
 {
@@ -89,8 +90,23 @@ class PagesController extends Controller
     public function publications()
     {
         $page = 'media';
-        return view('pages.media-publications', compact('page'));
+        // $publications = Publication::paginate(10);
+        $publications = Publication::all();
+        return view('pages.media-publications', compact('page', 'publications'));
     }
+
+    public function publicationDetails($publicationId)
+    {
+        $page = 'media';
+        // get publication
+        $publication = Publication::where('id', $publicationId)->first();
+        if(!$publication) {
+            return redirect()->back()->with('error', 'No Publication Found');
+        }
+
+        return view('pages.media-publications-details', compact('publication', 'page'));
+    }
+
     public function news()
     {
         $page = 'media';

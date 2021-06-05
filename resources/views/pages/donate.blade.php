@@ -53,11 +53,11 @@
                             @component('components.flash')@endcomponent
 
 							<!--Contact Form-->
-							<div class="contact-form">
-                                <h3>Account No: xxxxxxxxxx</h3>
-                                <h3>Account Name: xxxxxx xxxxxx</h3>
-                                <h3>Bank: xxxxxxxxxx</h3>
-							</div>
+							<!-- <div class="contact-form">
+                                <h3>Account No: </h3>
+                                <h3>Account Name: </h3>
+                                <h3>Bank: </h3>
+							</div> -->
 
 						</div>
 					</div>

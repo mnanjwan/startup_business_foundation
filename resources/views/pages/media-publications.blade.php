@@ -19,7 +19,7 @@
     <div class="auto-container">
         <div class="row clearfix">
         <!-- <h3>No Publications  found</h3> -->
-        <p>The Foundation is aware of the need to keep the small entrepreneurs informed of the
+        <!-- <p>The Foundation is aware of the need to keep the small entrepreneurs informed of the
             latest developments in economic and industrial field, especially those affecting
             the growth of the sector. In the pursuance of this objective, the Foundation will
             continue to develop and publish articles that expose investment opportunities on
@@ -31,33 +31,52 @@
             concerning industry, finance, planning and research. An attempt shall be made
             to have this publication on national level. The contents shall be selective
             and are likely to serve as a useful reference book for all those concerned
-            with industry, commerce, finance and trade.</p>
+            with industry, commerce, finance and trade.</p> -->
 
-        <!-- <div class="news-block-four col-lg-4 col-md-6 col-sm-12">
-            <div class="inner-box">
-                <div class="image">
-                    <img src="{{ asset('/public/assets/images/news/news-temp.jpg') }}" alt="" />
-                </div>
-                <div class="lower-content">
-                    <ul class="post-meta">
-                        <li><span class="fa fa-calendar" style="color: #EC0203 !important;"></span>April 12, 2021</li>
-                        <li><span class="fa fa-user" style="color: #EC0203 !important;"></span>Admin</li>
-                    </ul>
-                    <h5><a href="blog-single.html">News Title</a></h5>
-                    <div class="link-box">
-                        <a href="#" class="theme-btn btn-style-twelve">View More <span class="fa fa-angle-right"></span></a>
+        @if(count($publications) > 0)
+            @foreach($publications as $publication)
+                {{--<div class="news-block-four col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div class="image">
+                            <img src="{{ asset('/public/assets/images/news/news-temp.jpg') }}" alt="" />
+                        </div>
+                        <div class="lower-content">
+                            <ul class="post-meta">
+                            </ul>
+                            <h5><a href="blog-single.html">{{ $publication->title }}</a></h5>
+                            <div class="link-box">
+                                <a href="{{ route('media.publications-details', ['publication_id'  => $publication->id]) }}" class="theme-btn btn-style-twelve">View <span class="fa fa-angle-right"></span></a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div> -->
+                </div>--}}
+            @endforeach
+        @else
+            <h4>No publications found</h4>
+        @endif
 
     </div>
+
+
 </section>
 
 
 
 
 
+<section class="call-to-action-two">
+	<div class="auto-container">
+		<div class="clearfix">
 
+			<div class="pull-left">
+				<h2>Request for <span>quote</span></h2>
+			</div>
+			<div class="pull-right">
+				<a href="contact.html" class="theme-btn btn-style-five">Request now <span class="icon fa fa-arrow-right"></span></a>
+			</div>
+
+		</div>
+	</div>
+</section>
 
 @endsection

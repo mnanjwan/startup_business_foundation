@@ -4,12 +4,12 @@
 <section class="main-slider style-four">
     <div class="main-slider-carousel owl-carousel owl-theme">
 
-        <div class="slide" style="background-image:url({{ asset('/public/assets/images/main-slider/6.png') }})">
+        <div class="slide" style="background-image:url({{ asset('/public/assets/images/main-slider/newbg.png') }})">
             <div class="auto-container">
                 <div class="content">
                     <div class="title"></div>
                     <h1 style="font-size:26px;">Rural Micro Enterprise Development; <br> The Pathway to Industrialization.</h1>
-                    <div class="text">...we break business and industrial development barriers.</div>
+                    <div class="text">...bridging business and industrial development barriers.</div>
                     <div class="link-box">
                         <a href="#" class="theme-btn btn-style-twelve">Let’s start now <span class="fa fa-angle-right"></span></a>
                         <a href="#" class="theme-btn btn-style-thirteen">Our Programmes <span class="fa fa-angle-right"></span></a>
@@ -65,7 +65,7 @@
 			<!-- Image Column -->
 			<div class="image-column col-lg-6 col-md-12 col-sm-12">
 				<div class="image">
-					<img src="{{ asset('/public/assets/images/resource/about-1.png') }}" alt="" />
+					<img src="{{ asset('/public/assets/images/about-intro.jpg') }}" alt="" />
 				</div>
 			</div>
 
@@ -181,7 +181,7 @@
         </div> -->
 
         <div class="row clearfix">
-            <img src="{{ asset('/public/assets/images/home.jpg') }}" />
+            <img src="{{ asset('/public/assets/images/home.png') }}" />
         </div>
     </div>
 </section>

@@ -27,6 +27,13 @@
             <div class="content-side col-lg-8 col-md-12 col-sm-12">
                 <div class="services-single">
                     <h4>Partnership For Food, Jobs and Rural Infrastructures Initiatives (PFJRII)</h4>
+
+                    <div class="image-column col-lg-12 col-md-12 col-sm-12 mb-4">
+                        <div class="image">
+                            <img src="{{ asset('/public/assets/images/micro-enterprise.png') }}" alt="" />
+                        </div>
+                    </div>
+
                     <div class="text">
                         <p>The PFJRI is developed with key objective of igniting rural industrialization by identifying
                             feasible, viable and sustainable development projects that are geared towards food, jobs
@@ -69,6 +76,13 @@
                                under this initiative, aided by mobile technology app, ranging from access
                                 up-to-date mobile information on agricultural practices, weather forecasts,
                                  market prices, as well as solutions that help agricultural businesses boost production. </p>
+
+                         <div class="image-column col-lg-12 col-md-12 col-sm-12 mb-4">
+                             <div class="image">
+                                 <img src="{{ asset('/public/assets/images/agro-park.png') }}" alt="" />
+                             </div>
+                         </div>
+
                         <p>Under this project, industrial projects have to be spread in the Local Government
                              Areas in different states in Nigeria on the basis of raw material availability.
                              On full realization, such projects are passed to indigenes of the area of location
@@ -95,6 +109,11 @@
                                value added to different farm produce which will be critically considered.</p>
                     </div> -->
                     <h4>ii. PFJRI RURAL YOUTH EMPLOYMENT PROJECT</h4>
+                    <div class="image-column col-lg-12 col-md-12 col-sm-12 mb-4">
+                        <div class="image">
+                            <img src="{{ asset('/public/assets/images/rural-youth-employment.png') }}" alt="" />
+                        </div>
+                    </div>
                     <div class="text">
                         <p>In this type, groups of three or more graduates after undergoing skilled trainees
                             programme organize themselves into partnership for the purpose of benefiting from the

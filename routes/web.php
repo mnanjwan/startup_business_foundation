@@ -38,6 +38,8 @@ Route::get('/projects', [PagesController::class, 'projects'])->name('projects');
 
 // media
 Route::get('/media/publications', [PagesController::class, 'publications'])->name('media.publications');
+Route::get('/media/publications/details/{publication_id}', [PagesController::class, 'publicationDetails'])->name('media.publications-details');
+
 Route::get('/media/news', [PagesController::class, 'news'])->name('media.news');
 Route::get('/media/photos-and-videos', [PagesController::class, 'photosAndVideos'])->name('media.photos-and-videos');
 Route::get('/media/annual-reports', [PagesController::class, 'annualReports'])->name('media.annual-reports');

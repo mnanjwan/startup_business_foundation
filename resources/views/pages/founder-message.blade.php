@@ -27,14 +27,27 @@
             <div class="content-side col-lg-8 col-md-12 col-sm-12">
                 <div class="services-single">
                     <h4>Message From The Founder</h4>
+                    <div class="row">
+
+                        <div class="col-md-6 text">
+                            <p>It is my honour and privilege to assume the leadership of this noble initiative
+                                with clear objective of revolutionalizing industrialization in Nigeria.</p>
+                                <p>We are not here not to analyze Nigeria economic situation, which we all are well aware of rather,
+                                    to expedite action that will improve the system in country. We are also aware of the
+                                    infrastructural problems, governance among others issues facing the country at the moment.
+                                    Nevertheless, the Foundation is established to proffer ways we can close the gaps and we
+                                    believe it is one step at a time proactively.</p>
+                        </div>
+                        <div class="image-columns col-lg-6 col-md-6 col-sm-12 mb-2">
+            				<div class="image">
+            					<img src="{{ asset('/public/assets/images/founder.jpg') }}" alt="Startup Biz Foundation Founder" />
+            				</div>
+            			</div>
+                    </div>
+
                     <div class="text">
-                        <p>It is my honour and privilege to assume the leadership of this noble initiative
-                            with clear objective of revolutionalizing industrialization in Nigeria.</p>
-                        <p>We are not here not to analyze Nigeria economic situation, which we all are well aware of rather,
-                            to expedite action that will improve the system in country. We are also aware of the
-                            infrastructural problems, governance among others issues facing the country at the moment.
-                            Nevertheless, the Foundation is established to proffer ways we can close the gaps and we
-                            believe it is one step at a time proactively.</p>
+
+
                         <p>First, we need to develop all inclusive disruptive education (skills, innovation and capacity development)
                             taken advantage of what has been proven to work somewhere else, and leaving no one behind. It is
                             established that the maximum wealth of any country is derived by utilizing all of its manpower

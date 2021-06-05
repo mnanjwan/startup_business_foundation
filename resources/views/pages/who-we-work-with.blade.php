@@ -27,11 +27,20 @@
             <div class="content-side col-lg-8 col-md-12 col-sm-12">
                 <div class="services-single">
                     <h4>Who We Work With</h4>
+
+                    <div class="image-column col-lg-12 col-md-12 col-sm-12 mb-4">
+        				<div class="image">
+        					<img src="{{ asset('/public/assets/images/who-we-work-with.png') }}" alt="" />
+        				</div>
+        			</div>
+
                     <div class="text">
                         <p>By leveraging our expert knowledge in the industry, we work nationally and internationally
-                            in partnership with public stakeholders and private sector intermediaries, other multilateral
-                            and bilateral development organizations to support business / industrial startup and development
-                            in emerging markets in Nigeria.</p>
+                            with potential and existing MSME’s and in partnership with public stakeholders and
+                            private sector intermediaries, other multilateral and bilateral development organizations
+                            to support business / industrial startup and development in emerging markets in Nigeria.
+                            Our focus areas include Agric-business and food processing, manufacturing, education,
+                            information technology and mining.</p>
 
 
                     </div>
