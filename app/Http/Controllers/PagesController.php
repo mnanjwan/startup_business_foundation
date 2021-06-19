@@ -153,4 +153,26 @@ class PagesController extends Controller
         );
         return Response::download($file, 'startup_business_foundation_profile.pdf', $headers);
     }
+
+    public function downloadPublication($publicationId)
+    {
+        // get publication 
+        $publication = Publication::where('id', $publicationId)->first();
+        if(!$publication) {
+            return redirect()->back()->with('error', 'No Resource Found');
+        }
+
+        // get publication category 
+        if($publication->publication_category_id == 1) {
+            $type = 'AGRO';
+        } else {
+            $type = 'TRADE';
+        }
+
+        $file= public_path(). '/assets/publications/'.$type.'/'.$publication->file;
+        $headers = array(
+            'Content-Type: application/pdf',
+        );
+        return Response::download($file, $publication->file, $headers);
+    }
 }

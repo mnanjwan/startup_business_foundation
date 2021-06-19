@@ -35,10 +35,14 @@
 
         @if(count($publications) > 0)
             @foreach($publications as $publication)
-                {{--<div class="news-block-four col-lg-4 col-md-6 col-sm-12">
+                <div class="news-block-four col-lg-4 col-md-6 col-sm-12">
                     <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div class="image">
-                            <img src="{{ asset('/public/assets/images/news/news-temp.jpg') }}" alt="" />
+                            @if($publication->poster == NULL)
+                                <img src="{{ asset('/public/assets/images/news/news-temp.jpg') }}" style="width: auto !important; height: 400px !important;" alt="" />
+                            @else 
+                                <img src="{{ asset('/public/assets/publications/posters/'.$publication->poster.'') }}" style="width: auto !important; height: 400px !important;" alt="" />
+                            @endif
                         </div>
                         <div class="lower-content">
                             <ul class="post-meta">
@@ -49,7 +53,7 @@
                             </div>
                         </div>
                     </div>
-                </div>--}}
+                </div>
             @endforeach
         @else
             <h4>No publications found</h4>
@@ -60,23 +64,5 @@
 
 </section>
 
-
-
-
-
-<section class="call-to-action-two">
-	<div class="auto-container">
-		<div class="clearfix">
-
-			<div class="pull-left">
-				<h2>Request for <span>quote</span></h2>
-			</div>
-			<div class="pull-right">
-				<a href="contact.html" class="theme-btn btn-style-five">Request now <span class="icon fa fa-arrow-right"></span></a>
-			</div>
-
-		</div>
-	</div>
-</section>
 
 @endsection

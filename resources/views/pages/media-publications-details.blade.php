@@ -22,20 +22,26 @@
     <div class="auto-container">
         <div class="row clearfix">
 
-            <div class="content-side col-lg-12 col-md-12 col-sm-12">
+            <div class="content-side col-lg-5 col-md-5 col-sm-12">
                 <div class="services-single">
-                    <h4>{{ $publication->title }}</h4>
-
+                    @if($publication->poster == NULL)
+                        <img src="{{ asset('/public/assets/images/news/news-temp.jpg') }}" style="width: auto !important; height: 400px !important;" alt="" />
+                    @else 
+                        <img src="{{ asset('/public/assets/publications/posters/'.$publication->poster.'') }}" style="width: auto !important; height: 400px !important;" alt="" />
+                    @endif
                 </div>
             </div>
 
 
             <!--Content Side-->
-            <!-- <div class="content-side col-lg-6 col-md-12 col-sm-12">
+            <div class="content-side col-lg-7 col-md-7 col-sm-12">
                 <div class="services-single">
-                    <h4>What We Do</h4>
+                    <h6>{{ $publication->title }}</h6>
                 </div>
-            </div> -->
+                <div class="services-single mt-4">
+                    <a type="button" class="btn btn-primary" href="{{ route('download-publication', ['publication_id' => $publication->id]) }}">Download</a>
+                </div>
+            </div>
 
         </div>
     </div>

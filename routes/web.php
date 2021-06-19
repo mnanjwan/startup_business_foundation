@@ -55,3 +55,4 @@ Route::post('/support', [SupportController::class, 'supportPost'])->name('suppor
 Route::get('/donate', [PagesController::class, 'donate'])->name('donate');
 
 Route::get('/download-profile', [PagesController::class, 'downloadProfile'])->name('download-profile');
+Route::get('/download-publication/{publication_id}', [PagesController::class, 'downloadPublication'])->name('download-publication');
