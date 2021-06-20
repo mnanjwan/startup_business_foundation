@@ -38,7 +38,8 @@ Route::get('/projects', [PagesController::class, 'projects'])->name('projects');
 
 // media
 Route::get('/media/publications', [PagesController::class, 'publications'])->name('media.publications');
-Route::get('/media/publications/details/{publication_id}', [PagesController::class, 'publicationDetails'])->name('media.publications-details');
+Route::get('/media/publications-filter', [PagesController::class, 'publicationsFilter'])->name('media.publications-filter');
+
 
 Route::get('/media/news', [PagesController::class, 'news'])->name('media.news');
 Route::get('/media/photos-and-videos', [PagesController::class, 'photosAndVideos'])->name('media.photos-and-videos');
@@ -56,3 +57,14 @@ Route::get('/donate', [PagesController::class, 'donate'])->name('donate');
 
 Route::get('/download-profile', [PagesController::class, 'downloadProfile'])->name('download-profile');
 Route::get('/download-publication/{publication_id}', [PagesController::class, 'downloadPublication'])->name('download-publication');
+
+
+Route::group(['middleware' => 'auth:sanctum', 'verified'], function() {
+    Route::get('/auth/signed-in', [PagesController::class, 'signedIn'])->name('auth.signed-in');
+    Route::get('/media/publications/details/{publication_id}', [PagesController::class, 'publicationDetails'])->name('media.publications-details');
+
+});
+
+// Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+//     return view('dashboard');
+// })->name('dashboard');

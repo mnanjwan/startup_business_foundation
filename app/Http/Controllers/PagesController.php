@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Response;
 use App\Models\Publication;
+use App\Models\PublicationCategory;
 
 class PagesController extends Controller
 {
@@ -92,7 +93,23 @@ class PagesController extends Controller
         $page = 'media';
         // $publications = Publication::paginate(10);
         $publications = Publication::all();
-        return view('pages.media-publications', compact('page', 'publications'));
+        $categories = PublicationCategory::all();
+        $category_id = 0;
+        return view('pages.media-publications', compact('page', 'publications', 'categories', 'category_id'));
+    }
+
+    public function publicationsFilter(Request $request)
+    {
+        $page = 'media';
+        $category_id = $request->category;
+        if($category_id == 0) {
+            // all categories 
+            $publications = Publication::all();
+        } else {
+            $publications = Publication::where('publication_category_id', $category_id)->get();
+        }
+        $categories = PublicationCategory::all();
+        return view('pages.media-publications', compact('page', 'publications', 'categories', 'category_id'));
     }
 
     public function publicationDetails($publicationId)
@@ -174,5 +191,10 @@ class PagesController extends Controller
             'Content-Type: application/pdf',
         );
         return Response::download($file, $publication->file, $headers);
+    }
+
+    public function signedIn()
+    {
+        return view('auth.signed-in');
     }
 }
