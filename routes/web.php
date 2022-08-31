@@ -1,8 +1,12 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
+use App\Http\Controllers\PublicationCategoryController;
+use App\Http\Controllers\PublicationController;
 use App\Http\Controllers\SupportController;
+use App\Models\PublicationCategory;
 
 /*
 |--------------------------------------------------------------------------
@@ -57,6 +61,21 @@ Route::get('/donate', [PagesController::class, 'donate'])->name('donate');
 
 Route::get('/download-profile', [PagesController::class, 'downloadProfile'])->name('download-profile');
 Route::get('/download-publication/{publication_id}', [PagesController::class, 'downloadPublication'])->name('download-publication');
+
+//admin
+
+Route::get('/admin/login', [AdminController::class, 'login'])->name('admin-login');
+Route::get('/admin/logout', [AdminController::class, 'logout'])->name('admin-logout');
+Route::post('/admin/login/process', [AdminController::class, 'loginProcess'])->name('admin-loginProcess');
+Route::get('/admin/dashboard', [AdminController::class, 'dashboard'])->name('admin-dashboard');
+Route::get('/admin/publication', [PublicationController::class, 'index'])->name('admin-publication');
+Route::post('/admin/publication', [PublicationController::class, 'postPublication'])->name('admin-Postpublication');
+Route::get('/admin/category', [PublicationCategoryController::class, 'index'])->name('admin-category');
+Route::get('/admin/category/add', [PublicationCategoryController::class, 'addCategory'])->name('admin-category-add');
+
+
+
+
 
 
 Route::group(['middleware' => 'auth:sanctum', 'verified'], function() {

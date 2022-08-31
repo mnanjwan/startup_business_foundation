@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Response;
 use App\Models\Publication;
 use App\Models\PublicationCategory;
+use Exception;
 
 class PagesController extends Controller
 {
@@ -102,8 +103,8 @@ class PagesController extends Controller
     {
         $page = 'media';
         $category_id = $request->category;
-        if($category_id == 0) {
-            // all categories 
+        if ($category_id == 0) {
+            // all categories
             $publications = Publication::all();
         } else {
             $publications = Publication::where('publication_category_id', $category_id)->get();
@@ -117,7 +118,7 @@ class PagesController extends Controller
         $page = 'media';
         // get publication
         $publication = Publication::where('id', $publicationId)->first();
-        if(!$publication) {
+        if (!$publication) {
             return redirect()->back()->with('error', 'No Publication Found');
         }
 
@@ -164,7 +165,7 @@ class PagesController extends Controller
 
     public function downloadProfile()
     {
-        $file= public_path(). "/assets/startup_business_foundation_profile.pdf";
+        $file = public_path() . "/assets/startup_business_foundation_profile.pdf";
         $headers = array(
             'Content-Type: application/pdf',
         );
@@ -173,24 +174,28 @@ class PagesController extends Controller
 
     public function downloadPublication($publicationId)
     {
-        // get publication 
+        // get publication
         $publication = Publication::where('id', $publicationId)->first();
-        if(!$publication) {
+        if (!$publication) {
             return redirect()->back()->with('error', 'No Resource Found');
         }
 
-        // get publication category 
-        if($publication->publication_category_id == 1) {
+        // get publication category
+        if ($publication->publication_category_id == 1) {
             $type = 'AGRO';
         } else {
             $type = 'TRADE';
         }
 
-        $file= public_path(). '/assets/publications/'.$type.'/'.$publication->file;
-        $headers = array(
-            'Content-Type: application/pdf',
-        );
-        return Response::download($file, $publication->file, $headers);
+        try {
+            return Response::download($publication->file);
+        } catch (Exception $ex) {
+            $file = public_path() . '/assets/publications/' . $type . '/' . $publication->file;
+            $headers = array(
+                'Content-Type: application/pdf',
+            );
+            return Response::download($file, $publication->file, $headers);
+        }
     }
 
     public function signedIn()

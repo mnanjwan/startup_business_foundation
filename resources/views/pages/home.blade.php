@@ -4,7 +4,7 @@
 <section class="main-slider style-four">
     <div class="main-slider-carousel owl-carousel owl-theme">
 
-        <div class="slide" style="background-image:url({{ asset('/public/assets/images/main-slider/newbg.png') }})">
+        <div class="slide" style="background-image:url({{ asset('/assets/images/main-slider/newbg.png') }})">
             <div class="auto-container">
                 <div class="content">
                     <div class="title"></div>
@@ -18,7 +18,7 @@
             </div>
         </div>
 
-        <!-- <div class="slide" style="background-image:url({{ asset('/public/assets/images/main-slider/6_1.png') }})">
+        <!-- <div class="slide" style="background-image:url({{ asset('/assets/images/main-slider/6_1.png') }})">
             <div class="auto-container">
                 <div class="content">
                     <div class="title">We hope success</div>
@@ -65,7 +65,7 @@
 			<!-- Image Column -->
 			<div class="image-column col-lg-6 col-md-12 col-sm-12">
 				<div class="image">
-					<img src="{{ asset('/public/assets/images/about-intro.jpg') }}" alt="" />
+					<img src="{{ asset('/assets/images/about-intro.jpg') }}" alt="" />
 				</div>
 			</div>
 
@@ -92,7 +92,7 @@
     </div>
 </div>
 
-<section class="counter-section" style="background-image:url({{ asset('/public/assets/images/background/happyclients.jpg') }})">
+<section class="counter-section" style="background-image:url({{ asset('/assets/images/background/happyclients.jpg') }})">
 
     <div class="auto-container">
 
@@ -181,7 +181,7 @@
         </div> -->
 
         <div class="row clearfix">
-            <img src="{{ asset('/public/assets/images/home.png') }}" />
+            <img src="{{ asset('/assets/images/home.png') }}" />
         </div>
     </div>
 </section>
@@ -354,21 +354,21 @@
                         <div class="tab" id="feature-expert">
                             <div class="content">
                                 <div class="image">
-                                    <img src="{{ asset('/public/assets/images/resource/feature.jpg') }}" alt="">
+                                    <img src="{{ asset('/assets/images/resource/feature.jpg') }}" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="tab active-tab" id="feature-brand">
                             <div class="content">
                                 <div class="image">
-                                    <img src="{{ asset('/public/assets/images/resource/feature-1.jpg') }}" alt="">
+                                    <img src="{{ asset('/assets/images/resource/feature-1.jpg') }}" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="tab" id="feature-ideas">
                             <div class="content">
                                 <div class="image">
-                                    <img src="{{ asset('/public/assets/images/resource/feature-2.jpg') }}" alt="">
+                                    <img src="{{ asset('/assets/images/resource/feature-2.jpg') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -401,7 +401,7 @@
             <div class="team-block-two col-lg-4 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
-                        <a href="team.html"><img src="{{ asset('/public/assets/images/resource/team-4.jpg') }}" alt="" title=""></a>
+                        <a href="team.html"><img src="{{ asset('/assets/images/resource/team-4.jpg') }}" alt="" title=""></a>
                         <ul class="social-box">
                             <li><a href="#" class="fa fa-facebook"></a></li>
                             <li><a href="#" class="fa fa-twitter"></a></li>
@@ -419,7 +419,7 @@
             <div class="team-block-two col-lg-4 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
-                        <a href="team.html"><img src="{{ asset('/public/assets/images/resource/team-5.jpg') }}" alt="" title=""></a>
+                        <a href="team.html"><img src="{{ asset('/assets/images/resource/team-5.jpg') }}" alt="" title=""></a>
                         <ul class="social-box">
                             <li><a href="#" class="fa fa-facebook"></a></li>
                             <li><a href="#" class="fa fa-twitter"></a></li>
@@ -437,7 +437,7 @@
             <div class="team-block-two col-lg-4 col-md-12 col-sm-12">
                 <div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
-                        <a href="team.html"><img src="{{ asset('/public/assets/images/resource/team-6.jpg') }}" alt="" title=""></a>
+                        <a href="team.html"><img src="{{ asset('/assets/images/resource/team-6.jpg') }}" alt="" title=""></a>
                         <ul class="social-box">
                             <li><a href="#" class="fa fa-facebook"></a></li>
                             <li><a href="#" class="fa fa-twitter"></a></li>
@@ -455,7 +455,7 @@
             <div class="team-block-two col-lg-3 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
-                        <a href="team.html"><img src="{{ asset('/public/assets/images/resource/team-7.jpg') }}" alt="" title=""></a>
+                        <a href="team.html"><img src="{{ asset('/assets/images/resource/team-7.jpg') }}" alt="" title=""></a>
                         <ul class="social-box">
                             <li><a href="#" class="fa fa-facebook"></a></li>
                             <li><a href="#" class="fa fa-twitter"></a></li>
@@ -473,7 +473,7 @@
             <div class="team-block-two col-lg-3 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
-                        <a href="team.html"><img src="{{ asset('/public/assets/images/resource/team-8.jpg') }}" alt="" title=""></a>
+                        <a href="team.html"><img src="{{ asset('/assets/images/resource/team-8.jpg') }}" alt="" title=""></a>
                         <ul class="social-box">
                             <li><a href="#" class="fa fa-facebook"></a></li>
                             <li><a href="#" class="fa fa-twitter"></a></li>
@@ -491,7 +491,7 @@
             <div class="team-block-two col-lg-3 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
-                        <a href="team.html"><img src="{{ asset('/public/assets/images/resource/team-9.jpg') }}" alt="" title=""></a>
+                        <a href="team.html"><img src="{{ asset('/assets/images/resource/team-9.jpg') }}" alt="" title=""></a>
                         <ul class="social-box">
                             <li><a href="#" class="fa fa-facebook"></a></li>
                             <li><a href="#" class="fa fa-twitter"></a></li>
@@ -509,7 +509,7 @@
             <div class="team-block-two col-lg-3 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="image">
-                        <a href="team.html"><img src="{{ asset('/public/assets/images/resource/team-10.jpg') }}" alt="" title=""></a>
+                        <a href="team.html"><img src="{{ asset('/assets/images/resource/team-10.jpg') }}" alt="" title=""></a>
                         <ul class="social-box">
                             <li><a href="#" class="fa fa-facebook"></a></li>
                             <li><a href="#" class="fa fa-twitter"></a></li>
@@ -553,7 +553,7 @@
                     <div class="image">
                         <img src="images/resource/news-4.jpg" alt="" />
                         <div class="overlay-box">
-                            <a href="{{ asset('/public/assets/images/resource/news-4.jpg') }}" data-fancybox="news" data-caption="" class="plus flaticon-plus-symbol"></a>
+                            <a href="{{ asset('/assets/images/resource/news-4.jpg') }}" data-fancybox="news" data-caption="" class="plus flaticon-plus-symbol"></a>
                         </div>
                     </div>
                     <div class="lower-content">
@@ -570,9 +570,9 @@
             <div class="news-block-two red col-lg-4 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="image">
-                        <img src="{{ asset('/public/assets/images/resource/news-5.jpg') }}" alt="" />
+                        <img src="{{ asset('/assets/images/resource/news-5.jpg') }}" alt="" />
                         <div class="overlay-box">
-                            <a href="{{ asset('/public/assets/images/resource/news-5.jpg') }}" data-fancybox="news" data-caption="" class="plus flaticon-plus-symbol"></a>
+                            <a href="{{ asset('/assets/images/resource/news-5.jpg') }}" data-fancybox="news" data-caption="" class="plus flaticon-plus-symbol"></a>
                         </div>
                     </div>
                     <div class="lower-content">
@@ -590,9 +590,9 @@
             <div class="news-block-two red col-lg-4 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                     <div class="image">
-                        <img src="{{ asset('/public/assets/images/resource/news-6.jpg') }}" alt="" />
+                        <img src="{{ asset('/assets/images/resource/news-6.jpg') }}" alt="" />
                         <div class="overlay-box">
-                            <a href="{{ asset('/public/assets/images/resource/news-6.jpg') }}" data-fancybox="news" data-caption="" class="plus flaticon-plus-symbol"></a>
+                            <a href="{{ asset('/assets/images/resource/news-6.jpg') }}" data-fancybox="news" data-caption="" class="plus flaticon-plus-symbol"></a>
                         </div>
                     </div>
                     <div class="lower-content">
@@ -617,18 +617,18 @@
 
         <div class="carousel-outer">
             <ul class="sponsors-carousel owl-carousel owl-theme">
-                <li><div class="image-box"><a href="#"><img src="{{ asset('/public/assets/images/clients/1.png') }}" alt=""></a></div></li>
-                <li><div class="image-box"><a href="#"><img src="{{ asset('/public/assets/images/clients/2.png') }}" alt=""></a></div></li>
-                <li><div class="image-box"><a href="#"><img src="{{ asset('/public/assets/images/clients/3.png') }}" alt=""></a></div></li>
-                <li><div class="image-box"><a href="#"><img src="{{ asset('/public/assets/images/clients/4.png') }}" alt=""></a></div></li>
-                <li><div class="image-box"><a href="#"><img src="{{ asset('/public/assets/images/clients/5.png') }}" alt=""></a></div></li>
-                <li><div class="image-box"><a href="#"><img src="{{ asset('/public/assets/images/clients/6.png') }}" alt=""></a></div></li>
-                <li><div class="image-box"><a href="#"><img src="{{ asset('/public/assets/images/clients/1.png') }}" alt=""></a></div></li>
-                <li><div class="image-box"><a href="#"><img src="{{ asset('/public/assets/images/clients/2.png') }}" alt=""></a></div></li>
-                <li><div class="image-box"><a href="#"><img src="{{ asset('/public/assets/images/clients/3.png') }}" alt=""></a></div></li>
-                <li><div class="image-box"><a href="#"><img src="{{ asset('/public/assets/images/clients/4.png') }}" alt=""></a></div></li>
-                <li><div class="image-box"><a href="#"><img src="{{ asset('/public/assets/images/clients/5.png') }}" alt=""></a></div></li>
-                <li><div class="image-box"><a href="#"><img src="{{ asset('/public/assets/images/clients/6.png') }}" alt=""></a></div></li>
+                <li><div class="image-box"><a href="#"><img src="{{ asset('/assets/images/clients/1.png') }}" alt=""></a></div></li>
+                <li><div class="image-box"><a href="#"><img src="{{ asset('/assets/images/clients/2.png') }}" alt=""></a></div></li>
+                <li><div class="image-box"><a href="#"><img src="{{ asset('/assets/images/clients/3.png') }}" alt=""></a></div></li>
+                <li><div class="image-box"><a href="#"><img src="{{ asset('/assets/images/clients/4.png') }}" alt=""></a></div></li>
+                <li><div class="image-box"><a href="#"><img src="{{ asset('/assets/images/clients/5.png') }}" alt=""></a></div></li>
+                <li><div class="image-box"><a href="#"><img src="{{ asset('/assets/images/clients/6.png') }}" alt=""></a></div></li>
+                <li><div class="image-box"><a href="#"><img src="{{ asset('/assets/images/clients/1.png') }}" alt=""></a></div></li>
+                <li><div class="image-box"><a href="#"><img src="{{ asset('/assets/images/clients/2.png') }}" alt=""></a></div></li>
+                <li><div class="image-box"><a href="#"><img src="{{ asset('/assets/images/clients/3.png') }}" alt=""></a></div></li>
+                <li><div class="image-box"><a href="#"><img src="{{ asset('/assets/images/clients/4.png') }}" alt=""></a></div></li>
+                <li><div class="image-box"><a href="#"><img src="{{ asset('/assets/images/clients/5.png') }}" alt=""></a></div></li>
+                <li><div class="image-box"><a href="#"><img src="{{ asset('/assets/images/clients/6.png') }}" alt=""></a></div></li>
             </ul>
         </div>
 
@@ -637,7 +637,7 @@
 <!--End Sponsors Section-->
 
 <!-- Call To Action Section -->
-<!-- <section class="call-back-section" style="background-image:url({{ asset('/public/assets/images/background/6.jpg') }})">
+<!-- <section class="call-back-section" style="background-image:url({{ asset('/assets/images/background/6.jpg') }})">
     <div class="auto-container">
         <div class="row clearfix">
             <div class="form-column col-lg-8 col-md-12 col-sm-12">
@@ -694,7 +694,7 @@
             data-type="roadmap"
             data-hue="#ffc400"
             data-title="Envato"
-            data-icon-path="{{ asset('/public/assets/images/icons/map-marker-2.png') }}"
+            data-icon-path="{{ asset('/assets/images/icons/map-marker-2.png') }}"
             data-content="Melbourne VIC 3000, Australia<br><a href='mailto:info@youremail.com'>info@youremail.com</a>">
         </div>
     </div>

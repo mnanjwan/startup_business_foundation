@@ -1,7 +1,7 @@
 @extends('layouts.main')
 @section('content')
 <!--Page Title-->
-<section class="page-title" style="background-image:url({{ asset('/public/assets/images/background/8.jpg') }})">
+<section class="page-title" style="background-image:url({{ asset('/assets/images/background/8.jpg') }})">
     <div class="auto-container">
         <div class="content">
             <h1>About Us<span> - Message From the Founder</span></h1>
@@ -40,7 +40,7 @@
                         </div>
                         <div class="image-columns col-lg-6 col-md-6 col-sm-12 mb-2">
             				<div class="image">
-            					<img src="{{ asset('/public/assets/images/founder.jpg') }}" alt="Startup Biz Foundation Founder" />
+            					<img src="{{ asset('/assets/images/founder.jpg') }}" alt="Startup Biz Foundation Founder" />
             				</div>
             			</div>
                     </div>
@@ -96,32 +96,32 @@
                         <div class="services-carousel owl-carousel owl-theme">
                             <div class="slide">
                                 <div class="image">
-                                    <img src="{{ asset('/public/assets/images/resource/service-16.jpg') }}" alt="">
+                                    <img src="{{ asset('/assets/images/resource/service-16.jpg') }}" alt="">
                                 </div>
                             </div>
                             <div class="slide">
                                 <div class="image">
-                                    <img src="{{ asset('/public/assets/images/resource/service-17.jpg') }}" alt="">
+                                    <img src="{{ asset('/assets/images/resource/service-17.jpg') }}" alt="">
                                 </div>
                             </div>
                             <div class="slide">
                                 <div class="image">
-                                    <img src="{{ asset('/public/assets/images/resource/service-16.jpg') }}" alt="">
+                                    <img src="{{ asset('/assets/images/resource/service-16.jpg') }}" alt="">
                                 </div>
                             </div>
                             <div class="slide">
                                 <div class="image">
-                                    <img src="{{ asset('/public/assets/images/resource/service-17.jpg') }}" alt="">
+                                    <img src="{{ asset('/assets/images/resource/service-17.jpg') }}" alt="">
                                 </div>
                             </div>
                             <div class="slide">
                                 <div class="image">
-                                    <img src="{{ asset('/public/assets/images/resource/service-16.jpg') }}" alt="">
+                                    <img src="{{ asset('/assets/images/resource/service-16.jpg') }}" alt="">
                                 </div>
                             </div>
                             <div class="slide">
                                 <div class="image">
-                                    <img src="{{ asset('/public/assets/images/resource/service-17.jpg') }}" alt="">
+                                    <img src="{{ asset('/assets/images/resource/service-17.jpg') }}" alt="">
                                 </div>
                             </div>
                         </div>

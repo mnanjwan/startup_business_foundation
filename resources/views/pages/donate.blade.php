@@ -12,7 +12,7 @@
 
 @section('content')
 	<!--Page Title-->
-    <section class="page-title" style="background-image:url({{ asset('/public/assets/images/background/8.jpg') }})">
+    <section class="page-title" style="background-image:url({{ asset('/assets/images/background/8.jpg') }})">
     	<div class="auto-container">
 			<div class="content">
 				<h1>Donate<span></span></h1>
@@ -125,20 +125,20 @@
 	<!-- End Contact Info Section -->
 
 
-<script src="{{ asset('/public/assets/js/jquery.js') }}"></script>
-<script src="{{ asset('/public/assets/js/popper.min.js') }}"></script>
-<script src="{{ asset('/public/assets/js/bootstrap.min.js') }}"></script>
-<script src="{{ asset('/public/assets/js/jquery.mCustomScrollbar.concat.min.js') }}"></script>
-<script src="{{ asset('/public/assets/js/jquery.fancybox.js') }}"></script>
-<script src="{{ asset('/public/assets/js/appear.js') }}"></script>
-<script src="{{ asset('/public/assets/js/owl.js') }}"></script>
-<script src="{{ asset('/public/assets/js/wow.js') }}"></script>
-<script src="{{ asset('/public/assets/js/validate.js') }}"></script>
-<script src="{{ asset('/public/assets/js/jquery-ui.js') }}"></script>
-<script src="{{ asset('/public/assets/js/main.js') }}"></script>
+<script src="{{ asset('/assets/js/jquery.js') }}"></script>
+<script src="{{ asset('/assets/js/popper.min.js') }}"></script>
+<script src="{{ asset('/assets/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('/assets/js/jquery.mCustomScrollbar.concat.min.js') }}"></script>
+<script src="{{ asset('/assets/js/jquery.fancybox.js') }}"></script>
+<script src="{{ asset('/assets/js/appear.js') }}"></script>
+<script src="{{ asset('/assets/js/owl.js') }}"></script>
+<script src="{{ asset('/assets/js/wow.js') }}"></script>
+<script src="{{ asset('/assets/js/validate.js') }}"></script>
+<script src="{{ asset('/assets/js/jquery-ui.js') }}"></script>
+<script src="{{ asset('/assets/js/main.js') }}"></script>
 <!--Google Map APi Key-->
 <script src="http://maps.google.com/maps/api/js?key=AIzaSyDTPlX-43R1TpcQUyWjFgiSfL_BiGxslZU"></script>
-<script src="{{ asset('/public/assets/js/map-script.js') }}"></script>
+<script src="{{ asset('/assets/js/map-script.js') }}"></script>
 <!--End Google Map APi-->
 
 

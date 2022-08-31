@@ -8,12 +8,12 @@
 <meta name="author" content="Startup Business Foundation">
 <title>Start Business Foundation</title>
 <!-- Stylesheets -->
-<link href="{{ asset('/public/assets/css/bootstrap.css') }}" rel="stylesheet">
-<link href="{{ asset('/public/assets/css/style.css') }}" rel="stylesheet">
-<link href="{{ asset('/public/assets/css/responsive.css') }}" rel="stylesheet">
+<link href="{{ asset('/assets/css/bootstrap.css') }}" rel="stylesheet">
+<link href="{{ asset('/assets/css/style.css') }}" rel="stylesheet">
+<link href="{{ asset('/assets/css/responsive.css') }}" rel="stylesheet">
 
-<link rel="shortcut icon" href="{{ asset('/public/assets/images/favicon.png') }}" type="image/x-icon">
-<link rel="icon" href="{{ asset('/public/assets/images/favicon.png') }}" type="image/x-icon">
+<link rel="shortcut icon" href="{{ asset('/assets/images/favicon.png') }}" type="image/x-icon">
+<link rel="icon" href="{{ asset('/assets/images/favicon.png') }}" type="image/x-icon">
 
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -47,19 +47,19 @@
 </div>
 <!--End pagewrapper-->
 
-<script src="{{ asset('/public/assets/js/jquery.js') }}"></script>
-<script src="{{ asset('/public/assets/js/popper.min.js') }}"></script>
-<script src="{{ asset('/public/assets/js/bootstrap.min.js') }}"></script>
-<script src="{{ asset('/public/assets/js/jquery.mCustomScrollbar.concat.min.js') }}"></script>
-<script src="{{ asset('/public/assets/js/jquery.fancybox.js') }}"></script>
-<script src="{{ asset('/public/assets/js/appear.js') }}"></script>
-<script src="{{ asset('/public/assets/js/owl.js') }}"></script>
-<script src="{{ asset('/public/assets/js/wow.js') }}"></script>
-<script src="{{ asset('/public/assets/js/jquery-ui.js') }}"></script>
-<script src="{{ asset('/public/assets/js/main.js') }}"></script>
+<script src="{{ asset('/assets/js/jquery.js') }}"></script>
+<script src="{{ asset('/assets/js/popper.min.js') }}"></script>
+<script src="{{ asset('/assets/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('/assets/js/jquery.mCustomScrollbar.concat.min.js') }}"></script>
+<script src="{{ asset('/assets/js/jquery.fancybox.js') }}"></script>
+<script src="{{ asset('/assets/js/appear.js') }}"></script>
+<script src="{{ asset('/assets/js/owl.js') }}"></script>
+<script src="{{ asset('/assets/js/wow.js') }}"></script>
+<script src="{{ asset('/assets/js/jquery-ui.js') }}"></script>
+<script src="{{ asset('/assets/js/main.js') }}"></script>
 <!--Google Map APi Key-->
 <script src="http://maps.google.com/maps/api/js?key=AIzaSyDTPlX-43R1TpcQUyWjFgiSfL_BiGxslZU"></script>
-<script src="{{ asset('/public/assets/js/map-script.js') }}"></script>
+<script src="{{ asset('/assets/js/map-script.js') }}"></script>
 <!--End Google Map APi-->
 
 @yield('more_scripts')
