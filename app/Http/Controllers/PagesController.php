@@ -2,10 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Gallery;
+use App\Models\Post;
 use Illuminate\Http\Request;
 use Response;
 use App\Models\Publication;
 use App\Models\PublicationCategory;
+use App\Models\Report;
 use Exception;
 
 class PagesController extends Controller
@@ -128,19 +131,34 @@ class PagesController extends Controller
     public function news()
     {
         $page = 'media';
-        return view('pages.media-news', compact('page'));
+
+        $post = Post::with('writer')->get();
+        return view('pages.media-news', compact('page', 'post'));
+    }
+
+    public function newsDetails($id)
+    {
+        $page = 'media';
+
+        $post = Post::whereId($id)->first();
+        $posts = Post::all()->take(3);
+
+        return view('pages.media-news-details', compact('page', 'post', 'posts'));
     }
 
     public function photosAndVideos()
     {
         $page = 'media';
-        return view('pages.media-photos-and-videos', compact('page'));
+        $vid = Gallery::where('type', 'video')->get();
+        $img = Gallery::where('type', 'image')->get();
+        return view('pages.media-photos-and-videos', compact('page', 'img', 'vid'));
     }
 
     public function annualReports()
     {
         $page = 'media';
-        return view('pages.media-annual-reports', compact('page'));
+        $report = Report::all();
+        return view('pages.media-annual-reports', compact('page', 'report'));
     }
 
     // get involved
@@ -196,6 +214,17 @@ class PagesController extends Controller
             );
             return Response::download($file, $publication->file, $headers);
         }
+    }
+
+    public function downloadReport($id) {
+
+        $report = Report::find($id);
+        if (!$report) {
+            return redirect()->back()->with('error', 'No Resource Found');
+        }
+
+        return Response::download($report->file);
+
     }
 
     public function signedIn()

@@ -13,17 +13,20 @@ class AdminController extends Controller
 {
 
     public function dashboard () {
+        $superAdminSession = session::get('AdminSession');
 
         $countPublishcation = Publication::count();
         $countPublishcationCategory = PublicationCategory::count();
-
+        $publication = Publication::orderBy('id', 'desc')
+                            ->limit(1)->get();
 
         return view('admin.index')
                 ->with('countPublishcation', $countPublishcation)
-                ->with('countPublishcationCategory', $countPublishcationCategory);
+                ->with('countPublishcationCategory', $countPublishcationCategory)
+                ->with('superAdminSession', $superAdminSession)
+                ->with('publication', $publication);
 
     }
-
 
     public function login () {
 

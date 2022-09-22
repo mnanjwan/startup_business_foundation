@@ -135,7 +135,8 @@ return [
     */
 
     'providers' => [
-
+        Spatie\Permission\PermissionServiceProvider::class,
+        RealRashid\SweetAlert\SweetAlertServiceProvider::class,
         /*
          * Laravel Framework Service Providers...
          */
@@ -172,7 +173,7 @@ return [
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
+        App\Providers\EventServiceProvider::class,  
         App\Providers\RouteServiceProvider::class,
         App\Providers\FortifyServiceProvider::class,
         App\Providers\JetstreamServiceProvider::class,
@@ -191,6 +192,7 @@ return [
     */
 
     'aliases' => [
+        'Alert' => RealRashid\SweetAlert\Facades\Alert::class,
 
         'App' => Illuminate\Support\Facades\App::class,
         'Arr' => Illuminate\Support\Arr::class,

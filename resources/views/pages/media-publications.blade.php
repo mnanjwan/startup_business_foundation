@@ -21,7 +21,7 @@
 
         <form method="get" action="{{ route('media.publications-filter') }}" style="margin-bottom: 50px;">
             @csrf
-            <div class="row">                
+            <div class="row">
                 <div class="col-md-6">
                     <select class="form-control" name="category">
                         <option value="0">All Categories</option>
@@ -36,13 +36,13 @@
                 </div>
                 <div class="col-md-6">
                     <button type="submit" class="btn btn-primary">Apply Filter</button>
-                </div>                
+                </div>
             </div>
         </form>
 
         <div class="row clearfix">
 
-        
+
         <!-- <h3>No Publications  found</h3> -->
         <!-- <p>The Foundation is aware of the need to keep the small entrepreneurs informed of the
             latest developments in economic and industrial field, especially those affecting
@@ -64,9 +64,11 @@
                     <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div class="image">
                             @if($publication->poster == NULL)
-                                <img src="{{ asset('/public/assets/publications/ph.png') }}" style="width: auto !important; height: 400px !important;" alt="" />
-                            @else 
-                                <img src="{{ asset('/public/assets/publications/posters/'.$publication->poster.'') }}" style="width: auto !important; height: 400px !important;" alt="" />
+                                <img src="{{ asset('/assets/publications/ph.png') }}" style="width: auto !important; height: 400px !important;" alt="" />
+                            @else
+
+                                <img src="{{ asset($publication->poster) }}" style="width: auto !important; height: 400px !important;" alt="" />
+
                             @endif
                         </div>
                         <div class="lower-content">

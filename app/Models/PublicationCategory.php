@@ -13,4 +13,11 @@ class PublicationCategory extends Model
 
         'name'
     ];
+
+    // public function category()
+    // {
+
+    //    return $this->belongsTo(PublicationCategory::class, 'publication_category_id', 'id');
+
+    // }
 }

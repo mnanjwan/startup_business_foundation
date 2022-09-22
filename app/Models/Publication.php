@@ -8,4 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Publication extends Model
 {
     use HasFactory;
+
+    public function category()
+    {
+
+       return $this->belongsTo(PublicationCategory::class, 'publication_category_id', 'id');
+
+    }
 }

@@ -15,23 +15,23 @@
                             <!-- Authentication -->
                             <form method="POST" action="{{ route('logout') }}" style="display:inline !important;">
                                 @csrf
-                                
+
                                 <li style="font-size: 11px !important;"><i class="fa fa-user"></i>
-                                    
+
                                     <a href="{{ route('logout') }}" style="color:#fff !important; font-size: 11px;"
                                          onclick="event.preventDefault();
                                                 this.closest('form').submit();">
                                     {{ __('Log Out') }}
                                 </a>
                                 </li>
-                                
+
                             </form>
                         @endauth
                         @guest
                             <li style="font-size: 11px !important;"><i class="fa fa-user"></i><a href="{{ route('login') }}" style="color:#fff !important; font-size: 11px;">Login</a></li>
                         @endguest
 
-                        
+
 
                     </ul>
                 </div>
@@ -59,9 +59,9 @@
             <div class="clearfix">
 
                 <div class="pull-left logo-box">
-                    <!-- <div class="logo"><a href="{{ route('home') }}"><img src="{{ asset('/public/assets/images/sbf-logo.png') }}" alt="" title=""></a></div> -->
-                    <div class="logo"><a href="{{ route('home') }}"><img src="{{ asset('/public/assets/images/newlogo.png') }}" alt="" title=""></a></div>
-                    <!-- <div class="logo"><a href="{{ route('home') }}"><img src="{{ asset('/public/assets/images/logo-7.png') }}" alt="" title=""></a></div> -->
+                    <!-- <div class="logo"><a href="{{ route('home') }}"><img src="{{ asset('/assets/images/sbf-logo.png') }}" alt="" title=""></a></div> -->
+                    <div class="logo"><a href="{{ route('home') }}"><img src="{{ asset('/assets/images/newlogo.png') }}" alt="" title=""></a></div>
+                    <!-- <div class="logo"><a href="{{ route('home') }}"><img src="{{ asset('/assets/images/logo-7.png') }}" alt="" title=""></a></div> -->
                 </div>
 
                 <div class="nav-outer clearfix">
@@ -150,7 +150,7 @@
         <div class="auto-container clearfix">
             <!--Logo-->
             <div class="logo pull-left">
-                <a href="index-2.html" class="img-responsive"><img src="{{ asset('/public/assets/images/sbf-logo-small.png') }}" alt="" title=""></a>
+                <a href="index-2.html" class="img-responsive"><img src="{{ asset('/assets/images/sbf-logo-small.png') }}" alt="" title=""></a>
             </div>
 
             <!--Right Col-->

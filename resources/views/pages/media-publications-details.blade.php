@@ -25,9 +25,9 @@
             <div class="content-side col-lg-5 col-md-5 col-sm-12">
                 <div class="services-single">
                     @if($publication->poster == NULL)
-                        <img src="{{ asset('/public/assets/publications/ph.png') }}" style="width: auto !important; height: 400px !important;" alt="" />
-                    @else 
-                        <img src="{{ asset('/public/assets/publications/posters/'.$publication->poster.'') }}" style="width: auto !important; height: 400px !important;" alt="" />
+                        <img src="{{ asset('/assets/publications/ph.png') }}" style="width: auto !important; height: 400px !important;" alt="" />
+                    @else
+                        <img src="{{ asset($publication->poster) }}" style="width: auto !important; height: 400px !important;" alt="" />
                     @endif
                 </div>
             </div>
@@ -46,9 +46,6 @@
     </div>
 </div>
 <!--End Sidebar Page Container-->
-
-
-
 
 
 @endsection

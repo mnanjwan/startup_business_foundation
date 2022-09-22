@@ -55,11 +55,12 @@
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Admin </span>
-                                <img class="img-profile rounded-circle"
-                                    src="img/undraw_profile.svg">
-                            </a>
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="mr-2 d-none d-lg-inline text-gray-600 small">{{ $superAdminSession->name }}
+                            </span>
+                            <img class="img-profile rounded-circle"
+                                src="{{ asset('adminAssets/img/undraw_profile.svg') }}">
+                        </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
@@ -76,7 +77,7 @@
                                     Activity Log
                                 </a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                <a class="dropdown-item" href="{{route('admin-logout')}}" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Logout
                                 </a>
@@ -94,10 +95,7 @@
                     <!-- Page Heading -->
 
                     <h1 class="h3 mb-1 text-gray-800">Add a New Category</h1>
-                    <p class="mb-4">Bootstrap's default utility classes can be found on the official <a
-                            href="https://getbootstrap.com/docs">Bootstrap Documentation</a> page. The custom utilities
-                        below were created to extend this theme past the default utility classes built into Bootstrap's
-                        framework.</p>
+                    <p class="mb-4">Create New Categories for your Publications here.</p>
 
                     <!-- Content Row -->
                     <div class="row">
@@ -105,61 +103,65 @@
                         <div class="col-lg-6">
                             <div class="card shadow mb-4">
 
-                            <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">New Category</h6>
-                        </div>
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">New Category</h6>
+                                </div>
 
-                             <div class="card-body">
-                            <form action="{{route('admin-category-add')}}" method="">
-
-                              <div class="form-group">
-                                <label for="exampleFormControlInput1">Category Name</label>
-                                <input type="text" class="form-control" name="name" id="exampleFormControlInput1" name="name" placeholder="">
-                              </div>
-
-                              <button class="btn btn-success" >Save</button>
-                            </form>
-                        </div>
-                    </div>
-                        </div>
-
-                         <div class="col-lg-4">
-                            <div class="card shadow mb-4">
-
-                            <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">All Category</h6>
-                        </div>
                                 <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table table-bordered" id="" width="100%" cellspacing="0">
-                                    <thead>
-                                        <tr>
-                                            <th>Category Name</th>
-                                            <th>Action</th>
-                                        </tr>
-                                    </thead>
+                                    <form action="{{ route('admin-category-add') }}" method="">
 
-                                    <tbody>
+                                        <div class="form-group">
+                                            <label for="exampleFormControlInput1">Category Name</label>
+                                            <input type="text" class="form-control" name="name"
+                                                id="exampleFormControlInput1" name="name" placeholder="">
+                                                <span class="col-sm-9 text-danger">
+                                                    @error('name')
+                                                        {{ $message }}
+                                                    @enderror
+                                                </span>
+                                        </div>
 
-                                        @foreach ($publication as $publication)
-                                        <tr>
-                                            <td>{{$publication->name}}</td>
-                                            <td><a href="#" class="btn btn-danger btn-circle">
-                                                    <i class="fas fa-trash"></i>
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        @endforeach
-                                    </tbody>
-                                </table>
-                            </div>
-
-
+                                        <button class="btn btn-success">Save</button>
+                                    </form>
+                                </div>
                             </div>
                         </div>
 
+                        <div class="col-lg-4">
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">All Category</h6>
+                                </div>
 
-                         </div>
+                                <div class="card-body">
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered" id="" width="100%"
+                                            cellspacing="0">
+                                            <thead>
+                                                <tr>
+                                                    <th>Category Name</th>
+                                                    <th>Action</th>
+                                                </tr>
+                                            </thead>
+
+                                            <tbody>
+
+                                                @foreach ($publication as $publication)
+                                                    <tr>
+                                                        <td>{{ $publication->name }}</td>
+                                                        <td><a href="#" class="btn btn-danger btn-circle">
+                                                                <i class="fas fa-trash"></i>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                @endforeach
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
 
                 </div>

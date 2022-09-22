@@ -53,8 +53,10 @@
                     <li class="nav-item dropdown no-arrow">
                         <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span class="mr-2 d-none d-lg-inline text-gray-600 small">Admin </span>
-                            <img class="img-profile rounded-circle" src="img/undraw_profile.svg">
+                            <span class="mr-2 d-none d-lg-inline text-gray-600 small">{{ $superAdminSession->name }}
+                            </span>
+                            <img class="img-profile rounded-circle"
+                                src="{{ asset('adminAssets/img/undraw_profile.svg') }}">
                         </a>
                         <!-- Dropdown - User Information -->
                         <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
@@ -72,7 +74,8 @@
                                 Activity Log
                             </a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                            <a class="dropdown-item" href="{{ route('admin-logout') }}" data-toggle="modal"
+                                data-target="#logoutModal">
                                 <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                 Logout
                             </a>
@@ -103,6 +106,13 @@
                             </div>
 
                             <div class="card-body">
+
+                                @if (session()->has('success'))
+                                    <div class="alert alert-success">
+                                        {{ session()->get('success') }}
+                                    </div>
+                                @endif
+
                                 <form action="{{ route('admin-Postpublication') }}" method="post"
                                     enctype="multipart/form-data">
                                     @csrf
@@ -127,33 +137,33 @@
                                         <label for="exampleFormControlInput1">Title</label>
                                         <input type="text" class="form-control" name="title"
                                             id="exampleFormControlInput1" placeholder="">
-                                            <span class="col-sm-9 text-danger">
-                                                @error('title')
-                                                    {{ $message }}
-                                                @enderror
-                                            </span>
+                                        <span class="col-sm-9 text-danger">
+                                            @error('title')
+                                                {{ $message }}
+                                            @enderror
+                                        </span>
                                     </div>
 
                                     <div class="form-group">
                                         <label for="exampleFormControlInput1">Poster</label>
                                         <input type="file" class="form-control" name="poster"
                                             id="exampleFormControlInput1" placeholder="">
-                                            <span class="col-sm-9 text-danger">
-                                                @error('poster')
-                                                    {{ $message }}
-                                                @enderror
-                                            </span>
+                                        <span class="col-sm-9 text-danger">
+                                            @error('poster')
+                                                {{ $message }}
+                                            @enderror
+                                        </span>
                                     </div>
 
                                     <div class="form-group">
                                         <label for="exampleFormControlInput1">File</label>
                                         <input type="file" class="form-control" name="file"
                                             id="exampleFormControlInput1" placeholder="">
-                                            <span class="col-sm-9 text-danger">
-                                                @error('file')
-                                                    {{ $message }}
-                                                @enderror
-                                            </span>
+                                        <span class="col-sm-9 text-danger">
+                                            @error('file')
+                                                {{ $message }}
+                                            @enderror
+                                        </span>
                                     </div>
 
                                     <hr>
@@ -203,32 +213,32 @@
                                         <tr>
                                             <td>{{ $publication->id }}</td>
                                             <td>
-                                                @if ($publication->id == 1)
+
+                                                @if ($publication->publication_category_id == 1)
                                                     Agro
-                                                    @else
+                                                @elseif ($publication->publication_category_id == 2)
                                                     Trade
+                                                    @else
+                                                    Tech
                                                 @endif
                                             </td>
 
                                             <td>{{ $publication->title }}</td>
 
                                             <td><iframe src="{{ asset($publication->file) }}" frameBorder="0"
-                                                scrolling="auto"
-                                                height="100%"
-                                                width="100%"></iframe></td>
-                                                <td><img src="{{ asset($publication->poster) }}" alt="avatar"
+                                                    scrolling="auto" height="100%" width="100%"></iframe></td>
+                                            <td><img src="{{ asset($publication->poster) }}" alt="avatar"
                                                     class="rounded img-fluid" style="width: 150px;" /></td>
                                             <td>{{ $publication->created_at }}</td>
 
                                             <td>
-                                                <a href="#" class="btn btn-danger btn-circle">
+                                                <a href="{{route('admin-Deletepublication', ['id' => $publication->id])}}" class="btn btn-danger btn-circle">
                                                     <i class="fas fa-trash"></i>
                                                 </a>
-                                                <a href="#" class="btn btn-warning btn-icon-split">
-                                                    <span class="icon text-white-50">
-                                                        <i class="fas fa-exclamation-triangle"></i>
-                                                    </span>
-                                                    <span class="text">Suspend</span>
+                                                <a href="{{ route('admin-Editpublication', ['id' => $publication->id]) }}"
+                                                    class="btn btn-success btn-circle">
+                                                    <i class="fas fa-pen"></i>
+                                                    {{-- <i class="fas fa-trash"></i> --}}
                                                 </a>
                                             </td>
 
